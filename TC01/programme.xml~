@@ -1,0 +1,225 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE root
+  SYSTEM 'programmePedago.dtd'>
+<root>
+	<Programme formation="Tronc Commun">
+		<Module group="Tronc_Commun" language="HTML_CSS">
+			<Objectif>Concevoir une application en HTML et CSS</Objectif>
+			<PreRequis>Pré requis : N/A </PreRequis>
+			<Materiel>Un pc / apprenant + video proj + raspberry pi (</Materiel>
+			<Sequence>
+				<Objectif>Prendre conscience de l'interet de séparer la structure du graphisme</Objectif>
+				<Activite done="true">
+					<Objectif>Réaliser un CV en XML et CSS</Objectif>
+					<Code>XML01</Code>
+					<Description>https://github.com/ErwannFace/Challenge_3
+					Une fois que vous aurez défini votre XML et une première structure XML, validez le ici : http://www.xmlvalidation.com/
+					</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Rédaction d'un XSLT </Objectif>
+					<Code>XML02</Code>
+					<SousObjectif></SousObjectif>
+					<Description>
+						Manipulez le XSLT afin d'avoir un rendu HTML de votre XML. 
+						Vous pouvez également utiliser le XSLT pour exporter vers un autre XML (ayant un autre DTD)! 
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Développer un site web en HTML5</Objectif>
+				<Activite done="true">
+					<Objectif>Cours Théorique sur le HTML</Objectif>
+					<Code>HTML02</Code>
+					<Description>Structure HTML : HEAD / BODY/ Footer
+							Le Doctype et le DTD associé
+							La balise meta
+							-- http://www.alsacreations.com/article/lire/628-balises-meta.html#incontournables
+							Les balises principales HTML
+							-- http://www.w3schools.com/tags/default.asp</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Projet : Manipulez le HTML 5, et faites nous l'équivalent des Ninja Forms</Objectif>
+					<Code>HTML03</Code>
+					<Description>https://github.com/ErwannFace/Challenge_2</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Projet Origami: Manipulez le HTML 5</Objectif>
+					<Code>HTML04</Code>
+					<Description>http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Mise en pratique</Objectif>
+					<Code>HTML05</Code>
+					<SousObjectif>Prise de conscience de l'importance d'une spec détaillée avec le client</SousObjectif>
+					<Description>Continuez les projets initiés lors de la prairie. Mêmes équipes mais scindés en deux sous groupes, voire 3 pour le groupe de 6.</Description>
+				</Activite>
+				<Activite  done="true">
+					<Objectif>Manipulez les divs à gogo</Objectif>
+					<Code>HTML06</Code>
+					<Description>Reproduisez, sur un site la page suivante : http://simplonline.co/uploads/images/Front_End/zuliegarnier/exoDivs.jpg </Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Créer un formulaire Web</Objectif>
+					<Code>HTML08</Code>
+					<Description>Créez un formulaire contenant au minimum: 
+						- Un champ nom
+						- Un champ prénom
+						- Un champ mail
+						- Un champ de type liste de choix
+						- Un champ description
+					</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Projet HTML</Objectif>
+					<Code>HTML09</Code>
+					<Description>
+						https://github.com/ErwannFace/Challenge_1
+						https://github.com/ErwannFace/Challenge_2
+						https://github.com/ErwannFace/Challenge_4
+					</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Projet HTML : Bootstrap</Objectif>
+					<Code>HTML10</Code>
+					<Description>
+						En suivant des phases de pomodoro:
+						Exercice 1 : Réalisez un fichier HTML récapitulatif des divers éléments proposés par bootstrap
+						Exercice 2 : http://www.pairuptocode.com/exercises/bootstrap.html
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Utiliser la syntaxe CSS3</Objectif>
+				<Activite done="true">
+					<Objectif>Approfondir le CSS</Objectif>
+					<Code>CSS01</Code>
+					<Description>http://fr.learnlayout.com/</Description>
+				</Activite>
+				 <Activite done="true">
+					<Objectif> Selecteurs et pseudo classes</Objectif>
+					<Code>THEO CSS</Code>
+					<Description>Cours dispensé par Erwann D.</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Optimiser son CSS</Objectif>
+				<Activite done="true">
+					<Objectif>Utiliser la bibliotheque Bootstrap Twitter</Objectif>
+					<Code>CSS10</Code>
+					<Description>Après avoir lu la documentation bootstrap. Essayez de refaire les divs à gogo.
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+	
+		<Module group="Tronc_Commun" language="Gestion de Projet">
+			<Objectif>Experimenter les différents rôles d'un chef de projet</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Réaliser le mockup d'un site internet</Objectif>
+				<Activite done="true">
+					<Objectif>Initiation au WireFraming</Objectif>
+					<Code>WEB02</Code>
+					<Description>
+						http://simplonline.co/ressources/ress-methodo/104-les-bonnes-pratiques-mockups-et-rough
+
+						https://www.mockflow.com/
+
+						https://cacoo.com/lang/en/home
+					</Description>
+				</Activite>			
+			</Sequence>
+			<Sequence>
+				<Objectif>Estimer le temps nécessaire pour un développement</Objectif>
+				<Activite done="true">
+					<Objectif>Estimer le temps nécessaire grace à Pomodoro</Objectif>
+					<Code>PRO01</Code>
+					<Description>Utilisez la méthode de pomodorro deux fois d'affilée, afin de réaliser qu'on ne réaliser pa la même quantité de travail chaque fois. Qu'il est nécessaire de le pratiuqer régulièrement afin de pouvoir voir un véritable aperçu du temps véritablement nécessaire pour un développement.</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="Culture Générale">
+			<Objectif>Identifier les éléments intrinsèques d'un développeur WEB</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Culture Générale sur l'informatique</Objectif>
+				<Activite>
+					<Objectif>Poses-toi une question</Objectif>
+					<Code>CUL00</Code>
+					<Description>Chaque semaine les apprenants définissent des thématiques à rechercher.
+						Chaque semaine, un apprenant sélectionné au hasard présente son axe de recherche</Description>
+					
+				</Activite>
+				<Activite done="true">
+					<Objectif>Exposés sur les personnages célèbres de l'informatique</Objectif>
+					<Code>CUL01</Code>
+					<Temps>3h</Temps>
+					<Description>Réalisez de recherches sur l'un des personnages suivants pendant 2 heures en groupes de 5 personnes. Vous devrez par la suite réaliser une présentation de ces personnes et de leurs travaux. L'idée n'étant pas de raconter leurs vies privées mais plutôt d'investiguer leurs créations. 
+						Linus Torvalds
+						Aaron Swartz
+    					Vint Cerf
+    					Bill Gates
+    					Steve Jobs
+    					Larry Page
+    					Tim Berners-Lee
+    					Richard Stallman</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Exposés sur diverses thématiques actuelles</Objectif>
+					<Code>CUL02</Code>
+					<Temps>1h</Temps>
+					<Description>
+						Divers sujets ont été abordés dans les journaux dernièrement. Choisissez un sujet vous interessant. Dans 3 jours, vous aurez 5 à 10 minutes par groupes pour présenter le sujet. Sujets possibles à aborder :
+						1) La loi de Turing et intelligence artificielle
+						2) La polémique londonienne sur la tenue des femmes au travail (une histoire de talon)
+						3) Les emojiis et le consortium qui les valident
+						4) Wi-fi et super Wi-fi
+						5) HD, UHD, UHD HDR... Un petit point sur le fonctionnement et la résolution des écrans
+						6) kilooctets, megaoctets, gigaoctets, teraoctets... Un petit rappel sur les tailles des fichiers et une présentation des mesures utilisées pour le BIG DATA
+					</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Présenter les règles existantes dans le graphisme</Objectif>
+					<Code>CUL03</Code>
+					<Description>Intervention de Lise P., Julien M., Nabil M.</Description>
+					
+				</Activite>
+				
+				<Activite>
+					<Objectif>Approfondir GIT </Objectif>
+					<Code>GIT01</Code>
+					<Description>
+						1) Réaliser une gitpage
+						2) Approfondir git avec https://github.com/git-tips/tips
+						3) http://jnthn.net/training/git/exercises.pdf
+						4) http://gitimmersion.com/
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Le SEO</Objectif>
+				<Activite done="true">
+					<Objectif>Découverte du référencement</Objectif>
+					<Code>SEO01</Code>
+					<Description>
+						Présentation d'Ange et Thomas S.
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>La veille technologique</Objectif>
+			</Sequence>
+			<Sequence>
+				<Objectif>Insertion Professionelle expliquée par Face</Objectif>
+				<Activite>
+					<Objectif>Insertion Profesionelle</Objectif>
+					<Code>INS PRO</Code>
+					<Description>Géré par Face</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+	</Programme>
+</root>

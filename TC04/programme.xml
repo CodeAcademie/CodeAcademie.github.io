@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE root
+  SYSTEM 'programmePedago.dtd'>
+<root>
+	<Programme formation="Tronc Commun">
+		<Module group="Tronc_Commun" language="N/A">
+			<Objectif>Avoir la culture générale d'un developpeur web junior</Objectif>
+			<Sequence>
+				<Objectif>Devenir curieux sur des technologies</Objectif>
+				<Activite>
+					<Objectif>Poses-toi une question</Objectif>
+					<Code>CUL-01-01</Code>
+					<Description>Chaque semaine les apprenants définissent des thématiques à rechercher.
+						Chaque semaine, un apprenant sélectionné au hasard présente son axe de recherche</Description>
+					
+				</Activite>
+				<Activite>
+					<Objectif>Découverte d'une techno de son choix</Objectif>
+					<Code>CUL-01-02</Code>
+					<Description>
+						Pendant les vacances, choisissez un framework ou une bibliothèque. Si vous manquez d'inspiration, recherchez des offres d'emploi. Puis lisez la documentation associée , et réalisez un premier projet. Lors de votre retour en classe, vous devrez être capable d'en parler , et d'expliquer à quoi elle sert et comment on peut l'utiliser.
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+					<Objectif>Connaître le droit à l'informatique</Objectif>
+					<Code>CUL-04</Code>
+					<Activite>
+						<Objectif>Connaitre le BA.B.A sur les différentes licences</Objectif>
+						<Code>CUL-04-02</Code>
+						<Description>
+							Exercice sur les licences GPL, Creative Commons, MPL, Apache, MIT.
+						</Description>
+					</Activite>
+			</Sequence>
+			<Sequence>
+					<Objectif>Savoir ce qu'est l'UI/UX</Objectif>
+					<Code>CUL-05</Code>
+					<Activite>
+						<Objectif>Lecture d'un article sur l'ergonomie d'un site web</Objectif>
+						<Code>CUL-05-02</Code>
+						<Description>
+							http://www.commentcamarche.net/contents/1255-ergonomie-d-un-site-web
+						</Description>
+					</Activite>
+			</Sequence>
+			<Sequence>
+					<Objectif>Connaitre les principes de l'accessibilité web</Objectif>
+					<Code>CUL-06</Code>
+					<Activite>
+						<Objectif>Lecture des règles WCAG 2.0</Objectif>
+						<Code>CUL-06-01</Code>
+						<Description>
+							http://simplonline.co/uploads/images/Front_End/zuliegarnier/Web_accessibility_fr.png 
+							https://www.w3.org/WAI/References/QuickTips/qt-fr.htm 
+							https://www.w3.org/WAI/WCAG20/quickref/
+						</Description>
+					</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="PHP">
+			<Objectif>Développer dans des langages web</Objectif>
+			<Sequence>
+				<Objectif>Développer un site web en PHP</Objectif>
+				<Activite>
+					<Objectif>Hello World</Objectif>
+					<Code>WEB-PHP-01</Code>
+					<Description>
+						https://github.com/ErwannFace/php_hello_world
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Introduction au PHP</Objectif>
+					<Code>WEB-PHP-02</Code>
+					<Description>
+						https://github.com/ErwannFace/php_introduction
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Lire et parcourir des données en PHP</Objectif>
+					<Code>WEB-PHP-03</Code>
+					<Description>
+						https://github.com/ErwannFace/php_cooking_data
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Activité Pair programming : Les algorithmes de tri</Objectif>
+					<Code>WEB-PHP-04</Code>
+					<Description>
+						https://github.com/ErwannFace/php_algo_tri
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Challenge du Mercredi</Objectif>
+					<Code>WEB-PHP-05</Code>
+					<Description>
+						
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Le Projet PHP</Objectif>
+					<Code>WEB-PHP-06</Code>
+					<Description>
+						
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="N/A">
+			<Objectif>Compréhender les besoins nécessaires pour un chef de projet</Objectif>
+			<Sequence>
+				<Objectif>Travailler pour un client</Objectif>
+				<Activite>
+					<Objectif>Projet Profesionel</Objectif>
+					<Code>GES-04-01</Code>
+					<Description>
+						Des vrais clients réalisent une demande à FACE pour implémenter leurs sites web. 
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="N/A">
+			<Objectif> Accepter et s'intégrer au sein du groupe</Objectif>
+			<Sequence>
+				<Objectif>Définir le groupe</Objectif>
+				<Activite>
+					<Objectif>Election d'un délégué</Objectif>
+					<Code>SOC10-02</Code>
+					<Description>
+						Plusieurs personnes peuvent se présenter pour les élections. S'il s'agit des premières élections, personne ne se connait. Le vote final peut se réaliser au shifumi
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		
+	</Programme>
+</root>

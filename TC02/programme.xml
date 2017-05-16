@@ -1,0 +1,223 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE root
+  SYSTEM 'programmePedago.dtd'>
+<root>
+	<Programme formation="Tronc Commun">
+		<Module group="Tronc_Commun" language="HTML_CSS">
+			<Objectif>Concevoir une application en HTML et CSS</Objectif>
+			<PreRequis>Pré requis : N/A </PreRequis>
+			<Materiel>Un pc / apprenant + video proj + raspberry pi (</Materiel>
+			<Sequence evaluation="Brainstorming">
+				<Objectif>Reconnaître les forces et faiblesses des navigateurs internet</Objectif>
+				<Activite>
+					<Objectif>Lister les fonctionnalités des navigateurs internet</Objectif>
+					<Code>BRAIN02</Code>
+					<Description>Activité à réaliser en sous groupes de 2 personnes. Ces derniers devront, par le biais du navigateur de leur choix, inspecter une page.
+						Par le biais de l'inspecteur, ils devront :
+							- lister l'ensemble des bibliothèques JS liées
+							- lister l'ensemble des fichiers CSS liés
+							- lister l'ensemble de fonctionnalités disponibles par l'inspecteur</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Prendre conscience de l'interet de séparer la structure du graphisme</Objectif>
+				<Activite done="true">
+					<Objectif>Rédaction d'un XSLT </Objectif>
+					<Code>XML02</Code>
+					<SousObjectif></SousObjectif>
+					<Description>
+						Manipulez le XSLT afin d'avoir un rendu HTML de votre XML. 
+						Vous pouvez également utiliser le XSLT pour exporter vers un autre XML (ayant un autre DTD)! 
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Développer un site web en HTML5</Objectif>
+				
+				<Activite done="true">
+					<Objectif>Mise en pratique</Objectif>
+					<Code>HTML05</Code>
+					<SousObjectif>Prise de conscience de l'importance d'une spec détaillée avec le client</SousObjectif>
+					<Description>Continuez les projets initiés lors de la prairie. Mêmes équipes mais scindés en deux sous groupes, voire 3 pour le groupe de 6.</Description>
+				</Activite>
+				<Activite done="true">
+					<Objectif>Projet HTML</Objectif>
+					<Code>HTML09</Code>
+					<Description>
+https://github.com/ErwannFace/Challenge_1
+https://github.com/ErwannFace/Challenge_2
+https://github.com/ErwannFace/Challenge_4
+https://github.com/ErwannFace/Challenge_5
+					</Description>
+				</Activite>
+				
+			</Sequence>
+			<Sequence>
+				<Objectif>Initiation à l'accessibilité Web</Objectif>
+				<Activite>
+					<Objectif>Initiation à l'accessibilité Web</Objectif>
+					<Code>WEB01</Code>
+					<Description>
+http://www.commentcamarche.net/contents/1255-ergonomie-d-un-site-web
+http://simplonline.co/uploads/images/Front_End/zuliegarnier/Web_accessibility_fr.png
+https://www.w3.org/WAI/References/QuickTips/qt-fr.htm
+http://simplonline.co/ressources/ress-methodo/50-normes-accessibilite-w3c
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="JS">
+			<Objectif>Concevoir une application web avec JavaScript</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Identifier les différentes fonctionnalités de JS</Objectif>
+				<Activite>
+					<Objectif>Identifier les différentes fonctionnalités de JS</Objectif>
+					<Code>JS01</Code>
+					<Description>
+						
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Programmer avec les fondamentaux du JavaScript</Objectif>
+				<Activite>
+					<Objectif>Programmer avec les fondamentaux du JavaScript</Objectif>
+					<Code>JS10</Code>
+					<Description>
+https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/introduction-au-javascript
+
+Exercices associés :
+https://github.com/ErwannFace/JS_Exercice-01
+https://github.com/ErwannFace/JS_Exercice-01-Bonus
+http://www.grappa.univ-lille3.fr/~torre/Enseignement/TPs/JavaScript/
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Programmer en JavaScript</Objectif>
+					<Code>JS11</Code>
+					<Description>
+https://github.com/ErwannFace/JS_Exercice-02
+https://github.com/ErwannFace/JS_Exercice-03					
+Video explicative : https://www.grafikart.fr/tutoriels/javascript/sommaire-dynamique-667
+					</Description>
+				</Activite>
+
+			</Sequence>
+			<Sequence>
+				<Objectif>Mettre en œuvre la gestion d'événements  au sein de JavaScript</Objectif>
+				<Activite>
+					<Objectif>Projet Cookie clicker</Objectif>
+					<Code>JS12</Code>
+					<Description>
+http://simplonline.co/ressources/19-defis/147-exercice-du-cookie-clicker
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Mettre en œuvre la gestion d'événements  au sein de JavaScript</Objectif>
+					<Code>JS20</Code>
+					<Description>
+					</Description>
+
+				</Activite>
+			</Sequence>
+		</Module>
+
+		<Module group="Tronc_Commun" language="Gestion de Projet">
+			<Objectif>Experimenter les différents rôles d'un chef de projet</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Communiquer avec un client</Objectif>
+				<Activite>
+					<Objectif>Code Combat</Objectif>
+					<Code>COD01</Code>
+					<Description>
+						http://simplonline.co/ressources/ress-culturegeek/220-comment-expliquer-la-programmation-aux-enfants
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="Culture Générale">
+			<Objectif>Identifier les éléments intrinsèques d'un développeur WEB</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Culture Générale sur l'informatique</Objectif>
+				<Activite>
+					<Objectif>Poses-toi une question</Objectif>
+					<Code>CUL00</Code>
+					<Description>Chaque semaine les apprenants définissent des thématiques à rechercher.
+						Chaque semaine, un apprenant sélectionné au hasard présente son axe de recherche</Description>
+					
+				</Activite>
+				
+				<Activite>
+					<Objectif>Le droit de l'informatique</Objectif>
+					<Code>CUL04</Code>
+					<Description>Brainstorming Intervention d'ange</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Compréhender le fonctionnement des serveurs </Objectif>
+					<Code>CUL05</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Approfondir GIT </Objectif>
+					<Code>GIT01</Code>
+					<Description>
+						1) Réaliser une gitpage
+						2) Approfondir git avec https://github.com/git-tips/tips
+						3) http://jnthn.net/training/git/exercises.pdf
+						4) http://gitimmersion.com/
+					</Description>
+				</Activite>
+			</Sequence>
+		
+			<Sequence>
+				<Objectif>Initiation à l'algorithmie</Objectif>
+				<Activite>
+					<Objectif>Amusement park in Algobox</Objectif>
+					<Code>ALGO01</Code>
+					<Description>
+						Sur Algobox : 
+http://www.methodemaths.fr/exoalgo/#partiedecimale
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Pratiquer l'algorithmie</Objectif>
+					<Code>ALGO02</Code>
+					<Description>Avec uniquement un papier et un crayon, réaliser les algorithmes suivants : 
+						- Plus Grand / Plus Petit
+						- Convertir une heure du AM/PM format au format militaire sur 24h. Sachant que 12AM = 12h00 et 12PM = 0h00
+						- Créer une fonction réalisant la somme de N chiffres
+						- Créer une fonction trouvant le plus petit élément d'un tableau
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Approfondir l'algo avec le JS</Objectif>
+					<Code>ALGOJS</Code>
+					<Description>
+https://github.com/simplonco/js-recall
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Projets</Objectif>
+				<Activite>
+					<Objectif>Projet Profesionel</Objectif>
+					<Code>PROJ</Code>
+					<Description>Répondre à un cahier des charges d'un commanditaire.</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Insertion Professionelle expliquée par Face</Objectif>
+				<Activite>
+					<Objectif>Insertion Profesionelle</Objectif>
+					<Code>INS PRO</Code>
+					<Description>Géré par Face</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+	</Programme>
+</root>

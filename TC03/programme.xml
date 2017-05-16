@@ -1,0 +1,147 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE root
+  SYSTEM 'programmePedago.dtd'>
+<root>
+	<Programme formation="Tronc Commun">
+		<Module group="Tronc_Commun" language="JS">
+			<Objectif>Concevoir une application web avec JavaScript</Objectif>
+			<Sequence>
+				<Objectif>Programmer en JavaScript</Objectif>
+				<Activite>
+					<Objectif>Programmer en JavaScript</Objectif>
+					<Code>JS11</Code>
+					<Description>
+						https://github.com/ErwannFace/JS_Exercice-02
+						https://github.com/ErwannFace/JS_Exercice-03	
+						https://github.com/simplonco/js-recall				
+						Video explicative : https://www.grafikart.fr/tutoriels/javascript/sommaire-dynamique-667
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Concevoir une application Web avec jQuery</Objectif>
+				<Activite>
+					<Objectif>Concevoir une application Web avec jQuery</Objectif>
+					<Code>JS20</Code>
+					<Description>
+Video Initiation à JQuery	https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84
+						
+Video La méthode pour manipuler les attributs HTML avec le Framework jQuery
+ : https://www.youtube.com/watch?v=7l2x-1nPzUk
+
+Video JQuery : Centrer une div : https://www.grafikart.fr/tutoriels/jquery/centrer-div-294
+
+
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Pratiquer jQuery</Objectif>
+					<Code>JS21</Code>
+					<Description>
+Soit par projets : 
+ * Exercices_JQuery_Pomodoro
+ * Exercices_JQuery_tic-tac-toe
+Soit par exercices : 
+ * Exercices-JQuery-Partie-[1-4]
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Utiliser AJAX et le XMLHttpRequest</Objectif>
+				<Activite>
+					<Objectif>Utiliser AJAX et le XMLHttpRequest</Objectif>
+					<Code>JS40</Code>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Développer une application JS en POO </Objectif>
+				<Activite>
+					<Objectif>Le concept objet </Objectif>
+					<Code>JS50</Code>
+					<Description>
+						Cours théorique fait par Erwann. 
+
+						Puis
+						
+						https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php/introduction-a-la-poo
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Développer une application JS en POO </Objectif>
+					<Code>JS51</Code>
+					<Description>
+						Video : https://www.grafikart.fr/tutoriels/javascript/poo-javascript-object-466
+
+						Exercice : http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
+					</Description>
+				</Activite>
+			</Sequence>
+
+			<Sequence>
+				<Objectif>Initiation au CoffeeScript </Objectif>
+				<Activite>
+					<Objectif>Initiation au CoffeeScript </Objectif>
+					<Code>JS70</Code>
+					<Description>
+						Video : https://www.grafikart.fr/tutoriels/javascript/coffeescript-493
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Projets</Objectif>
+				<Activite>
+					<Objectif>Projet JavaScript</Objectif>
+					<Code>JS99</Code>
+					<Description>Chaque Mercredi, nous donnons un projet aux apprenants. A nous liver le Mardi de la semaine d'après</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module group="Tronc_Commun" language="Culture Générale">
+			<Objectif>Identifier les éléments intrinsèques d'un développeur WEB</Objectif>
+			<PreRequis>N/A </PreRequis>
+			<Materiel>N/A </Materiel>
+			<Sequence>
+				<Objectif>Culture Générale sur l'informatique</Objectif>
+				<Activite>
+					<Objectif>Poses-toi une question</Objectif>
+					<Code>CUL00</Code>
+					<Description>Chaque semaine les apprenants définissent des thématiques à rechercher.
+						Chaque semaine, un apprenant sélectionné au hasard présente son axe de recherche</Description>
+					
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Qu'est ce que l'UI/UX</Objectif>
+				<Activite>
+					<Objectif>Intervention sur l'UI/UX</Objectif>
+					<Code>UIUX01</Code>
+					<Description>Intervention d'Annaelle sur l'UI / UX. Un exercice papier est réalisé. Où les apprenants doivent répondre à diverses questions à se poser en amont d'une la mise en place du site.</Description>
+					
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>La POO</Objectif>
+				<Activite>
+					<Objectif>Intervention sur la POO</Objectif>
+					<Code>POO01</Code>
+					<Description>Intervention d'Erwann sur la POO. Cours magistral</Description>
+					
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Le portage Salarial</Objectif>
+				<Code>Intervention Portage Salarial</Code>
+				<Description>Ghaffar, Patrice et Youness sont allés à un meetup concernant le portage salarial.</Description>
+			</Sequence>
+		</Module>
+		<Module>
+			<Objectif>Gestion de la promotion</Objectif>
+			<Sequence>
+				<Activite>
+					<Objectif>Election d'un délégué</Objectif>
+					<Code>GES01</Code>
+					<Description>Tous les mois, une nouvelle élection de délégué est réalisé</Description>
+			</Sequence>
+		</Module>
+	</Programme>
+</root>

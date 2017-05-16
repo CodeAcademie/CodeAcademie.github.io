@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE root
+  SYSTEM 'programmePedago.dtd'>
+<root>
+	<Programme formation="Back End">
+		<Module group="Back_End" language="PHP">
+			<Objectif>Développer dans des langages web</Objectif>
+			<Sequence>
+				<Objectif>Développer un site web via Silex</Objectif>
+				<Activite>
+					<Objectif>Initiation à Silex</Objectif>
+					<Code>WEB-BE-Silex-01</Code>
+					<Description>
+[Open Classroom - Silex - 1h](https://openclassrooms.com/courses/premiers-pas-avec-le-framework-php-silex)
+[OpenClassroom - Silex - 20h](https://openclassrooms.com/courses/evoluez-vers-une-architecture-php-professionnelle)
+
+[Open Classroom - Rest - 6h](https://openclassrooms.com/courses/utilisez-des-api-rest-dans-vos-projets-web)
+
+[Open Classroom - POO - 30h](https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php)
+	
+[Grafikart - POO - 8h20 de videos](https://www.grafikart.fr/formations/programmation-objet-php)
+
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Mise en pratique de Silex</Objectif>
+					<Code>WEB-BE-Silex-02</Code>
+					<Description>
+						https://github.com/simplon-erwann-duclos/fork/blob/master/BackEnd.md
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module>
+			<Objectif>Pratiquer avec aisance l'algorithmie</Objectif>
+			<Sequence>
+				<Objectif>Approfondir l'algorithmie</Objectif>
+				<Activite>
+					<Objectif>Approfondir l'algorithmie sur Coding Game</Objectif>
+					<Code>WEB-COD-01</Code>
+					<Description>
+						En pair programming, réalisez un exercice de coding game.
+					</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+	</Programme>
+</root>

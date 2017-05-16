@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
+<Planning >
+	<Semaine number="41">
+		<Jour number="1">
+			<Task time="7">WEB-FE-AngularJS-01</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">WEB-FE-AngularJS-02</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="7">WEB-FE-AngularJS-02</Task>
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+			<Task time="7">WEB-FE-AngularJS-02</Task>
+		</Jour>
+	</Semaine>
+</Planning>

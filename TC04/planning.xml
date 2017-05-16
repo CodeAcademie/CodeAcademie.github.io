@@ -1,0 +1,101 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
+<Planning >
+	<Semaine number="34">
+		<Jour number="1">
+			<Task time="2">CUL-01-02</Task>
+			<Task time="2">WEB-PHP-01</Task>
+			<Task time="3">WEB-PHP-02</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="4">WEB-PHP-02</Task>
+			<Task time="3">GES-04-01</Task>
+		</Jour>
+		<Jour number="3">
+			
+			<Task time="2">WEB-PHP-02</Task>
+			<Task time="4">WEB-PHP-05</Task>
+			<Task time="1">CUL-01-02</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="2">CUL-01-02</Task>
+			<Task time="3">WEB-PHP-02</Task>
+			<Task time="2">GES-04-01</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="5">WEB-PHP-04</Task>
+			<Task time="1">CUL-01-02</Task>
+			<Task time="1">CUL-01-01</Task> <!-- laty, hassan, floryan, nabil -->
+		</Jour>
+	</Semaine>
+	<Semaine number="35">
+		<Jour number="1">
+			<Task time="6">WEB-PHP-02</Task>
+			<Task time="1">CUL-01-02</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="6">WEB-PHP-02</Task>
+			<Task time="1">CUL-01-02</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="6">GES-04-01</Task>
+			<Task time="1">WEB-PHP-05</Task>
+			
+		</Jour>
+		<Jour number="4" ferie="true">
+			<Task time="1">CUL-01-02</Task>
+			<Task time="6">INS PRO</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="6">GES-04-01</Task>
+			<Task time="1">SOC10-02</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="36">
+		<Jour number="1">
+			<Task time="6">WEB-PHP-03</Task>
+			<Task time="1">CUL-04-02</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="1">CUL-05-02</Task>
+			<Task time="6">WEB-PHP-03</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="7">GES-04-01</Task>
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+			<Task time="7">GES-04-01</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="37">
+		<Jour number="1">
+			<Task time="7">WEB-PHP-06</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">WEB-PHP-06</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="7">GES-04-01</Task>
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+				<Task time="7">GES-04-01</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="38">
+		<Jour number="1">
+			<Task time="7">WEB-PHP-06</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">WEB-PHP-06</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="7">GES-04-01</Task>
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+				<Task time="7">GES-04-01</Task>
+		</Jour>
+	</Semaine>
+</Planning>

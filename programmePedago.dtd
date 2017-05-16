@@ -1,0 +1,27 @@
+<!ELEMENT root (Programme*) >
+<!ELEMENT Programme (Module*) >
+
+<!ATTLIST Programme formation CDATA #IMPLIED>
+<!ELEMENT Module (Objectif, PreRequis, Materiel, Sequence*)>
+<!ATTLIST Module language CDATA "">
+<!ATTLIST Module group CDATA "">
+<!ELEMENT Sequence (Objectif, Activite*)>
+<!ATTLIST Sequence evaluation CDATA "">
+<!ELEMENT Activite (Objectif, Code, Temps?, SousObjectif?, Description?)>
+<!ATTLIST Activite done (true|false) "false">
+<!ELEMENT Objectif (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT PreRequis (#PCDATA) >
+<!ELEMENT Materiel (#PCDATA) >
+<!ELEMENT SousObjectif (#PCDATA) >
+<!ELEMENT Temps (#PCDATA) >
+<!ELEMENT Code (#PCDATA) >
+
+<!ELEMENT Planning (Semaine*) >
+<!ELEMENT Semaine (Jour*)>
+<!ELEMENT Jour (Task*)>
+<!ELEMENT Task (#PCDATA)>
+<!ATTLIST Semaine number CDATA "0">
+<!ATTLIST Jour ferie (true|false) "false">
+<!ATTLIST Jour number CDATA "0">
+<!ATTLIST Task time CDATA "7">

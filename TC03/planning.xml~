@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
+<Planning >
+	<Semaine number="28">
+		<Jour number="1">
+			<Task time="4">JS11</Task>
+			<Task time="3">JS11</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="4">JS11</Task>
+			<Task time="2">Intervention Antoine et Tyjow</Task>
+			<Task time="1">Intervention Annaelle</Task>
+			
+		</Jour>
+		<Jour number="3">
+			<Task time="3">PROJ</Task>
+			<Task time="4">JS99</Task>
+			
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7"></Task></Jour>
+		<Jour number="5" ferie="true"><Task time="7"></Task></Jour>
+	</Semaine>
+	<Semaine number="29">
+		<Jour number="1">
+			<Task time="3">PROJ</Task>
+			<Task time="3">JS11</Task>
+			<Task time="1">CUL00</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">PROJ</Task>
+			<Task time="3">JS11</Task>
+			<Task time="1">Intervention Portage Salarial</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="3">PROJ</Task>
+			<Task time="1">POO01</Task>
+			<Task time="2">JS20</Task>
+			<Task time="1">JS99</Task>
+		</Jour>
+		<Jour number="4" ferie="true"> 
+			<Task time="7">INS PRO</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="3">PROJ</Task>
+			<Task time="4">JS21</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="30">
+		<Jour number="1">
+			<Task time="3">JS21</Task>
+			<Task time="4">PROJ</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">JS21</Task>
+			<Task time="4">JS21</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="6">JS21</Task>
+			<Task time="1">JS99</Task>
+		</Jour>
+		<Jour number="4" ferie="true">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="3">PROJ</Task>
+			<Task time="3">PHP00</Task>
+			<Task time="1">CUL00</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="31">
+		<Jour number="1">
+			<Task time="5">CMS01</Task>
+			<Task time="1">CUL00</Task>
+			<Task time="1">GES01</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="6">CMS01</Task>
+			<Task time="1">CUL00</Task> juliette et abdul
+		</Jour>
+		<Jour number="3">
+			<Task time="6">CMS01</Task>
+			<Task time="1">CUL00</Task> ghaffar
+		</Jour>
+		<Jour number="4" ferie="true"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+			<Task time="6">CMS01</Task>
+			<Task time="1">CUL00</Task> --laty, lise
+		</Jour>
+	</Semaine>
+</Planning>

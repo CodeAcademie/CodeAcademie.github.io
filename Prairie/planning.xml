@@ -1,0 +1,55 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
+<Planning >
+	<Semaine number="21">
+		<Jour number="1">
+			<Task time="1">SOC01</Task>
+			<Task time="1">SOC03</Task>
+
+			<Task time="1">FACE00</Task>
+			<Task time="4">LIN02b</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="1">DEV00</Task>
+			<Task time="4">HTML00</Task>
+			<Task time="2">JS00</Task>
+		</Jour>
+
+		<Jour number="3">
+			<Task time="2">JS00</Task>
+			<Task time="4">PHP00</Task>
+			<Task time="1">HTML01</Task>
+			
+		</Jour>
+		<Jour number="4" ferie="true">
+			<Task time="7">FERIE</Task>
+		</Jour>
+		<Jour number="5" ferie="true">
+			<Task time="7">FERIE</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="22">
+		<Jour number="1">
+			<Task time="1">HTML01</Task>
+			<Task time="3">GIT00</Task>
+			<Task time="3">SQL00</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">RUB00</Task>
+			<Task time="1">DEV02</Task>
+			<Task time="3">ALGO00</Task>
+		</Jour>
+
+		<Jour number="3">
+			<Task time="4">CSS00</Task>
+			<Task time="3">ALGO00</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="6">WOR01</Task>
+			<Task time="1">DEV03</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+	</Semaine>
+</Planning>
