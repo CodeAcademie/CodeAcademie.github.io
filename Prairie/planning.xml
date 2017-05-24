@@ -12,13 +12,13 @@
 		<Jour number="2">
 			<Task time="1">DEV00</Task>
 			<Task time="4">HTML00</Task>
-			<Task time="2">JS01</Task>
+			<Task time="2">JS00</Task>
 		</Jour>
 
 		<Jour number="3">
-			<Task time="2">JS00</Task>
+			<Task time="2">JS01</Task>
 			<Task time="4">PHP00</Task>
-			<Task time="1">HTML01</Task>
+			<Task time="1">HTML99</Task>
 			
 		</Jour>
 		<Jour number="4" ferie="true">
