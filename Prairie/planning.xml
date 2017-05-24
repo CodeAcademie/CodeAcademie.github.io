@@ -12,7 +12,7 @@
 		<Jour number="2">
 			<Task time="1">DEV00</Task>
 			<Task time="4">HTML00</Task>
-			<Task time="2">JS00</Task>
+			<Task time="2">JS01</Task>
 		</Jour>
 
 		<Jour number="3">
@@ -45,7 +45,7 @@
 			<Task time="3">ALGO00</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="6">WOR01</Task>
+			<Task time="6">WP00</Task>
 			<Task time="1">DEV03</Task>
 		</Jour>
 		<Jour number="5">

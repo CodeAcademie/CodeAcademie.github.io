@@ -198,6 +198,12 @@
 					<Code>JS00</Code>
 					<Description>Réparti sur deux jours consécutifs, réalisation d'un FizzBuzz en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
 				</Activite>
+                                <Activite>
+                                        <Objectif>Initiation au JavaScipt</Objectif>
+                                        <Code>JS01</Code>
+                                        <Description>Coding Dojo : Converting Latin to roman numbers</Description>
+                                </Activite>
+
 				<Activite>
 					<Objectif>Preparer l'atelier Wordpress</Objectif>
 					<Code>WOR01</Code>
