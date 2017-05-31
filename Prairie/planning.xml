@@ -16,9 +16,8 @@
 		</Jour>
 
 		<Jour number="3">
-			<Task time="2">JS01</Task>
-			<Task time="4">PHP00</Task>
-			<Task time="1">HTML99</Task>
+			<Task time="5">PHP00</Task>
+			<Task time="2">HTML99</Task>
 			
 		</Jour>
 		<Jour number="4" ferie="true">
@@ -30,19 +29,18 @@
 	</Semaine>
 	<Semaine number="22">
 		<Jour number="1">
-			<Task time="1">HTML01</Task>
-			<Task time="3">GIT00</Task>
-			<Task time="3">SQL00</Task>
+			<Task time="2">HTML01</Task>
+			<Task time="5">GIT00</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="3">RUB00</Task>
 			<Task time="1">DEV02</Task>
-			<Task time="3">ALGO00</Task>
+			<Task time="3">SQL00</Task>
 		</Jour>
 
 		<Jour number="3">
 			<Task time="4">CSS00</Task>
-			<Task time="3">ALGO00</Task>
+			<Task time="3">JS01</Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="6">WP00</Task>
