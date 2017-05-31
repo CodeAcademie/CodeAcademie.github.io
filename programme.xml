@@ -63,7 +63,7 @@
 					<Code>PHP01</Code>
 					<Description>
 						Par binomes, réaliser les exercices suivants : 
-							* https://github.com/simplonco/php-training-base
+							* https://github.com/simplonco/php-training-baseœ
 					</Description>
 				</Activite>
 			</Sequence>
@@ -187,37 +187,39 @@
 					<Temps>1/2j</Temps>
 					<Description>OpenClassroom. W3School. AlsaCreation. Projet http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
 				</Activite>
-				<Activite>
-					<Objectif>Projet : Pro Create</Objectif>
-					<Code>HTML01</Code>
-					<Description>Création de binomes de projets pour le WE. http://prod.simplon.co/divers/challenges/briefing-challenge-1.zip. Résultat attendu sur GitHub.</Description>
-				</Activite>
 
 				<Activite>
 					<Objectif>Initiation au JavaScipt</Objectif>
 					<Code>JS00</Code>
 					<Description>Réparti sur deux jours consécutifs, réalisation d'un FizzBuzz en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
 				</Activite>
-                                <Activite>
-                                        <Objectif>Initiation au JavaScipt</Objectif>
-                                        <Code>JS01</Code>
-                                        <Description>Coding Dojo : Converting Latin to roman numbers</Description>
-                                </Activite>
+                <Activite>
+                    <Objectif>Initiation au JavaScipt</Objectif>
+                    <Code>JS01</Code>
+                    <Description>Coding Dojo : Converting Latin to roman numbers</Description>
+                </Activite>
 
 				<Activite>
-					<Objectif>Preparer l'atelier Wordpress</Objectif>
-					<Code>WOR01</Code>
-					<Description></Description>
+					<Objectif>Réaliser son premier thème wordpress</Objectif>
+					<Code>WP01</Code>
+					<Description>
+						Suivre le tutoriel : http://www.fran6art.com/wordpress/creez-votre-theme-wordpress-de-a-a-z/
+					</Description>
 				</Activite>
 				<Activite>
 					<Objectif>Debug sous Wordpress</Objectif>
-					<Code>WOR02</Code>
+					<Code>WP02</Code>
 					<Description>SF Admin bar tools et Show Current Template. </Description>
 				</Activite>
 				<Activite>
 					<Objectif>Plugins sous Wordpress</Objectif>
-					<Code>WOR03</Code>
-					<Description>ACF</Description>
+					<Code>WP03</Code>
+					<Description>Réalisez une veille sur les plugins wordpress à connaître. 
+						ACF
+						JetPack
+						Disqus
+						
+					</Description>
 				</Activite>
 				<Activite>
 					<Objectif>Pratique de l'algorithmie</Objectif>
