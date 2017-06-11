@@ -3,46 +3,75 @@
 <?xml-stylesheet href="styleProgrammePedago.css" type="text/css" ?>
 <Planning >
 	<Semaine number="23">
-		<Jour number="1" ferie="true"><Task time="7">Ferié</Task></Jour>
+		<Jour number="1" ferie="true">
+			<Task time="7">FERIE</Task>
+		</Jour>
 		<Jour number="2">
-			<Task time="1">SOC05</Task>
+			<Task time="1">SOC03</Task>
 			<Task time="1">SOC04</Task>
-			<Task time="2">SOC03</Task>
 			<Task time="1">SOC06</Task>
 			<Task time="1">SOC07</Task>
-			<Task time="1">CUL00</Task>
+			<Task time="3">WP00</Task>
 		</Jour>
+
 		<Jour number="3">
-			<Task time="4">SCRUM01</Task>
-			<Task time="3"></Task>
+			<Task time="2">WP00</Task>
+			<Task time="5">WP01</Task>
 		</Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="4">
+			<Task time="7">INS PRO</Task>
+			
+		</Jour>
+		<Jour number="5">
+			<Task time="7">LIBRE</Task>
+		</Jour>	
 	</Semaine>
 	<Semaine number="24">
-		<Jour number="1" ><Task time="7"></Task></Jour>
-		<Jour number="2">
-			<Task time="1">CUL02</Task>
+		<Jour number="1">
+			<Task time="4">SCRUM01</Task>
+			<Task time="2">HTML99</Task>
+			<Task time="1">WP01</Task>
+			
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="2">
+			<Task time="4">ALGO01</Task>
+			<Task time="1">VEIL01</Task>
+			<Task time="2">WP02</Task>
+			
+		</Jour>
+		<Jour number="3">
+			<Task time="1">DEV03</Task>
+			
+			<Task time="1">WP03</Task>
+			<Task time="5">WP99</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">INS PRO</Task>
+			<Task time="2">MENTOR ME UP</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="4">WP99</Task>
+			<Task time="3">CA00</Task>
+		</Jour>
 	</Semaine>
 	<Semaine number="25">
 		<Jour number="1" ><Task time="7"></Task></Jour>
-		<Jour number="2">
-			<Task time="1">CUL03</Task>
-		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="2"><Task time="1">VEIL01</Task><Task time="6"></Task></Jour>
+		<Jour number="3"><Task time="1">CUL02</Task><Task time="6"></Task></Jour>
 		<Jour number="4"><Task time="7"></Task></Jour>
 		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
 	</Semaine>
 	<Semaine number="26">
 		<Jour number="1" ><Task time="7"></Task></Jour>
-		<Jour number="2"><Task time="7"></Task></Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="1">SOC04</Task>
+			<Task time="5"></Task>
+		</Jour>
 		<Jour number="3"><Task time="7"></Task></Jour>
 		<Jour number="4"><Task time="7"></Task></Jour>
 		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
 	</Semaine>
+
 	
 </Planning>

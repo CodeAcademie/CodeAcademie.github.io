@@ -1,7 +1,51 @@
 <?xml version = "1.0" encoding="UTF-8" ?>
 <!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
 <Planning >
-	<Semaine number="24">
+	<Semaine number="27">
+		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="6"></Task>
+		</Jour>
+		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="5">
+			<Task time="3">INS PRO</Task>
+			<Task time="1">Intervention HTMY</Task>
+			<Task time="3">INS PRO</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="28">
+		<Jour number="1" ferie="true"><Task time="7">Work@Home</Task></Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="6"></Task>
+		</Jour>
+		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+	</Semaine>
+	<Semaine number="29">
+		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="6"></Task>
+		</Jour>
+		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+	</Semaine>
+	<Semaine number="30">
+		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="6"></Task>
+		</Jour>
+		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+	</Semaine>
+	<!--Semaine number="24">
 		<Jour number="1">
 			<Task time="2">XML02</Task>
 			<Task time="1">BRAIN02</Task>
@@ -99,6 +143,6 @@
 			<Task time="2">ALGO02</Task>
 			<Task time="1">CUL00</Task>
 		</Jour>
-	</Semaine>
+	</Semaine -->
 
 </Planning>

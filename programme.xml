@@ -10,7 +10,7 @@
 			<Sequence>
 				<Objectif>Bonne vie du groupe</Objectif>
 
-				<Activite>
+				<Activite skipped='true'>
 					<Objectif>Ice Breaker : Tri</Objectif>
 					<Code>SOC05</Code>
 					<SousObjectif>Découverte d'autrui</SousObjectif>
@@ -24,62 +24,164 @@
 					</Description>
 				</Activite>
 
-				<Activite>
+				<Activite done='true'>
 					<Objectif>Définition d'une charte commune</Objectif>
 					<Code>SOC03</Code>
 					<SousObjectif>Implication de chacun sur les règles à suivre</SousObjectif>
 					<Description>Thèmes abordés : Horaires de formation, Chaises sur les tables, Café...</Description>
 				</Activite>
 
-				<Activite>
+				<Activite done='true'>
 					<Objectif>Election d'un délégué</Objectif>
 					<Code>SOC04</Code>
 					<Description>Plusieurs personnes peuvent se présenter pour les élections. Vu qu'aucun ne se connait. Le vote final peut se réaliser au shifumi</Description>
 				</Activite>
 
-				<Activite>
+				<Activite done='true'>
 					<Objectif>Définition responsable Facebook</Objectif>
 					<Code>SOC06</Code>
 					<Temps>10min</Temps>
 					<Description>Basé sur les compétences et savoirs de l'apprenant</Description>
 				</Activite>
-				<Activite>
+				<Activite done='true'>
 					<Objectif>Définition responsable Twitter</Objectif>
 					<Code>SOC07</Code>
 					<Temps>10min</Temps>
 					<Description>Basé sur les compétences et savoirs de l'apprenant</Description>
 				</Activite>
-			</Sequence>
-		</Module>
-		<Module group="Tronc Commun" language="PHP">
-			<Objectif>Savoir pratiquer professionellement du PHP 7</Objectif>
-			<PreRequis>Avoir des notions d'algorithmie</PreRequis>
-			<Materiel>Video Projecteur, 1 PC/Apprenant</Materiel>
-			<Sequence>
-				<Objectif>Initiation au PHP</Objectif>
-				
-				<Activite >
-					<Objectif>Découvrir les fonctions de base du PHP</Objectif>
-					<Code>PHP01</Code>
-					<Description>
-						Par binomes, réaliser les exercices suivants : 
-							* https://github.com/simplonco/php-training-baseœ
+				<Activite>
+					<Objectif>Veille de la vie rennaise</Objectif>
+					<Code>VEIL01</Code>
+					<Description>A réaliser de manière hebdo : 
+						- Feedback du responsable TT 
+						- Feedback du responsable FB
+						- Que se passes-t-il dans la région?
 					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Brainstorming : Quelles sont vos attentes de la Code Académie</Objectif>
+					<Code>DEV03</Code>
+					<Temps>1h</Temps>
+					<SousObjectif>Formaliser ses attentes</SousObjectif>
+					<Description>Session post-its </Description>
 				</Activite>
 			</Sequence>
 		</Module>
-		<Module group="Tronc Commun" language="HTML">	
-			<Objectif>Savoir pratiquer professionellement du HTML</Objectif>
-			<PreRequis>Avoir terminé la prairie</PreRequis>
-			<Materiel>Video Projecteur, 1 PC/Apprenant</Materiel>
+		
+		<Module  group="Tronc Commun" language="Culture Gé">
+			<Objectif>Avoir la Culture Gé de base d'un développeur web rennais</Objectif>
 			<Sequence>
-				<Objectif>Initiation au HTML 5</Objectif>
+				<Objectif>Connaissance du milieu rennais</Objectif>
+				<Activite>
+					<Objectif> Brainstorming sur les entreprises de la région</Objectif>
+					<Code>CUL02</Code>
+				</Activite>
 				<Activite skipped='true'>
+					<Objectif>Forum de la femme du numérique</Objectif>
+					<Code>FORUM</Code>
+					<Description>Sortie en groupe au forum de la femme du numérique afin de découvrir le milieu Rennais</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Problématiques du milieu IT</Objectif>
+				<Activite done='true'>
+					<Objectif>Brainstorming : Qu'est-ce qu'un développeur web junior</Objectif>
+					<Code>DEV00</Code>
+					<Temps>1h</Temps>
+					<SousObjectif>Comprendre les attendus de la formation</SousObjectif>
+					<Description>Savoir résoudre des problématiques. Analyse et mise en place d'un besoin. Informatitien. Geek a tout faire. </Description>
+				</Activite>
+				<Activite skipped='true'>
+					<Objectif>Video sur la représentation de la femme dans le monde du numérique</Objectif>
+					<Code>VIDEO</Code>
+					<Description>https://vimeo.com/156415566 Code : Demander à Simplon</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Avoir les savoirs généraux en informatique</Objectif>
+				<Activite>
+					<Objectif>Brainstorming : Quelles languages de programmation</Objectif>
+					<Code>DEV02</Code>
+					<Temps>1h</Temps>
+					<SousObjectif>Avoir le B.A.BA des languages de programmation</SousObjectif>
+					<Description>Java, JS, PHP, HTML, CSS, .NET, GO, DART </Description>
+				</Activite>
+				<Activite>
+					<Objectif>Brainstorming : Quelles structures de données connaissez vous?</Objectif>
+					<Code>DEV01</Code>
+					<Temps>1h</Temps>
+					<SousObjectif>Avoir le B.A.BA des data</SousObjectif>
+					<Description>XML, JSON, YAML, CSV, TXT (md, asciidoc), ... </Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module  group="Tronc Commun" language="Culture Gé">
+			<Objectif>Avoir les skills de base d'un développeur web rennais</Objectif>
+			<Sequence>
+				<Objectif>Découvrir les soft skills clés d'un développeur Web</Objectif>
+				<Activite>
+					<Objectif>Initiation aux méthodologies SCRUM</Objectif>
+					<Code>SCRUM01</Code>
+					<Temps>1/2 j</Temps>
+					<Description>http://www.lego4scrum.com/</Description>
+				</Activite>
+				
+				<Activite>
+					<Objectif> Débat autour des différentes méthodes de rémunération de sites internet</Objectif>
+					<Code>CUL03</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Initiation à la veille technologique</Objectif>
+					<Code>CUL01</Code>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Avoir les skills technique d'un développeur</Objectif>
+				<Activite done='true'>
+					<Objectif>Pratique de l'algorithmie</Objectif>
+					<Code>ALGO00</Code>
+					<Description>Réparti sur deux jours consécutifs, réalisation d'un Bowling en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Compréhender la logique algorithmique sans ordinateur</Objectif>
+					<Code>ALGO01</Code>
+					<Materiel>Crèpes de l'ENS, Paper Board</Materiel>
+					<Description>Exercice des crèpes de l'ENS Bretagne
+						Mise à plat sur papier de l'algo
+						Mise en forme en code
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Exercice : Coding Game</Objectif>
+					<Code>COD01</Code>
+					<Description>Coding Game : THOR</Description>
+				</Activite>
+			</Sequence>
+		</Module>
+		<Module  group="Tronc Commun" language="Culture Gé">
+			<Objectif>Avoir les hard skills de base d'un développeur web rennais</Objectif>
+			<Sequence>
+				<Objectif>Découvrir les hard skills clés d'un développeur Web</Objectif>
+				<Activite>
+					<Objectif>Brainstorming sur les langages de développement</Objectif>
+					<Code>CUL00</Code>
+					<Description>Quels sont les langages Web ? Et c'est quoi leurs spécificités? HTML, CSS, JS, PHP, Ruby, ASP, Java, Applet, CoffeeScript, SQL, Flash, Go, Dart,Python..</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Pratiquer professionellement du HTML</Objectif>
+				<Activite done='true'>
+					<Objectif>Initiation au HTML / CSS</Objectif>
+					<Code>HTML00</Code>
+					<Temps>1/2j</Temps>
+					<Description>OpenClassroom. W3School. AlsaCreation. Projet http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
+				</Activite>
+				<Activite>
 					<Objectif>Projet : No Images</Objectif>
 					<Code>HTML02</Code>
 					<Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
 				</Activite>
-				<Activite skipped='true'>
+				<Activite>
 					<Objectif>Boilerplate</Objectif>
 					<Code>NONDEFINED</Code>
 					<Description>
@@ -87,107 +189,8 @@
 					</Description>
 				</Activite>
 			</Sequence>
-		</Module>
-		<Module group="Tronc Commun" language="Culture Gé">
-			<Objectif>Avoir les savoirs de base d'un développeur web</Objectif>
-			<PreRequis>Avoir terminé la prairie</PreRequis>
-			<Materiel>Video Projecteur, 1 PC/Apprenant</Materiel>
 			<Sequence>
-				<Objectif>Découvrir quelques éléments clés d'un développeur Web</Objectif>
-				<Activite>
-					<Objectif>Brainstorming sur les langages de développement</Objectif>
-					<Code>CUL00</Code>
-					<Description>Quels sont les langages Web ? Et c'est quoi leurs spécificités? HTML, CSS, JS, PHP, Ruby, ASP, Java, Applet, CoffeeScript, SQL, Flash, Go, Dart,Python..</Description>
-				</Activite>
-				<Activite>
-					<Objectif>Initiation aux méthodologies SCRUM</Objectif>
-					<Code>SCRUM01</Code>
-					<Temps>1/2 j</Temps>
-					<Description>http://www.lego4scrum.com/</Description>
-				</Activite>
-				<Activite>
-					<Objectif> Brainstorming sur les entreprises de la région</Objectif>
-					<Code>CUL02</Code>
-				</Activite>
-				<Activite>
-					<Objectif> Débat autour des différentes méthodes de rémunération de sites internet</Objectif>
-					<Code>CUL03</Code>
-				</Activite>
-			</Sequence>
-		</Module>
-		<Module language="PRAIRIE" group="Prairie">
-			<Objectif>Compréhender et accepter les thématiques abordés lors de la formation</Objectif>
-			<PreRequis>Etre inscrit à la formation</PreRequis>
-			<Materiel>Video Projecteur, 1 PC/Apprenant </Materiel>
-			<Sequence>
-				<Objectif> Identifier les autres aprenants de la formation</Objectif>
-				<Activite>
-					<Objectif>Petit Déjeuner de bienvenue</Objectif>
-					<Code>SOC01</Code>
-					<Temps> 1/2 h</Temps>
-					<SousObjectif>Mise en confiance et découverte d'autrui</SousObjectif>
-				</Activite>
-				<Activite>
-					<Objectif>Ice Breaker : 3 Vérités et 1 Mensonge</Objectif>
-					<Code>SOC02</Code>
-					<SousObjectif>Découverte d'autrui</SousObjectif>
-					<Description>Les apprenants doivent à tour de rôle, citer 3 vérités et un mensonge les concernants. Les autres apprenants doivent deviner lequel est faux.</Description>
-				</Activite>
-				<Activite>
-					<Objectif>Ice Breaker : Présente ton voisin</Objectif>
-					<Code>SOC03</Code>
-					<SousObjectif>Découverte d'autrui</SousObjectif>
-					<Description>Chaque apprenant papote pendant 15 minutes avec son voisin. Puis le présente aux autres </Description>
-				</Activite>
-			</Sequence>
-			<Sequence>.
-				<Objectif>Etre apte à suivre la formation</Objectif>
-				<Activite>
-					<Objectif>Intervention de Malika</Objectif>
-					<Code>FACE00</Code>
-					<Temps>1h</Temps>
-					<SousObjectif>Tous les apprenants ont un dossier Pole Emploi beton</SousObjectif>
-				</Activite>
-			</Sequence>
-			<Sequence>
-				<Objectif>Découvrir et Configurer le poste de travail de l'apprenant</Objectif>
-				<Activite skipped='true'>
-					<Objectif>Installation de Linux</Objectif>
-					<Code>LIN01</Code>
-					<Temps> 1/2 journée</Temps>
-					<Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
-				</Activite>
-				<Activite skipped='true'>
-					<Objectif>Découverte du terminal : Terminus du MIT</Objectif>
-					<Code>LIN02</Code>
-					<Description>cd, .., ls, mkdir, ps, rm</Description>
-				</Activite>
-				<Activite>
-					<Objectif>Découverte du terminal</Objectif>
-					<Code>LIN02b</Code>
-					<Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
-				</Activite>
-				<Activite  skipped='true'>
-					<Objectif>Découverte de l'editeur VIM</Objectif>
-					<Code>LIN03</Code>
-					<Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
-				</Activite>
-				<Activite>
-					<Objectif>Découverte de GIT et GITHub</Objectif>
-					<Code>GIT00</Code>
-					<Description>Création d'un compte github. 
-						Découverte de git init/add/commit/pull/push/clone</Description>
-				</Activite>
-			</Sequence>
-			<Sequence>
-				<Objectif>Initiation aux langages de programmation</Objectif>
-				<Activite>
-					<Objectif>Initiation au HTML / CSS</Objectif>
-					<Code>HTML00</Code>
-					<Temps>1/2j</Temps>
-					<Description>OpenClassroom. W3School. AlsaCreation. Projet http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
-				</Activite>
-
+				<Objectif>Pratiquer professionellement du JS</Objectif>
 				<Activite>
 					<Objectif>Initiation au JavaScipt</Objectif>
 					<Code>JS00</Code>
@@ -198,8 +201,15 @@
                     <Code>JS01</Code>
                     <Description>Coding Dojo : Converting Latin to roman numbers</Description>
                 </Activite>
-
-				<Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Mettre en place un WP d'une manière pro</Objectif>
+				<Activite done='true'>
+					<Objectif>Découverte de Wordpress</Objectif>
+					<Code>WP00</Code>
+					<Description>Installer Wordpress sur un serveur apache.</Description>
+				</Activite>
+				<Activite  done='true'>
 					<Objectif>Réaliser son premier thème wordpress</Objectif>
 					<Code>WP01</Code>
 					<Description>
@@ -222,21 +232,23 @@
 					</Description>
 				</Activite>
 				<Activite>
-					<Objectif>Pratique de l'algorithmie</Objectif>
-					<Code>ALGO00</Code>
-					<Description>Réparti sur deux jours consécutifs, réalisation d'un Bowling en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
+					<Objectif>Projet professionnel sous Wordpress</Objectif>
+					<Code>WP99</Code>
+					<Description>
+						Pour chaque projet pro:
+							* Définition des groupes
+							* Création d'un dépot sur bitbucket
+							* Analyse du besoin
+							* Elaboration d'une expression de besoin
+							* Concertation régulière avec le client
+							* Elaboration des lots d'évolution
+						
+					</Description>
 				</Activite>
-				<Activite>
-					<Objectif>Exercice : Coding Game</Objectif>
-					<Code>COD01</Code>
-					<Description>Coding Game : THOR</Description>
-				</Activite>
-				<Activite>
-					<Objectif>Découverte de Wordpress</Objectif>
-					<Code>WOR01</Code>
-					<Description>Installer Wordpress sur un serveur apache.</Description>
-				</Activite>
-				<Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Pratiquer professionellement du SQL</Objectif>
+				<Activite done='true'>
 					<Objectif>Initiation au SQL</Objectif>
 					<Code>SQL00</Code>
 					<Description>Sur http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all 
@@ -248,7 +260,10 @@
 						5) Quels champs seront répetitifs? Est-il possible d'en générer des tables en 1,n . Et/Ou que suis-je en train de vous demander  de faire ?
 					</Description>
 				</Activite>
-				<Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Pratiquer professionellement du PHP</Objectif>	
+				<Activite done='true'>
 					<Objectif>Initiation au PHP</Objectif>
 					<Code>PHP00</Code>
 					<Description>Vous aurez accès à l'API de PHP sur PHP.net  : http://php.net/manual/fr/ 
@@ -262,6 +277,17 @@
 					</Description>
 				</Activite>
 				<Activite>
+					<Objectif>Découvrir les fonctions de base du PHP</Objectif>
+					<Code>PHP01</Code>
+					<Description>
+						Par binomes, réaliser les exercices suivants : 
+							* https://github.com/simplonco/php-training-baseœ
+					</Description>
+				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif>Pratiquer professionellement du Ruby</Objectif>
+				<Activite done='true'>
 					<Objectif>Initiation au Ruby</Objectif>
 					<Code>RUB00</Code>
 					<Description>Installer le package ruby
@@ -279,50 +305,69 @@
 					</Description>
 				</Activite>
 			</Sequence>
+		</Module>
+		<Module language="PRAIRIE" group="Prairie">
+			<Objectif>Compréhender et accepter les thématiques abordés lors de la formation</Objectif>
+			<PreRequis>Etre inscrit à la formation</PreRequis>
+			<Materiel>Video Projecteur, 1 PC/Apprenant </Materiel>
 			<Sequence>
-				<Objectif>Découvrir quelques éléments clés d'un développeur Web</Objectif>
-				<Activite>
-					<Objectif>Initiation à la veille technologique</Objectif>
-					<Code>CUL01</Code>
+				<Objectif> Identifier les autres aprenants de la formation</Objectif>
+				<Activite done='true'>
+					<Objectif>Petit Déjeuner de bienvenue</Objectif>
+					<Code>SOC01</Code>
+					<Temps> 1/2 h</Temps>
+					<SousObjectif>Mise en confiance et découverte d'autrui</SousObjectif>
 				</Activite>
-
-				<Activite>
-					<Objectif>Video sur la représentation de la femme dans le monde du numérique</Objectif>
-					<Code>VIDEO</Code>
-					<Description>https://vimeo.com/156415566 Code : Demander à Simplon</Description>
+				<Activite skipped='true'>
+					<Objectif>Ice Breaker : 3 Vérités et 1 Mensonge</Objectif>
+					<Code>SOC02</Code>
+					<SousObjectif>Découverte d'autrui</SousObjectif>
+					<Description>Les apprenants doivent à tour de rôle, citer 3 vérités et un mensonge les concernants. Les autres apprenants doivent deviner lequel est faux.</Description>
 				</Activite>
-				<Activite>
-					<Objectif>Forum de la femme du numérique</Objectif>
-					<Code>FORUM</Code>
-					<Description>Sortie en groupe au forum de la femme du numérique afin de découvrir le milieu Rennais</Description>
+				<Activite done='true'>
+					<Objectif>Ice Breaker : Présente ton voisin</Objectif>
+					<Code>SOC03</Code>
+					<SousObjectif>Découverte d'autrui</SousObjectif>
+					<Description>Chaque apprenant papote pendant 15 minutes avec son voisin. Puis le présente aux autres </Description>
 				</Activite>
-				<Activite>
-					<Objectif>Brainstorming : Qu'est-ce qu'un développeur web junior</Objectif>
-					<Code>DEV00</Code>
+			</Sequence>
+			<Sequence>.
+				<Objectif>Etre apte à suivre la formation</Objectif>
+				<Activite done='true'>
+					<Objectif>Intervention de Malika</Objectif>
+					<Code>FACE00</Code>
 					<Temps>1h</Temps>
-					<SousObjectif>Comprendre les attendus de la formation</SousObjectif>
-					<Description>Savoir résoudre des problématiques. Analyse et mise en place d'un besoin. Informatitien. Geek a tout faire. </Description>
+					<SousObjectif>Tous les apprenants ont un dossier Pole Emploi beton</SousObjectif>
 				</Activite>
-				<Activite>
-					<Objectif>Brainstorming : Quelles structures de données connaissez vous?</Objectif>
-					<Code>DEV01</Code>
-					<Temps>1h</Temps>
-					<SousObjectif>Avoir le B.A.BA des data</SousObjectif>
-					<Description>XML, JSON, YAML, CSV, TXT (md, asciidoc), ... </Description>
+			</Sequence>
+			<Sequence>
+				<Objectif>Découvrir et Configurer le poste de travail de l'apprenant</Objectif>
+				<Activite skipped='true'>
+					<Objectif>Installation de Linux</Objectif>
+					<Code>LIN01</Code>
+					<Temps> 1/2 journée</Temps>
+					<Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
 				</Activite>
-				<Activite>
-					<Objectif>Brainstorming : Quelles languages de programmation</Objectif>
-					<Code>DEV02</Code>
-					<Temps>1h</Temps>
-					<SousObjectif>Avoir le B.A.BA des languages de programmation</SousObjectif>
-					<Description>Java, JS, PHP, HTML, CSS, .NET, GO, DART </Description>
+				<Activite skipped='true'>
+					<Objectif>Découverte du terminal : Terminus du MIT</Objectif>
+					<Code>LIN02</Code>
+					<Description>cd, .., ls, mkdir, ps, rm</Description>
 				</Activite>
-				<Activite>
-					<Objectif>Brainstorming : Quelles sont vos attentes de la Code Académie</Objectif>
-					<Code>DEV03</Code>
-					<Temps>1h</Temps>
-					<SousObjectif>Formaliser ses attentes</SousObjectif>
-					<Description>Session post-its </Description>
+				<Activite done='true'>
+					<Objectif>Découverte du terminal</Objectif>
+					<Code>LIN02b</Code>
+					<Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
+				</Activite>
+				<Activite  skipped='true'>
+					<Objectif>Découverte de l'editeur VIM</Objectif>
+					<Code>LIN03</Code>
+					<Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
+				</Activite>
+				<Activite done='true'>
+					<Objectif>Découverte de GIT et GITHub</Objectif>
+					<Code>GIT00</Code>
+					<Description>Création d'un compte github. 
+						Découverte de git init/add/commit/pull/push/clone</Description>
 				</Activite>
 			</Sequence>
 		</Module>
@@ -338,6 +383,27 @@
 				</Activite>
 			</Sequence>
 
+		</Module>
+		<Module group='Insertion Pro' language='Transverse'>
+			<Objectif>Réaliser une projet professionnel de A à Z afin de répondre a la certification</Objectif>
+			<Sequence>
+				<Objectif>Réaliser le projet pour la certification</Objectif>
+				<Activite>
+					<Objectif>Définir le besoin</Objectif>
+					<Code>CA00</Code>
+					<Temps>7h</Temps>
+					<Description>
+						Présentation du projet au Formateur / Promo.
+						Définition du scope :
+							Qui
+							Quoi
+							Comment
+							Pourquoi
+							Liste des fonctionnalités
+							Base de données
+					</Description>
+				</Activite>
+			</Sequence>
 		</Module>
 	</Programme>
 </root>
