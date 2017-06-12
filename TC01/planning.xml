@@ -29,15 +29,15 @@
 	<Semaine number="24">
 		<Jour number="1">
 			<Task time="4">SCRUM01</Task>
-			<Task time="2">HTML99</Task>
+			<Task time="2">ALGO01</Task>
 			<Task time="1">WP01</Task>
 			
 		</Jour>
 		<Jour number="2">
-			<Task time="4">ALGO01</Task>
+			<Task time="2">WP01</Task>
 			<Task time="1">VEIL01</Task>
 			<Task time="2">WP02</Task>
-			
+			<Task time="2">HTML99</Task>
 		</Jour>
 		<Jour number="3">
 			<Task time="1">DEV03</Task>
