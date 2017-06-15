@@ -55,11 +55,31 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="25">
-		<Jour number="1" ><Task time="7"></Task></Jour>
-		<Jour number="2"><Task time="1">VEIL01</Task><Task time="6"></Task></Jour>
-		<Jour number="3"><Task time="1">CUL02</Task><Task time="6"></Task></Jour>
-		<Jour number="4"><Task time="7">INS PRO</Task></Jour>
-		<Jour number="5"><Task time="7"></Task></Jour>
+		<Jour number="1" >
+			<Task time="5">WP99</Task>
+			<Task time="2">WP99</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="2">ALGO02</Task>
+			<Task time="2">WP99</Task>
+			<Task time="2">PHP01</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="1">CUL02</Task>
+			<Task time="1">HTML99</Task>
+			<Task time="5">PHP01</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="3">INSPRO01</Task>
+			<Task time="3">Debrief Mentor me up</Task>
+			<Task time="3">INSPRO02</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="2">PHP01</Task>
+			<Task time="3">CA00</Task>
+			<Task time="2">WP99</Task>
+		</Jour>
 	</Semaine>
 	<Semaine number="26">
 		<Jour number="1" ><Task time="7"></Task></Jour>
@@ -70,7 +90,10 @@
 		</Jour>
 		<Jour number="3"><Task time="7"></Task></Jour>
 		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5">
+			<Task time="4">INSPRO3</Task>
+			<Task time="3">INSPRO4</Task>
+		</Jour>
 	</Semaine>
 
 	

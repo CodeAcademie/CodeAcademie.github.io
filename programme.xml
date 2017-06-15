@@ -371,19 +371,7 @@
 				</Activite>
 			</Sequence>
 		</Module>
-		<Module group='Insertion Pro' language='Transverse'>
-			<Objectif>Avoir le Savoir Etre et le Faire Savoir nécessaire pour être employable</Objectif>
-			<Sequence>
-				<Objectif>Insertion Professionnelle Fabrice</Objectif>
-				<Activite>
-					<Objectif>Insertion Professionelle gérée par Fabrice</Objectif>
-					<Code>INS PRO</Code>
-					<Temps>7h</Temps>
-					<SousObjectif>Programme de Fabrice</SousObjectif>
-				</Activite>
-			</Sequence>
-
-		</Module>
+		
 		<Module group='Insertion Pro' language='Transverse'>
 			<Objectif>Réaliser une projet professionnel de A à Z afin de répondre a la certification</Objectif>
 			<Sequence>
