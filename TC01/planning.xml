@@ -56,8 +56,8 @@
 	</Semaine>
 	<Semaine number="25">
 		<Jour number="1" >
-			<Task time="5">WP99</Task>
-			<Task time="2">WP99</Task>
+			<Task time="5">PHP01</Task>
+			<Task time="2">PHP01</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
