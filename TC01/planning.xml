@@ -97,10 +97,11 @@
 			<Task time="4">WP99</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CA00</Task>
+			<Task time="3">INSPRO3</Task>
+			<Task time="4">CA00</Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="4">INSPRO3</Task>
+			<Task time="4">CA00</Task>
 			<Task time="3">INSPRO4</Task>
 		</Jour>
 	</Semaine>
