@@ -53,9 +53,9 @@
 					<Objectif>Veille de la vie rennaise</Objectif>
 					<Code>VEIL01</Code>
 					<Description>A réaliser de manière hebdo : 
-						- Feedback du responsable TT 
-						- Feedback du responsable FB
-						- Que se passes-t-il dans la région?
+- Feedback du responsable TT 
+- Feedback du responsable FB
+- Que se passes-t-il dans la région?
 					</Description>
 				</Activite>
 				<Activite>
@@ -182,6 +182,11 @@
 					<Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
 				</Activite>
 				<Activite>
+					<Objectif>Position et typos</Objectif>
+					<Code>HTML04</Code>
+					<Description>Exercice préparé par Lise Poirier .</Description>
+				</Activite>
+				<Activite>
 					<Objectif>Boilerplate</Objectif>
 					<Code>NONDEFINED</Code>
 					<Description>
@@ -235,13 +240,13 @@
 					<Objectif>Projet professionnel sous Wordpress</Objectif>
 					<Code>WP99</Code>
 					<Description>
-						Pour chaque projet pro:
-							* Définition des groupes
-							* Création d'un dépot sur bitbucket
-							* Analyse du besoin
-							* Elaboration d'une expression de besoin
-							* Concertation régulière avec le client
-							* Elaboration des lots d'évolution
+Pour chaque projet pro:
+	* Définition des groupes
+	* Création d'un dépot sur bitbucket
+	* Analyse du besoin
+	* Elaboration d'une expression de besoin
+	* Concertation régulière avec le client
+	* Elaboration des lots d'évolution
 						
 					</Description>
 				</Activite>
@@ -277,11 +282,34 @@
 					</Description>
 				</Activite>
 				<Activite>
-					<Objectif>Découvrir les fonctions de base du PHP</Objectif>
+					<Objectif>Création d'un formulaire en PHP</Objectif>
+					<SousObjectif>Formulaire/DTD/XML/PHP</SousObjectif>
 					<Code>PHP01</Code>
 					<Description>
-						Par binomes, réaliser les exercices suivants : 
-							* https://github.com/simplonco/php-training-baseœ
+						https://github.com/CodeAcademie/PHP01
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Approfondissement des boucles en PHP</Objectif>
+					<Code>PHP02</Code>
+					<Description>
+						Manipuler une structure JSON. Et utiliser des méthodes pour parcourir des tableaux.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Découverte de la relation BDD-PHP</Objectif>
+					<SousObjectif>SQL/PHP/UML</SousObjectif>
+					<Code>PHP11</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP11
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Challenges de PHP</Objectif>
+					<SousObjectif>PHP/Algo</SousObjectif>
+					<Code>PHP99</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP99
 					</Description>
 				</Activite>
 			</Sequence>
