@@ -134,6 +134,10 @@
 					<Objectif>Initiation à la veille technologique</Objectif>
 					<Code>CUL01</Code>
 				</Activite>
+				<Activite>
+					<Objectif>Presentation A.Bouttier : Les Media Queries</Objectif>
+					<Code>CUL10</Code>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Avoir les skills technique d'un développeur</Objectif>
