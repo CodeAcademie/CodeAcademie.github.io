@@ -138,6 +138,10 @@
 					<Objectif>Presentation A.Bouttier : Les Media Queries</Objectif>
 					<Code>CUL10</Code>
 				</Activite>
+				<Activite>
+					<Objectif>Presentation M.Elhadioui : Les Expressions régulières</Objectif>
+					<Code>CUL11</Code>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Avoir les skills technique d'un développeur</Objectif>
@@ -309,6 +313,14 @@ Pour chaque projet pro:
 					</Description>
 				</Activite>
 				<Activite>
+					<Objectif>Les expressions régulières en PHP</Objectif>
+					<SousObjectif>PHP/RexExp</SousObjectif>
+					<Code>PHP12</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP12
+					</Description>
+				</Activite>
+				<Activite>
 					<Objectif>Challenges de PHP</Objectif>
 					<SousObjectif>PHP/Algo</SousObjectif>
 					<Code>PHP99</Code>
@@ -421,6 +433,13 @@ Présentation du projet au Formateur / Promo.
 	Pourquoi
 2) Ecrire la liste des fonctionnalités attendues. 
 3) Ecrire le cahier des charges
+3) Ecrire l'expression de besoin
+4) Définir des lots d'évolutions
+5) Sprint #01  : 
+	5.1) Spec fonctionnelle
+	5.2) Spec technique
+	5.3) Developpement
+6) Sprint #02 : ...
 					</Description>
 				</Activite>
 			</Sequence>

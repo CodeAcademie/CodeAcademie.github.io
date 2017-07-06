@@ -11,7 +11,8 @@
 			<Task time="5">WP99</Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="7">ALGO</Task>
+			<Task time="6">ALGO</Task>
+			<Task time="1">PHP99</Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="3">HTML04</Task>
@@ -25,12 +26,16 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="28">
-		<Jour number="1" ferie="true"><Task time="7">Work@Home</Task></Jour>
+		<Jour number="1" ferie="true">
+			<Task time="7">Work@Home</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="6">CA00</Task>
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="3">
+			<Task time="7">WP99</Task>
+		</Jour>
 		<Jour number="4"><Task time="7">INS PRO</Task></Jour>
 		<Jour number="5" ferie='true'><Task time="7">FERIE</Task></Jour>
 	</Semaine>
@@ -38,7 +43,8 @@
 		<Jour number="1" ><Task time="7"></Task></Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="1">CUL11</Task>
+			<Task time="5">PHP12</Task>
 		</Jour>
 		<Jour number="3"><Task time="7"></Task></Jour>
 		<Jour number="4"><Task time="7"></Task></Jour>
