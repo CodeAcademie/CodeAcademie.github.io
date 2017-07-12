@@ -15,8 +15,7 @@
 			<Task time="1">PHP99</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="3">HTML04</Task>
-			<Task time="1">CUL10</Task>
+			<Task time="4">HTML04</Task>
 			<Task time="3">LIBRE </Task>
 		</Jour>
 		<Jour number="5">
@@ -47,7 +46,10 @@
 			<Task time="5">PHP12</Task>
 		</Jour>
 		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="4">
+			<Task time="1">CUL10</Task>
+			<Task time="6"></Task>
+		</Jour>
 		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
 	</Semaine>
 	<Semaine number="30">
