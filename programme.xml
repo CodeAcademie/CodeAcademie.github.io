@@ -142,6 +142,10 @@
 					<Objectif>Presentation M.Elhadioui : Les Expressions régulières</Objectif>
 					<Code>CUL11</Code>
 				</Activite>
+				<Activite>
+					<Objectif>Presentation M.CORMIER : Le jeu de la fourchette</Objectif>
+					<Code>CUL13</Code>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Avoir les skills technique d'un développeur</Objectif>
