@@ -65,16 +65,25 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="30">
-		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="1" >
+			<Task time="7">JS10</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="1">JS99</Task>
+			<Task time="5">JS10</Task>
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="3">
+			<Task time="6">ALGO</Task>
+			<Task time="1">JS99</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">WP99</Task>
+		</Jour>
 		<Jour number="5">
 			<Task time="3">Intervention Big Me Up</Task>
-			<Task time="4">INS PRO</Task>
+			<Task time="2">INS PRO</Task>
+			<Task time="1">CUL14</Task>
 		</Jour>
 	</Semaine>
 </Planning>

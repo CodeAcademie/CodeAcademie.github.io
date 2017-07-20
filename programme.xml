@@ -150,6 +150,10 @@
 					<Objectif>Presentation M.CORMIER : Le jeu de la fourchette</Objectif>
 					<Code>CUL13</Code>
 				</Activite>
+				<Activite>
+					<Objectif>Presentation A.DOUARD: Le référencement SEO</Objectif>
+					<Code>CUL14</Code>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Avoir les skills technique d'un développeur</Objectif>
@@ -222,6 +226,12 @@
                     <Code>JS01</Code>
                     <Description>Coding Dojo : Converting Latin to roman numbers</Description>
                 </Activite>
+                <Activite>
+                    <Objectif>Initiation au JavaScipt</Objectif>
+                    <Code>JS10</Code>
+                    <Description>https://github.com/CodeAcademie/JS10</Description>
+                </Activite>
+                
 			</Sequence>
 			<Sequence>
 				<Objectif>Mettre en place un WP d'une manière pro</Objectif>
