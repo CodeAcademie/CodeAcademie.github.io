@@ -167,6 +167,12 @@
 					<Code>CUL00</Code>
 					<Description>Quels sont les langages Web ? Et c'est quoi leurs spécificités? HTML, CSS, JS, PHP, Ruby, ASP, Java, Applet, CoffeeScript, SQL, Flash, Go, Dart,Python..</Description>
 				</Activite>
+				<Activite>
+					<Objectif>Initiation à l'orienté object</Objectif>
+					<Code>CUL14</Code>
+					<Description>Faites de recherche sur l'orienté objet. Cours / Vidéo etc...
+						Après deux heures de recherche et concertation. Mise en commun de la compréhension en groupe.</Description>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Pratiquer professionellement du HTML</Objectif>
@@ -200,6 +206,40 @@
                     <Objectif>Initiation au JavaScipt</Objectif>
                     <Code>JS01</Code>
                     <Description>Coding Dojo : Converting Latin to roman numbers</Description>
+                </Activite>
+                <Activite>
+                    <Objectif>Initiation au JQuery</Objectif>
+                    <Code>JS11</Code>
+                    <Description>Manipulation de DOM, d'evenements... </Description>
+                </Activite>
+                <Activite>
+                    <Objectif>Pratique du JQuery</Objectif>
+                    <Code>JS12</Code>
+                    <Description>Application pomodoro</Description>
+                </Activite>
+                <Activite>
+                    <Objectif>Découverte de tierces bibliothèques</Objectif>
+                    <Code>JS20</Code>
+                    <Description>Par groupes de 4, partez à la découverte d'une bibliothèque JS : 
+                    	grunt
+                    	gulp
+                    	backbone
+                    	babylon
+                    	d3js
+                    	tweenmax
+                    	phaser
+                    	ember
+                    	chartjs / chartistjs
+
+                   Vous avez un total de 2 heures pour lire de la documentation et vous renseigner sur le sujet. Voire lancer un premier prototype. 
+
+                   Il vous est demandé à la fin de faire une courte présentation de 5-10 minutes sur la bibliothèque concernée.
+                    </Description>
+                </Activite>
+                <Activite>
+                    <Objectif>Pratique du JS</Objectif>
+                    <Code>JS99</Code>
+                    <Description>Chaque semaine, un challenge !</Description>
                 </Activite>
 			</Sequence>
 			<Sequence>
@@ -373,7 +413,7 @@
 		</Module>
 		
 		<Module group='Insertion Pro' language='Transverse'>
-			<Objectif>Réaliser une projet professionnel de A à Z afin de répondre a la certification</Objectif>
+			<Objectif>Répondre aux besoins de la certification</Objectif>
 			<Sequence>
 				<Objectif>Réaliser le projet pour la certification</Objectif>
 				<Activite>
@@ -391,6 +431,14 @@
 							Base de données
 					</Description>
 				</Activite>
+			</Sequence>
+			<Sequence>
+				<Objectif> Valider les ECF </Objectif>
+				<Code>CA01</Code>
+				<Temps></Temps>
+				<Description>
+					Valider les compétences demandées
+				</Description>
 			</Sequence>
 		</Module>
 	</Programme>
