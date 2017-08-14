@@ -508,15 +508,6 @@ Présentation du projet au Formateur / Promo.
 				</Description>
 			</Sequence>
 		</Module>
-		<Module>
-			<Sequence>
-				<Activite>
-					<Code>CERT01</Code>
-					<Objectif>Valider l'ECF : Maquetter une application</Objectif>
-					<Temps>2h</Temps>
-					<Description></Description>
-				</Activite>
-			</Sequence>
-		</Module>
+	
 	</Programme>
 </root>
