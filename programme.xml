@@ -53,9 +53,9 @@
 					<Objectif>Veille de la vie rennaise</Objectif>
 					<Code>VEIL01</Code>
 					<Description>A réaliser de manière hebdo : 
-						- Feedback du responsable TT 
-						- Feedback du responsable FB
-						- Que se passes-t-il dans la région?
+- Feedback du responsable TT 
+- Feedback du responsable FB
+- Que se passes-t-il dans la région?
 					</Description>
 				</Activite>
 				<Activite>
@@ -134,6 +134,30 @@
 					<Objectif>Initiation à la veille technologique</Objectif>
 					<Code>CUL01</Code>
 				</Activite>
+				<Activite>
+					<Objectif>Presentation A.Bouttier : Les Media Queries</Objectif>
+					<Code>CUL10</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Presentation M.Elhadioui : Les Expressions régulières</Objectif>
+					<Code>CUL11</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Presentation E.Duclos : Les droits d'accès sous linux </Objectif>
+					<Code>CUL12</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Presentation M.CORMIER : Le jeu de la fourchette</Objectif>
+					<Code>CUL13</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Presentation A.DOUARD: Le référencement SEO</Objectif>
+					<Code>CUL14</Code>
+				</Activite>
+				<Activite>
+					<Objectif>Presentation V.DUBOIS</Objectif>
+					<Code>CUL15</Code>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Avoir les skills technique d'un développeur</Objectif>
@@ -186,6 +210,11 @@
 					<Objectif>Projet : No Images</Objectif>
 					<Code>HTML02</Code>
 					<Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Position et typos</Objectif>
+					<Code>HTML04</Code>
+					<Description>Exercice préparé par Lise Poirier .</Description>
 				</Activite>
 				<Activite>
 					<Objectif>Boilerplate</Objectif>
@@ -275,13 +304,13 @@
 					<Objectif>Projet professionnel sous Wordpress</Objectif>
 					<Code>WP99</Code>
 					<Description>
-						Pour chaque projet pro:
-							* Définition des groupes
-							* Création d'un dépot sur bitbucket
-							* Analyse du besoin
-							* Elaboration d'une expression de besoin
-							* Concertation régulière avec le client
-							* Elaboration des lots d'évolution
+Pour chaque projet pro:
+	* Définition des groupes
+	* Création d'un dépot sur bitbucket
+	* Analyse du besoin
+	* Elaboration d'une expression de besoin
+	* Concertation régulière avec le client
+	* Elaboration des lots d'évolution
 						
 					</Description>
 				</Activite>
@@ -317,11 +346,42 @@
 					</Description>
 				</Activite>
 				<Activite>
-					<Objectif>Découvrir les fonctions de base du PHP</Objectif>
+					<Objectif>Création d'un formulaire en PHP</Objectif>
+					<SousObjectif>Formulaire/DTD/XML/PHP</SousObjectif>
 					<Code>PHP01</Code>
 					<Description>
-						Par binomes, réaliser les exercices suivants : 
-							* https://github.com/simplonco/php-training-baseœ
+						https://github.com/CodeAcademie/PHP01
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Approfondissement des boucles en PHP</Objectif>
+					<Code>PHP02</Code>
+					<Description>
+						Manipuler une structure JSON. Et utiliser des méthodes pour parcourir des tableaux.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Découverte de la relation BDD-PHP</Objectif>
+					<SousObjectif>SQL/PHP/UML</SousObjectif>
+					<Code>PHP11</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP11
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Les expressions régulières en PHP</Objectif>
+					<SousObjectif>PHP/RexExp</SousObjectif>
+					<Code>PHP12</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP12
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Challenges de PHP</Objectif>
+					<SousObjectif>PHP/Algo</SousObjectif>
+					<Code>PHP99</Code>
+					<Description>
+						https://github.com/CodeAcademie/PHP99
 					</Description>
 				</Activite>
 			</Sequence>
@@ -419,16 +479,23 @@
 				<Activite>
 					<Objectif>Définir le besoin</Objectif>
 					<Code>CA00</Code>
-					<Temps>7h</Temps>
+					<Temps>21h</Temps>
 					<Description>
-						Présentation du projet au Formateur / Promo.
-						Définition du scope :
-							Qui
-							Quoi
-							Comment
-							Pourquoi
-							Liste des fonctionnalités
-							Base de données
+Présentation du projet au Formateur / Promo.
+1) Définition du scope :
+	Qui
+	Quoi
+	Comment
+	Pourquoi
+2) Ecrire la liste des fonctionnalités attendues. 
+3) Ecrire le cahier des charges
+3) Ecrire l'expression de besoin
+4) Définir des lots d'évolutions
+5) Sprint #01  : 
+	5.1) Spec fonctionnelle
+	5.2) Spec technique
+	5.3) Developpement
+6) Sprint #02 : ...
 					</Description>
 				</Activite>
 			</Sequence>
@@ -439,6 +506,16 @@
 				<Description>
 					Valider les compétences demandées
 				</Description>
+			</Sequence>
+		</Module>
+		<Module>
+			<Sequence>
+				<Activite>
+					<Code>CERT01</Code>
+					<Objectif>Valider l'ECF : Maquetter une application</Objectif>
+					<Temps>2h</Temps>
+					<Description></Description>
+				</Activite>
 			</Sequence>
 		</Module>
 	</Programme>

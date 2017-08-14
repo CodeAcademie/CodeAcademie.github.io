@@ -2,13 +2,22 @@
 <!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
 <Planning >
 	<Semaine number="27">
-		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="1" >
+			<Task time="7">PHP11</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="1">PHP99</Task>
+			<Task time="5">WP99</Task>
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
+		<Jour number="3">
+			<Task time="6">ALGO</Task>
+			<Task time="1">PHP99</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="4">HTML04</Task>
+			<Task time="3">LIBRE </Task>
+		</Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO</Task>
 			<Task time="1">Intervention HTMY</Task>
@@ -16,133 +25,65 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="28">
-		<Jour number="1" ferie="true"><Task time="7">Work@Home</Task></Jour>
+		<Jour number="1" ferie="true">
+			<Task time="7">Work@Home</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="6">CA00</Task>
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="3">
+			<Task time="7">WP99</Task>
+		</Jour>
 		<Jour number="4"><Task time="7">INS PRO</Task></Jour>
-		<Jour number="5" ferie='true'></Jour>
+		<Jour number="5" ferie='true'><Task time="7">FERIE</Task></Jour>
 	</Semaine>
 	<Semaine number="29">
-		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="1" >
+			<Task time="1">CUL12</Task>
+			<Task time="4">ALGO</Task>
+			<Task time="2">PHP11</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="6">WP99</Task>
+			
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="3">
+			<Task time="1">CUL13</Task>
+			<Task time="3">PHP11</Task>
+			<Task time="3">JS10</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="1">CUL10</Task>
+			<Task time="1">CUL11</Task>
+			<Task time="5">WP99</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="3">Intervention DOLMEN</Task>
+			<Task time="4">INS PRO</Task>
+		</Jour>
 	</Semaine>
 	<Semaine number="30">
-		<Jour number="1" ><Task time="7"></Task></Jour>
+		<Jour number="1" >
+			<Task time="7">JS10</Task>
+		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
-		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
-	</Semaine>
-	<!--Semaine number="24">
-		<Jour number="1">
-			<Task time="2">XML02</Task>
-			<Task time="1">BRAIN02</Task>
-			<Task time="4">HTML05</Task>
-		</Jour>
-		<Jour number="2">
-			<Task time="1">CUL00</Task>
-			<Task time="1">CUL05</Task>
-			<Task time="5">PROJ</Task>
+			<Task time="1">JS99</Task>
+			<Task time="5">JS10</Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="1">CUL04</Task>
-			<Task time="1">HTML09</Task>
-			<Task time="3">PROJ</Task>
-			<Task time="2">HTML09</Task>
-		</Jour>
-		<Jour number="4" ferie="true">
-			<Task time="3">INS PRO</Task>
-			<Task time="4">GIT01</Task>
-		</Jour>
-		<Jour number="5">
-			<Task time="3">PROJ</Task>
-			<Task time="4">HTML09</Task>
-		</Jour>
-	</Semaine>
-	<Semaine number="25">
-		<Jour number="1">
-			<Task time="4">PROJ</Task>
-			<Task time="3">ALGO01</Task>
-		</Jour>
-		<Jour number="2">
-			<Task time="4">PROJ</Task>
-			<Task time="3">JS11</Task>
-		</Jour>
-		<Jour number="3">
-			<Task time="4">HTML09</Task>
-			<Task time="1">COD01</Task>
-			<Task time="2">JS11</Task>
-		</Jour>
-		<Jour number="4" ferie="true">
-			<Task time="7">INS PRO</Task>
-		</Jour>
-		<Jour number="5">
-			<Task time="3">HTML09</Task>
-			<Task time="4">CUL00</Task>
-		</Jour>
-	</Semaine>
-	<Semaine number="26">
-		<Jour number="1">
-			<Task time="3">HTML09</Task>
-			<Task time="4">COD01</Task>
-		</Jour>
-		<Jour number="2">
-			<Task time="3">ALGO02</Task>
-			<Task time="4">COD01</Task>
-		</Jour>
-		<Jour number="3">
-			<Task time="3">PROJ</Task>
-			<Task time="3">JS11</Task>
-			<Task time="1">JS12</Task>
+			<Task time="6">ALGO</Task>
+			<Task time="1">JS99</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="3">PROJ</Task>
-			<Task time="3">JS12</Task>
-			<Task time="1">GIT</Task>
+			<Task time="7">WP99</Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="2">JS11</Task>
-			<Task time="1">CUL00</Task>
-			<Task time="2">COD01</Task>
-			<Task time="2">ALGO02</Task>
+			<Task time="3">Intervention Big Me Up</Task>
+			<Task time="2">INS PRO</Task>
+			<Task time="1">CUL14</Task>
 		</Jour>
 	</Semaine>
-	<Semaine number="27">
-		<Jour number="1">
-			<Task time="3">JS11</Task>
-			<Task time="4">COD01</Task>
-		</Jour>
-		<Jour number="2">
-			<Task time="3">XML02</Task>
-			<Task time="1">JS12</Task>
-			<Task time="3">XML02</Task>
-		</Jour>
-		<Jour number="3">
-			<Task time="1">PROJ</Task>
-			<Task time="2">JS11</Task>
-			<Task time="3">ALGO02</Task>
-			<Task time="1">CUL00</Task>
-		</Jour>
-		<Jour number="4">
-			<Task time="7">INS PRO</Task>
-		</Jour>
-		<Jour number="5">
-			<Task time="4">COD01</Task>
-			<Task time="2">ALGO02</Task>
-			<Task time="1">CUL00</Task>
-		</Jour>
-	</Semaine -->
-
 </Planning>
