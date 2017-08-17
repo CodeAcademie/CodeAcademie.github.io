@@ -19,13 +19,12 @@
 		<Jour number="1" ferie="true"><Task time="7">Work@Home</Task></Jour>
 		<Jour number="2" ferie="true"><Task time="7">FERIE</Task></Jour>
 		<Jour number="3">
-			<Task time="3">JS11</Task>
-			<Task time="3">JS12</Task>
+			<Task time="6">JS11</Task>
 			<Task time="1">JS99</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="1">CUL15</Task>
-			<Task time="5">WP99</Task>
+			<Task time="3">JS12</Task>
+			<Task time="3">WP99</Task>
 			<Task time="1">Prépa MEETUP</Task>
 		</Jour>
 		<Jour number="5">
