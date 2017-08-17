@@ -52,7 +52,7 @@
 		<Jour number="4">
 			<Task time="7">WP99</Task>
 		</Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5"><Task time="7"></Task></Jour>
 	</Semaine>
 	<Semaine number="35">
 		<Jour number="1" >
@@ -62,8 +62,8 @@
 			<Task time="1">VEIL01</Task>
 			<Task time="6"></Task>
 		</Jour>
-		<Jour number="3"><Task time="7"></Task></Jour>
+		<Jour number="3"><Task time="7">INS PRO</Task></Jour>
 		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7">INS PRO</Task></Jour>
+		<Jour number="5"><Task time="7"></Task></Jour>
 	</Semaine>
 </Planning>
