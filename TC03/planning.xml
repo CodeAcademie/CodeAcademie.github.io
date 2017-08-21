@@ -41,7 +41,8 @@
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6">JS12</Task>
+			<Task time="2">SQL10</Task>
+			<Task time="4">WP99</Task>
 		</Jour>
 		<Jour number="3">
 			<Task time="3">CA01</Task>

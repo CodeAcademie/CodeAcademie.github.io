@@ -329,6 +329,14 @@ Pour chaque projet pro:
 						5) Quels champs seront répetitifs? Est-il possible d'en générer des tables en 1,n . Et/Ou que suis-je en train de vous demander  de faire ?
 					</Description>
 				</Activite>
+				<Activite>
+					<Objectif>Création de modéle SQL</Objectif>
+					<Code>SQL10</Code>
+					<Description>Les apprenants découvrent la modélisation de base ainsi que la normalisation via la création d'une base de donnée représentant les apprenants de la promotion. Un debrief avec les réflexions de chacun sera faîtes à la fin. Possibilité de le faire en manuscrit ou avec MYSQL workbench</Description>
+				</Activite>
+				<Activite>
+					<Objectif></Objectif>
+				</Activite>
 			</Sequence>
 			<Sequence>
 				<Objectif>Pratiquer professionellement du PHP</Objectif>	
@@ -481,21 +489,21 @@ Pour chaque projet pro:
 					<Code>CA00</Code>
 					<Temps>21h</Temps>
 					<Description>
-Présentation du projet au Formateur / Promo.
-1) Définition du scope :
-	Qui
-	Quoi
-	Comment
-	Pourquoi
-2) Ecrire la liste des fonctionnalités attendues. 
-3) Ecrire le cahier des charges
-3) Ecrire l'expression de besoin
-4) Définir des lots d'évolutions
-5) Sprint #01  : 
-	5.1) Spec fonctionnelle
-	5.2) Spec technique
-	5.3) Developpement
-6) Sprint #02 : ...
+						Présentation du projet au Formateur / Promo.
+						1) Définition du scope :
+							Qui
+							Quoi
+							Comment
+							Pourquoi
+						2) Ecrire la liste des fonctionnalités attendues. 
+						3) Ecrire le cahier des charges
+						3) Ecrire l'expression de besoin
+						4) Définir des lots d'évolutions
+						5) Sprint #01  : 
+							5.1) Spec fonctionnelle
+							5.2) Spec technique
+							5.3) Developpement
+						6) Sprint #02 : ...
 					</Description>
 				</Activite>
 			</Sequence>

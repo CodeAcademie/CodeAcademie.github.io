@@ -24,25 +24,23 @@
 					<Objectif>Concevoir une application Web avec jQuery</Objectif>
 					<Code>JS20</Code>
 					<Description>
-Video Initiation à JQuery	https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84
-						
-Video La méthode pour manipuler les attributs HTML avec le Framework jQuery
- : https://www.youtube.com/watch?v=7l2x-1nPzUk
+						Video Initiation à JQuery	https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84
+												
+						Video La méthode pour manipuler les attributs HTML avec le Framework jQuery
+						 : https://www.youtube.com/watch?v=7l2x-1nPzUk
 
-Video JQuery : Centrer une div : https://www.grafikart.fr/tutoriels/jquery/centrer-div-294
-
-
+						Video JQuery : Centrer une div : https://www.grafikart.fr/tutoriels/jquery/centrer-div-294
 					</Description>
 				</Activite>
 				<Activite>
 					<Objectif>Pratiquer jQuery</Objectif>
 					<Code>JS21</Code>
 					<Description>
-Soit par projets : 
- * Exercices_JQuery_Pomodoro
- * Exercices_JQuery_tic-tac-toe
-Soit par exercices : 
- * Exercices-JQuery-Partie-[1-4]
+						Soit par projets : 
+						 * Exercices_JQuery_Pomodoro
+						 * Exercices_JQuery_tic-tac-toe
+						Soit par exercices : 
+						 * Exercices-JQuery-Partie-[1-4]
 					</Description>
 				</Activite>
 			</Sequence>
