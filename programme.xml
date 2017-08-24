@@ -563,10 +563,60 @@
 			<Sequence>
 				<Objectif> Valider les ECF </Objectif>
 
-				<Code>CERT01</Code>
-				<Description>
-					Valider les compétences demandées dans le react. Pour le CERT01 elles sont : 
-				</Description>
+				<Activite>
+					<Objectif>Maquetter une application</Objectif>
+					<Code>CERT01</Code>
+					<Description>
+						Valider les compétences demandées dans le react. Pour le CERT01 il s'agit de maquetter une application. Selon le react, il vous est demandé que : 
+						- La maquette prend en compte les spécificités fonctionnelles décrites dans le cas d'utilisation ou le scénario utilisateur.
+						- L'enchaînement des écrans est formalisé avec un diagramme UML.
+						- La maquette respecte la charte graphique de l'entreprise.
+						- La maquette est conforme aux comportements de l'utilisateur.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Développer une interface liée à une base de donnée</Objectif>
+					<Code>CERT02</Code>
+					<Description>
+						Valider les compétences demandées dans le react. Pour le CERT02 il s'agit de développer une interface liée à une base de donnée. Selon le react, il vous est demandé que : 
+						- L'interface est conforme à la maquette de l'application.
+						- le jeu d'essai fonctionnel est complet.
+						- Le code source des composants est documenté.
+						- Les bonnes pratiques de développement objet sont respectés.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Coder en SQL</Objectif>
+					<Code>CERT03</Code>
+					<Description>
+						Valider les compétences demandées dans le react. Pour le CERT03 il s'agit de coder en SQL. Selon le react, il vous est demandé que : 
+						- Les traitements relatifs aux manipulations des données répondent aux fonctionnalités décrites dans le dossier de traitement technique.
+						- Un test unitaire esst associé à chaque composant.
+						- Le code source des composants est documenté.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Concevoir une base de donnée</Objectif>
+					<Code>CERT04</Code>
+					<Description>
+						Valider les compétences demandées dans le react. Pour le CERT04 il s'agit de concevoir une base de donnée. Selon le react, il vous est demandé que : 
+						- Le schéma entité association couvre les règles de gestion sur les données.
+						- Le schéma respecte le formalisme du modèle entité/association.
+						- Le schéma physique de la base de données est normalisé.
+					</Description>
+				</Activite>
+				<Activite>
+					<Objectif>Mettre en place une base de données</Objectif>
+					<Code>CERT05</Code>
+					<Description>
+						Valider les compétences demandées dans le react. Pour le CERT01 il s'agit de Mettre en place une base de données. Selon le react, il vous est demandé : 
+						- La base de données est confrome au schéma physique
+						- Les règles de nommage sont conformes aux normes qualité de l'entreprise
+						- L'intégrité des données est assurée
+						- La base de données est opérationnelle avec les droits d'accès prévus.
+						- La base de données de test peut être restaurée en cas d'incident. 
+					</Description>
+				</Activite>
 			</Sequence>  <!-- fin sequence Valider les ECF-->
 
 		</Module> <!-- fin module Répondre aux besoins de la certification -->
