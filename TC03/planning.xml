@@ -50,9 +50,7 @@
 			<Task time="2">MEETUP</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="3">WP99</Task>
-			<Task time="3">SQL11</Task>
-			<Task time="1">SQL12</Task>
+			<Task time="7">WP99</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
