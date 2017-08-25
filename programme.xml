@@ -249,6 +249,11 @@
 					<Description>Cet exercice est à faire dans les conditions d'un entretien d'embauche pour le poste d'intégrateur web. Une maquette leur ai donné et ils ont 3h30 pour l'intégrer (le plus possible). Le but est de leur faire prendre conscience de leur capacité de travail et de leur efficacité dans ce temps donné et de leur montrer le phénoméne d'apprentissage.</Description>
 				</Activite>
 				<Activite>
+					<Objectif>Créer une maquette en utilisant des outils adaptés</Objectif>
+					<Code>CSS13</Code>
+					<Description>Les apprenants réalisent une maquette à partir d'un cahier des charges succints</Description>
+				</Activite>
+				<Activite>
 					<Objectif>Découvrir SASS et la compilation</Objectif>
 					<Code>CSS20</Code>
 					<Description>Dans un premier temps, il leur est donnée un peu moins d'une demi-journée pour préparer leur environnement de travail en SASS. Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>

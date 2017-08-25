@@ -55,8 +55,7 @@
 			<Task time="1">SQL12</Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="3">INS PRO</Task>
-			<Task time="4">CSS12</Task>
+			<Task time="7">INS PRO</Task>
 		</Jour>
 	</Semaine>
 	<Semaine number="35">
@@ -71,7 +70,7 @@
 			<Task time="4">CERT01</Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="7">CERT02</Task>
+			<Task time="7">JS</Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="7">CA00</Task>
