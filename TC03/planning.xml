@@ -69,7 +69,8 @@
       
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CERT01</Task>
+			<Task time="5">CERT01</Task>
+			<Task time="2">JS99</Task>
 		</Jour>
 		<Jour number="5">
        <Task time="6">SQL13</Task>
