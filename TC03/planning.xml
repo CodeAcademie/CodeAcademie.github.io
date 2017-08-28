@@ -1,4 +1,4 @@
-<?xml version = "1.0" encoding="UTF-8" ?>
+﻿<?xml version = "1.0" encoding="UTF-8" ?>
 <!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
 <Planning>
 	<Semaine number="31">
@@ -40,18 +40,20 @@
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6">JS12</Task>
+			<Task time="2">SQL10</Task>
+			<Task time="4">WP99</Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="3">CA01</Task>
-			<Task time="3">JS20</Task>
-			<Task time="1">JS99</Task>
+			<Task time="3">SQL11</Task>
+			<Task time="4">WP99</Task>
 			<Task time="2">MEETUP</Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="7">WP99</Task>
 		</Jour>
-		<Jour number="5"><Task time="7"></Task></Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
+		</Jour>
 	</Semaine>
 	<Semaine number="35">
 		<Jour number="1" >
@@ -59,10 +61,18 @@
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6"></Task>
+			<Task time="6">CSS20</Task>
 		</Jour>
-		<Jour number="3"><Task time="7">INS PRO</Task></Jour>
-		<Jour number="4"><Task time="7"></Task></Jour>
-		<Jour number="5"><Task time="7"></Task></Jour>
+		<Jour number="3">
+			<Task time="7">INS PRO</Task>
+      
+		</Jour>
+		<Jour number="4">
+			<Task time="7">CERT01</Task>
+		</Jour>
+		<Jour number="5">
+       <Task time="6">SQL13</Task>
+<Task time="1">CUL16</Task>
+		</Jour>
 	</Semaine>
 </Planning>
