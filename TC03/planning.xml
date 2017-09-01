@@ -72,8 +72,7 @@
 		</Jour>
 		<Jour number="5">
        <Task time="3">INSPRO</Task>
-       <Task time="3">SQL13</Task>
-<Task time="1">CUL16</Task>
+       <Task time="4">SQL13</Task>
 		</Jour>
 	</Semaine>
 </Planning>
