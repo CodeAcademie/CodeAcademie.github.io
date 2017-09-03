@@ -164,6 +164,7 @@
          <Activite><!-- A Beauverger : Les BDD  -->
           <Objectif>Presentation A Beauverger : Les BDD </Objectif>
           <Code>CUL16</Code>
+	  <Description></Description>
         </Activite>
       </Sequence>
       <!-- fin séquence Découvrir les soft skills clés d'un développeur Web -->
