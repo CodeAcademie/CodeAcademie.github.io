@@ -8,7 +8,8 @@
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6">WP99</Task>
+			<Task time="2">POO01</Task>
+			<Task time="4">WP99</Task>
 		</Jour>
 		<Jour number="3">
        		<Task time="7">CA00</Task>
