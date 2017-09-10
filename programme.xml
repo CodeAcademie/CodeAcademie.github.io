@@ -166,6 +166,13 @@
           <Code>CUL16</Code>
 	  <Description></Description>
         </Activite>
+        
+        <Activite><!-- A Beauverger : Les BDD  -->
+          <Objectif>Les chartes graphiques </Objectif>
+          <Code>DESIGN01</Code>
+          <Description>Ce qu'il faut faire et ne pas faire avec un designer. </Description>
+        </Activite>
+        
       </Sequence>
       <!-- fin séquence Découvrir les soft skills clés d'un développeur Web -->
       <Sequence>
@@ -188,6 +195,11 @@
           <Objectif>Exercice : Coding Game</Objectif>
           <Code>COD01</Code>
           <Description>Coding Game : THOR</Description>
+        </Activite>
+         <Activite>
+          <Objectif>OPQUAST</Objectif>
+          <Code>OPQUAST</Code>
+          <Description>Exercices sur la plateforme d'OPQUAST</Description>
         </Activite>
       </Sequence>
       <!-- fin sequence Avoir les skills technique d'un développeur -->
@@ -253,7 +265,8 @@
         <Activite>
           <Objectif>Découvrir SASS et la compilation</Objectif>
           <Code>CSS20</Code>
-          <Description>Dans un premier temps, il leur est donnée un peu moins d'une demi-journée pour préparer leur environnement de travail en SASS. Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>
+          <Description>Dans un premier temps, les apprenants devront en un peu moins d'une demi-journée, préparer leur environnement de travail en SASS. 
+            Il est attendu à ce que l'installation soit réalisée par le biais de npm et non ruby.Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>
         </Activite>
       </Sequence>
       <!-- Développer en CSS avec des bonnes pratiques -->
@@ -549,6 +562,39 @@
 						6) Sprint #02 : ...
 					</Description>
         </Activite>
+        <Activite>
+          <Objectif>Analyse du besoin</Objectif>
+          <Code>CA10</Code>
+          <Temps>7h</Temps>
+          <Description>
+            Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
+            Par groupes
+            1) Réaliser une veille des technologies à utiliser.
+            2) En fonction de votre language de prédilection, definissez le framework à mettre en place. 
+            3) Après une lecture attentive du cahier des charges, cherchez les bibliothèes que vous aimeriez utiliser.
+            3) Réserver 1h30 en fin de journée pour :
+              - Présenter votre projet et vos choix technologiques au reste de la table
+              - Débattre sur les choix réalisés. 
+            4) S'il vous reste du temps, commencer à préparer l'environnement de travail. 
+          </Description>
+        </Activite>
+         <Activite>
+          <Objectif>Planification de la charge</Objectif>
+          <Code>CA20</Code>
+          <Temps>7h</Temps>
+          <Description>
+            Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
+            Individuellement :
+            1) Méthode agile + Estimation des durées
+            2)  En estimant à un lot d'évolution par mois. Vous aurez un jour par semaine + deux WE par mois pour la réalisation des taches. 
+              3) Sprint #01  : 
+                3.1) Spec fonctionnelle
+                3.2) Spec technique
+                3.3) Developpement
+              4) Sprint #02 : ...
+          </Description>
+        </Activite>
+        Définir des lots d'évolutions.  
       </Sequence>
       <!-- fin sequence Réaliser le projet pour la certification -->
       <Sequence>

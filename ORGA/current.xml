@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM '../programmePedago.dtd'>
+<?xml-stylesheet href="../styleProgrammePedago.css" type="text/css" ?>
+<Planning >
+	<Semaine number=" ??">
+		<Jour number="1">
+			<Task time="3">Erwann</Task>
+			<Task time="1"> </Task>
+			<Task time="3">Erwann</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">Lise</Task>
+		</Jour>
+
+		<Jour number="3">
+			<Task time="7">Erwann </Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">Erwann </Task>
+			
+		</Jour>
+		<Jour number="5">
+			<Task time="7">Fabrice</Task>
+		</Jour>	
+	</Semaine>
+</Planning>

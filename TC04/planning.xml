@@ -24,17 +24,19 @@
 	</Semaine>
 	<Semaine number="37">
 		<Jour number="1" >
-			<Task time="7">CSS20</Task>
+			<Task time="3">OPQUAST</Task>
+			<Task time="4">CSS20</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="1">VEIL01</Task>
-			<Task time="6">POO01</Task>
+			<Task time="1">DESIGN01</Task>
+			<Task time="5">CSS20</Task>
 		</Jour>
 		<Jour number="3">
      		<Task time="7">WP99</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CERT02</Task>
+			<Task time="7">CA10</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
@@ -45,7 +47,8 @@
 			<Task time="7">FORK</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="7">FORK</Task>
+			<Task time="1">VEIL01</Task>
+			<Task time="6">FORK</Task>
 		</Jour>
 		<Jour number="3">
      		<Task time="7">FORK</Task>
@@ -59,7 +62,7 @@
 	</Semaine>
 			<Semaine number="39">
 		<Jour number="1" >
-			<Task time="7"></Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="7"></Task>
