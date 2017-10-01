@@ -1,26 +1,73 @@
 <?xml version = "1.0" encoding="UTF-8" ?>
 <!DOCTYPE Planning  SYSTEM '../programmePedago.dtd'>
-<?xml-stylesheet href="../styleProgrammePedago.css" type="text/css" ?>
-<Planning >
-	<Semaine number=" ??">
+<?xml-stylesheet href="../css/style.css" type="text/css" ?>
+
+<Planning>
+	<Semaine number="Erwann">
 		<Jour number="1">
-			<Task time="3">Erwann</Task>
-			<Task time="1"> </Task>
-			<Task time="3">Erwann</Task>
+			<Task time="3">123 Veto</Task>
+			<Task time="1">ASSO MATHI</Task>
+			<Task time="3">ALGO</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="7">Lise</Task>
+			<Task time="4">123 Veto</Task>
+			<Task time="3">ASSO MATHI</Task>
 		</Jour>
 
 		<Jour number="3">
-			<Task time="7">Erwann </Task>
+			<Task time="4">123 Veto</Task>
+			<Task time="3">ASSO MATHI</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">Erwann </Task>
-			
+			<Task time="7">CERT</Task>
 		</Jour>
-		<Jour number="5">
-			<Task time="7">Fabrice</Task>
+		<Jour number="5" ferie="true">
+			<Task time="7"></Task>
+		</Jour>	
+	</Semaine>
+
+	<Semaine number="Lise">
+		<Jour number="1">
+			<Task time="3">APEX</Task>
+			<Task time="1"> </Task>
+			<Task time="3">ASSO MATHI</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">ASSO MATHI</Task>
+			<Task time="4">FRONT ?</Task>
+		</Jour>
+
+		<Jour number="3">
+			<Task time="3">ASSO MATHI</Task>
+			<Task time="4">FRONT ?</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="3">ASSO MATHI</Task>
+			<Task time="4">FRONT ?</Task>
+		</Jour>
+		<Jour number="5" ferie="true">
+			<Task time="7"></Task>
+		</Jour>	
+	</Semaine>
+
+	<Semaine number="Cheunn">
+		<Jour number="1">
+			<Task time="7">LA BOUEE</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">LA BOUEE</Task>
+		</Jour>
+
+		<Jour number="3">
+			<Task time="6">LA BOUEE</Task>
+			<Task time="1">GIT</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="6">LA BOUEE</Task>
+			<Task time="1">NPM</Task>
+		</Jour>
+		<Jour number="5" ferie="true">
+			<Task time="7"></Task>
 		</Jour>	
 	</Semaine>
 </Planning>
