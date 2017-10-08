@@ -263,6 +263,11 @@
           <Description>Les apprenants réalisent une maquette à partir d'un cahier des charges succints</Description>
         </Activite>
         <Activite>
+          <Objectif>Approfondir le CSS</Objectif>
+          <Code>CSS15</Code>
+          <Description>Intégrer des maquettes</Description>
+        </Activite>
+        <Activite>
           <Objectif>Découvrir SASS et la compilation</Objectif>
           <Code>CSS20</Code>
           <Description>Dans un premier temps, les apprenants devront en un peu moins d'une demi-journée, préparer leur environnement de travail en SASS. 
@@ -356,6 +361,19 @@
 							* Concertation régulière avec le client
 							* Elaboration des lots d'évolution	
 					</Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+         <Objectif>Mettre en place une application en React Native d'une manière pro</Objectif>
+        <Activite done="false">
+          <Objectif>Intégrer une base de données SQLite</Objectif>
+          <Code>RN10</Code>
+          <Description>Reprendre l'application de Reminder. Au sein de cette application, il serait préférable de pouvoir : 
+            - Stocker les informations au sein d'une base de données locales
+            - Rajouter des images et des URL au sein d'un post it
+            - Tester unitairement l'application
+            - Améliorer le design pour que l'application supporte plus de 10 postits 
+          </Description>
         </Activite>
       </Sequence>
       <!-- Mettre en place un WP d'une manière pro -->

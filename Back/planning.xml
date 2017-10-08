@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
+<Planning >
+	<Semaine number="41">
+		<Jour number="1" >
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="1">VEIL01</Task>
+			<Task time="6">CA20</Task>
+		</Jour>
+		<Jour number="3">
+       		<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">OPQUAST</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="42">
+		<Jour number="1" >
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">LA BOUEE</Task>
+		</Jour>
+		<Jour number="3">
+       		<Task time="7">LA BOUEE</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="4">LA BOUEE</Task>
+			<Task time="3">CERT01</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+	</Semaine>
+</Planning>
