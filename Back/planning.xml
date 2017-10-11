@@ -14,7 +14,7 @@
        		<Task time="4">CA20</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">OPQUAST</Task>
+			<Task time="7">MAINTENANT</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO</Task>
@@ -52,11 +52,11 @@
 		</Jour>
 		<Jour number="3">
 			<Task time="3">GB01</Task>
-       		<Task time="4"> </Task>
+       		<Task time="4">OPQUAST</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="4"> </Task>
-			<Task time="3"> </Task>
+			<Task time="4"></Task>
+			<Task time="3">CERT02</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO</Task>
