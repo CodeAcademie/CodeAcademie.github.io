@@ -166,7 +166,11 @@
           <Code>CUL16</Code>
 	  <Description></Description>
         </Activite>
-        
+        <Activite>
+          <Objectif>Cours d'anglais avec le Greta</Objectif>
+          <Code>GB01</Code>
+          <Description>Obtenir les compétences nécessaires en anglais.</Description>
+        </Activite>
         <Activite><!-- A Beauverger : Les BDD  -->
           <Objectif>Les chartes graphiques </Objectif>
           <Code>DESIGN01</Code>
