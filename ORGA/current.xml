@@ -5,9 +5,7 @@
 <Planning>
 	<Semaine number="Erwann">
 		<Jour number="1">
-			<Task time="3">123 Veto</Task>
-			<Task time="1">ASSO MATHI</Task>
-			<Task time="3">ALGO</Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="4">123 Veto</Task>
@@ -28,9 +26,7 @@
 
 	<Semaine number="Lise">
 		<Jour number="1">
-			<Task time="3">APEX</Task>
-			<Task time="1"> </Task>
-			<Task time="3">ASSO MATHI</Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="3">ASSO MATHI</Task>
@@ -52,7 +48,7 @@
 
 	<Semaine number="Cheunn">
 		<Jour number="1">
-			<Task time="7">LA BOUEE</Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="7">LA BOUEE</Task>
