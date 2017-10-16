@@ -29,8 +29,8 @@
 			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="3">ASSO MATHI</Task>
-			<Task time="4">FRONT ?</Task>
+			<Task time="3">VEILLE TECHNOLOGIQUE ET DESIGN (sur react pour le parcours front et choix de site pour le parcours intégration)</Task>
+			<Task time="4">RÉALISATION APP MÉTEO & INTÉGRATION</Task>
 		</Jour>
 
 		<Jour number="3">
