@@ -37,7 +37,7 @@
 		</Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO</Task>
-			<Task time="1">Intervention : Gwenn Houedry</Task>
+			<Task time="1">Gwenn Houedry</Task>
 			<Task time="3">INS PRO</Task>
 		</Jour>
 	</Semaine>
@@ -58,7 +58,7 @@
 		</Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO</Task>
-			<Task time="1">Intervention : Djafar</Task>
+			<Task time="1">Djafar</Task>
 			<Task time="3">INS PRO</Task>
 		</Jour>
 	</Semaine>
