@@ -5,16 +5,16 @@
 	<meta charset='utf-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-	<link rel="stylesheet" href="css/w3.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/w3.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="icon" href="assets/favicon.ico" />
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 	<script type="text/javascript">
 		function openLink(category) {
 		    var req = new XMLHttpRequest();
-		    var queryStr = category+'/planning.xml';
+		    var queryStr = category;
 			req.open('GET', queryStr, false); 
 			req.overrideMimeType('text/xml');
 			req.send(null);
@@ -108,18 +108,18 @@
 </div>
 <div class="w3-dropdown-click">
   <div id="TC" class="w3-dropdown-content w3-card">
-    <a href="#" onclick='openLink("Prairie")'>Prairie</a>
-     <a href="#" onclick='openLink("TC01")'>06 / 17</a>
-     <a href="#" onclick='openLink("TC02")'>07 / 17</a>
-     <a href="#" onclick='openLink("TC03")'>08 / 17</a>
-     <a href="#" onclick='openLink("TC04")'>09 / 17</a>
+    <a href="#" onclick='openLink("Tronc/prairie.xml")'>Prairie</a>
+     <a href="#" onclick='openLink("Tronc/01.xml")'>06 / 17</a>
+     <a href="#" onclick='openLink("Tronc/02.xml")'>07 / 17</a>
+     <a href="#" onclick='openLink("Tronc/03.xml")'>08 / 17</a>
+     <a href="#" onclick='openLink("Tronc/04.xml")'>09 / 17</a>
   </div>
    <div id="Fork" class="w3-dropdown-content w3-card">
-     <a href="#" onclick='openLink("Back")'>Back</a>
-     <a href="#" onclick='openLink("Front")'>Front</a>
-    <a href="#" onclick='openLink("Integ")'>Integ</a>
-     <a href="#" onclick='openLink("Mobile")'>Mobile</a>
-     <a href="#" onclick='openLink("WP")'>Wordpress</a>
+     <a href="#" onclick='openLink("Fork/back.xml")'>Back</a>
+     <a href="#" onclick='openLink("Fork/front.xml")'>Front</a>
+    <a href="#" onclick='openLink("Fork/integ.xml")'>Integ</a>
+     <a href="#" onclick='openLink("Fork/mobile.xml")'>Mobile</a>
+     <a href="#" onclick='openLink("Fork/wp.xml")'>Wordpress</a>
   </div>
 </div>
 

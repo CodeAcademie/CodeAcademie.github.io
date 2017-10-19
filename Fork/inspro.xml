@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+ <!DOCTYPE Programme SYSTEM "programmePedago.dtd">
+<?xml-stylesheet href="css/style.css" type="text/css" ?>
+<root>
+	<Programme>
+		<Module group='Insertion Pro' language='Transverse'>
+			<Objectif>Avoir le Savoir Etre et le Faire Savoir nécessaire pour être employable</Objectif>
+			<Sequence>
+				<Objectif>Insertion Professionnelle Fabrice</Objectif>
+				<Activite>
+					<Objectif>Conscience de soi</Objectif>
+					<Code>INSPRO01</Code>
+					<Temps>2h</Temps>
+					<SousObjectif>Programme de Fabrice</SousObjectif>
+				</Activite>
+				<Activite>
+					<Objectif>L'entreprise</Objectif>
+					<Code>INSPRO02</Code>
+					<Temps>2h</Temps>
+					<SousObjectif>Programme de Fabrice</SousObjectif>
+				</Activite>
+				<Activite>
+					<Objectif>Pitch Code Academie</Objectif>
+					<Code>INSPRO03</Code>
+					<Temps>3h</Temps>
+					<SousObjectif>Programme de Fabrice</SousObjectif>
+				</Activite>
+				<Activite>
+					<Objectif>Etre présent sur les réseaux sociaux</Objectif>
+					<Code>INSPRO04</Code>
+					<Temps>4h</Temps>
+					<SousObjectif>Programme de Fabrice</SousObjectif>
+				</Activite>
+			</Sequence>
+
+		</Module>
+	</Programme>
+</root>

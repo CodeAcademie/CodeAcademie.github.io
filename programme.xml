@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Programme SYSTEM "programmePedago.dtd">
-<?xml-stylesheet href="css/style.css" type="text/css" ?>
+<!DOCTYPE Programme SYSTEM "assets/programmePedago.dtd">
+<?xml-stylesheet href="assets/css/style.css" type="text/css" ?>
 <root>
   <Programme>
     <Module group="Tronc Commun" language="Transverse">
@@ -409,6 +409,34 @@
           <Objectif>Requête de sélection/insertion/insertion MYSQL</Objectif>
           <Code>SQL12</Code>
           <Description>A partir d'une base de donnée fournie dans le repo github, les apprenants crée et exécute un ensemble de requêtes.</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Analyser un cahier des charges pour en soustraire la structure souhaitée</Objectif>
+          <Code>SQL20</Code>
+          <Description>
+            A partir de plusieurs cahier des charges, modéliser la base de données. 
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Générer la base de données associée</Objectif>
+          <Code>SQL30</Code>
+          <Description>
+            A partir des modélisation de base de données réalisées dans le cadre de SQL20, Créer les script de création de base de données 
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Compréhender la structure des fichiers SQL de création DB</Objectif>
+          <Code>SQL40</Code>
+          <Description>
+            A partir des scripts générés en SQL30, analyser ce que sont les contraintes, 
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Compréhender la gestion des comptes utilisateur</Objectif>
+          <Code>SQL50</Code>
+          <Description>
+            Atelier sur les scripts de création d'un compte utilisateur. 
+          </Description>
         </Activite>
       </Sequence>
       <!-- Pratiquer professionellement du SQL-->

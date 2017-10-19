@@ -102,4 +102,10 @@
 			<Task time="3">INS PRO</Task>
 		</Jour>
 	</Semaine>
+	<Semaine number="50">
+	<Jour number="5">
+			<Task time="3">INS PRO</Task>
+			<Task time="4">French Tech</Task>
+		</Jour>
+	</Semaine>
 </Planning>
