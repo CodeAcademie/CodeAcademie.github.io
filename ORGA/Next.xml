@@ -34,16 +34,15 @@
        		<Task time="7"> </Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="4"> </Task>
-			<Task time="3"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="7"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 	</Semaine>
 	<Semaine number="45">
 		<Jour number="1" >
-			<Task time="7">CA20</Task>
+			<Task time="7">SPEC</Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="7"></Task>
@@ -56,7 +55,7 @@
 			<Task time="3"> </Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="7">INS PRO</Task>
+			<Task time="7">Mathieu KERJOUAN</Task>
 		</Jour>
 	</Semaine>
 	<Semaine number="46">
@@ -85,7 +84,7 @@
 			<Task time="4"> </Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="3">v</Task>
+			<Task time="3"></Task>
 			<Task time="4"> </Task>
 		</Jour>
 		<Jour number="3">
