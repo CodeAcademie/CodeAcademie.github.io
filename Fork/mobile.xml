@@ -64,4 +64,39 @@
 			<Task time="3">INS PRO</Task>
 		</Jour>
 	</Semaine>
+	<Semaine number="44">
+		<Jour number="1" >
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+		<Jour number="3" ferie="true">
+       		<Task time="7"> </Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">CA20</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="45">
+		<Jour number="1" >
+			<Task time="7">RN10</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">RN10</Task>
+		</Jour>
+		<Jour number="3">
+       		<Task time="7">RN10</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7"></Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
+		</Jour>
+	</Semaine>
+	</Semaine>
 </Planning>
