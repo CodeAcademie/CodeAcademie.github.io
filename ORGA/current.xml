@@ -26,20 +26,20 @@
 
 	<Semaine number="Lise">
 		<Jour number="1">
-			<Task time="7">CA20</Task>
+			<Task time="7">SQL</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="3">VEILLE TECHNO REACT / DESIGN</Task>
-			<Task time="4">APP'METEO - INTEGRATION</Task>
+			<Task time="3">SQL</Task>
+			<Task time="4">SQL</Task>
 		</Jour>
 
 		<Jour number="3">
-			<Task time="3">APP'METEO - INTEGRATION</Task>
-			<Task time="4">APP'METEO - INTEGRATION</Task>
+			<Task time="3">GB</Task>
+			<Task time="4">OPQUAST</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="3">APP'METEO - INTEGRATION or CERT</Task>
-			<Task time="4">APP'METEO - INTEGRATION or CERT</Task>
+			<Task time="3">CA20</Task>
+			<Task time="4">CERT03</Task>
 		</Jour>
 		<Jour number="5" ferie="true">
 			<Task time="7"></Task>
