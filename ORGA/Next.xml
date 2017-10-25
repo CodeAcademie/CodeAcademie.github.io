@@ -34,7 +34,8 @@
        		<Task time="7"> </Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CA20</Task>
+			<Task time="4">CA20</Task>
+			<Task time="3">CERT03</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">CA20</Task>
@@ -42,17 +43,17 @@
 	</Semaine>
 	<Semaine number="45">
 		<Jour number="1" >
-			<Task time="7">SPEC</Task>
+			<Task time="7">RN10/LA BOUEE/CSS15</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="7"></Task>
+			<Task time="7">RN10/LA BOUEE/CSS15</Task>
 		</Jour>
 		<Jour number="3" >
-       		<Task time="7"> </Task>
+       		<Task time="7">RN10/LA BOUEE/CSS15 </Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="4"> </Task>
-			<Task time="3"> </Task>
+			<Task time="4">RN10/LA BOUEE/CSS15 </Task>
+			<Task time="3">CERT04</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">Mathieu KERJOUAN</Task>
@@ -64,15 +65,14 @@
 		</Jour>
 		<Jour number="2">
 			<Task time="3">GB01</Task>
-			<Task time="4"> </Task>
+			<Task time="4"></Task>
 		</Jour>
 		<Jour number="3">
        		<Task time="3">GB01</Task>
-			<Task time="4"> </Task>
+			<Task time="4">CERT03</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="4"> </Task>
-			<Task time="3"> </Task>
+			<Task time="7">CERT03</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
@@ -127,10 +127,10 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="51">
-		<Jour number="1"><Task time="7"> </Task></Jour>
-		<Jour number="2"><Task time="7"> </Task></Jour>
-		<Jour number="3"><Task time="7"> </Task></Jour>
-		<Jour number="4"><Task time="7"> </Task></Jour>
+		<Jour number="1"><Task time="7">CA20</Task></Jour>
+		<Jour number="2"><Task time="7">CA20</Task></Jour>
+		<Jour number="3"><Task time="7">CA20</Task></Jour>
+		<Jour number="4"><Task time="7">CA20</Task></Jour>
 		<Jour number="5"><Task time="7">INS PRO </Task></Jour>
 	</Semaine>
 	<Semaine number="52">
@@ -147,21 +147,21 @@
 			<Task time="7"> </Task>
 		</Jour>
 		<Jour number="5" ferie="true">
-			<Task time="7">INS PRO </Task>
+			<Task time="7"></Task>
 		</Jour>
 	</Semaine>
 	<Semaine number="1">
 		<Jour number="1" ferie="true">
-			<Task time="7"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="7"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="7"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7"> </Task>
+			<Task time="7">CA20</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO </Task>
@@ -195,7 +195,7 @@
 			<Task time="7">CERTIF</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CERTIF</Task>
+			<Task time="7">INS PRO</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
