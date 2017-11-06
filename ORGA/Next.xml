@@ -52,7 +52,8 @@
 			<Task time="4">CERT03</Task>
 		</Jour>
 		<Jour number="4">
-			<Task time="7">CERT03</Task>
+			<Task time="4">CERT03</Task>
+			<Task time="3">Village By CA</Task>
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
