@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding="UTF-8" ?>
 <!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
 <Planning >
-	<Semaine number="41">
+	<!-- Semaine number="41">
 		<Jour number="1" >
 			<Task time="7">CA20</Task>
 		</Jour>
@@ -42,7 +42,7 @@
 			<Task time="1">Gwenn Houedry</Task>
 			<Task time="3">INS PRO</Task>
 		</Jour>
-	</Semaine>
+	</Semaine >
 	<Semaine number="43">
 		<Jour number="1" >
 			<Task time="3">SQL20</Task>
@@ -82,7 +82,7 @@
 		<Jour number="5">
 			<Task time="7">CA20</Task>
 		</Jour>
-	</Semaine>
+	</Semaine -->
 	<Semaine number="45">
 		<Jour number="1" >
 			<Task time="7">CSS15</Task>
@@ -98,6 +98,25 @@
 		</Jour>
 		<Jour number="5">
 			<Task time="7">Mathieu KERJOUAN</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="46">
+		<Jour number="1" >
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">GB01</Task>
+			<Task time="4">CA20</Task>
+		</Jour>
+		<Jour number="3">
+       		<Task time="3">GB01</Task>
+			<Task time="4">CERT03</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">CERT03</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO</Task>
 		</Jour>
 	</Semaine>
 </Planning>
