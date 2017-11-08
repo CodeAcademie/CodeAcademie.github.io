@@ -65,7 +65,7 @@
 			<Task time="4"> </Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="3"></Task>
+			<Task time="3"> </Task>
 			<Task time="4"> </Task>
 		</Jour>
 		<Jour number="3">
