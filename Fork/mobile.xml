@@ -80,7 +80,7 @@
 		<Jour number="5">
 			<Task time="7">CA20</Task>
 		</Jour>
-	</Semaine -->
+	</Semaine>
 	<Semaine number="45">
 		<Jour number="1" >
 			<Task time="7">RN10</Task>
@@ -117,6 +117,40 @@
 		</Jour>
 		<Jour number="5">
 			<Task time="7">INS PRO</Task>
+		</Jour>
+	</Semaine -->
+	<Semaine number="47">
+		<Jour number="1" >
+			<Task time="3">GB01</Task>
+			<Task time="2">Village By CA</Task>
+			<Task time="2">TDD01</Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="3">TDD01</Task>
+			<Task time="4">CODING DOJO</Task>
+		</Jour>
+		<Jour number="3">
+       		<Task time="1">BDD02</Task>
+			<Task time="6">CA20</Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="3">INS PRO</Task>
+			<Task time="1">Laurent SELLIN</Task>
+			<Task time="3">INS PRO</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="48">
+		<Jour number="1"><Task time="7"> </Task></Jour>
+		<Jour number="2"><Task time="7"> </Task></Jour>
+		<Jour number="3"><Task time="7"> </Task></Jour>
+		<Jour number="4"><Task time="7">CERT04.1</Task></Jour>
+		<Jour number="5">
+			<Task time="3">INS PRO </Task>
+			<Task time="1">EUDES ELIE </Task>
+			<Task time="3">INS PRO </Task>
 		</Jour>
 	</Semaine>
 </Planning>
