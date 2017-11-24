@@ -723,6 +723,11 @@
           <Objectif>Brainstorming : Quels métiers du numérique connaissez-vous</Objectif>
           <Description>Web Designer, Référenceur, Big Data, Admin BDD, Designer, Integrateur, Maintenance, Testing, Developpeur Front/Back/Fullstack, Architecte, Chef de projet...</Description>
         </Activite>
+        <Activite>
+          <Code>INSPRO51</Code>
+          <Objectif>Intervention de M. MORVAN</Objectif>
+          <Description>Afin de pouvoir dispenser au mieux cet atelier, pouvez-vous me confirmer que chacun des participants aura un poste de travail (à minima un par binôme), et la possibilité d’y d’installer Virtualbox, le proxy Burp (free edition) et le navigateur web Firefox (dernière version avec les extensions webdevelopper tools et proxy switcher)</Description>
+        </Activite>
       </Sequence>
       <Sequence>  <!-- Sequence ; Preparer un entretien d'embauche -->
         <Objectif>Préparer un entretien d'embauche</Objectif>

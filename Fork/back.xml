@@ -144,9 +144,12 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="48">
-		<Jour number="1"><Task time="7"> </Task></Jour>
-		<Jour number="2"><Task time="7"> </Task></Jour>
-		<Jour number="3"><Task time="7"> </Task></Jour>
+		<Jour number="1"><Task time="7">OPQUAST</Task></Jour>
+		<Jour number="2">
+			<Task time="5">LA BOUEE</Task>
+			<Task time="2">INSPRO51</Task>
+		</Jour>
+		<Jour number="3"><Task time="7">LA BOUEE</Task></Jour>
 		<Jour number="4"><Task time="7">CERT04.1</Task></Jour>
 		<Jour number="5">
 			<Task time="3">INS PRO </Task>
