@@ -152,8 +152,7 @@
 		<Jour number="3"><Task time="7">LA BOUEE</Task></Jour>
 		<Jour number="4"><Task time="7">CERT04.1</Task></Jour>
 		<Jour number="5">
-			<Task time="3">INS PRO </Task>
-			<Task time="1">EUDES ELIE </Task>
+			<Task time="4">EUDES ELIE </Task>
 			<Task time="3">INS PRO </Task>
 		</Jour>
 	</Semaine>

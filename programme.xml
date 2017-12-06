@@ -644,6 +644,14 @@
               4) Sprint #02 : ...
           </Description>
         </Activite>
+        <Activite>
+          <Objectif>Préparation à l'oral de la certification</Objectif>
+          <Code>CA40</Code>
+          <Temps>14h</Temps>
+          <Description>
+            Face à la promotion présentez votre projet comme si vous étiez face au jury final.
+          </Description>
+        </Activite>
         Définir des lots d'évolutions.  
       </Sequence>
       <!-- fin sequence Réaliser le projet pour la certification -->

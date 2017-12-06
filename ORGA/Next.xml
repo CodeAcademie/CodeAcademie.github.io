@@ -59,7 +59,7 @@
 	</Semaine>
 	<Semaine number="1">
 		<Jour number="1" ferie="true">
-			<Task time="7">CA20</Task>
+			<Task time="7"> </Task>
 		</Jour>
 		<Jour number="2">
 			<Task time="7">CA20</Task>
@@ -80,10 +80,10 @@
 			<Task time="7">CA20 </Task>
 		</Jour>
 		<Jour number="2">
-			<Task time="7">CA20 </Task>
+			<Task time="7">CA40 </Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="7">CA20 </Task>
+			<Task time="7">CA40 </Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="7">CA20 </Task>
