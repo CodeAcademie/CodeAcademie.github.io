@@ -153,4 +153,15 @@
 			<Task time="3">INS PRO </Task>
 		</Jour>
 	</Semaine>
+	<Semaine number="49">
+		<Jour number="1"><Task time="7">Coding DOJO Angular</Task></Jour>
+		<Jour number="2">
+			<Task time="7">Angular</Task>
+		</Jour>
+		<Jour number="3"><Task time="7">CA20</Task></Jour>
+		<Jour number="4"><Task time="7">CA20</Task></Jour>
+		<Jour number="5">
+			<Task time="7">CapGemini - Secure Coding</Task>
+		</Jour>
+	</Semaine>
 </Planning>
