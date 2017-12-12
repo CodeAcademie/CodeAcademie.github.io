@@ -156,10 +156,64 @@
 		<Jour number="2">
 			<Task time="7">Angular</Task>
 		</Jour>
-		<Jour number="3"><Task time="7">CA20</Task></Jour>
+		<Jour number="3"><Task time="4">CERT06</Task><Task time="3">CA20</Task></Jour>
 		<Jour number="4"><Task time="7">CA20</Task></Jour>
 		<Jour number="5">
 			<Task time="7">CapGemini - Secure Coding</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="50">
+		<Jour number="1"><Task time="7">INTEG </Task></Jour>
+		<Jour number="2"><Task time="7">INTEG </Task></Jour>
+		<Jour number="3"><Task time="1">SPRINT#03 </Task>
+			<Task time="3">GB01</Task>
+			<Task time="3">INTEG </Task></Jour>
+		<Jour number="4"><Task time="7">INTEG </Task></Jour>
+		<Jour number="5">
+				<Task time="3">INS PRO</Task>
+				<Task time="4">French Tech</Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="51">
+		<Jour number="1"><Task time="3">Visite CapGemini</Task><Task time="4">CA20</Task></Jour>
+		<Jour number="2"><Task time="7">CA20</Task></Jour>
+		<Jour number="3"><Task time="7">CA20</Task></Jour>
+		<Jour number="4"><Task time="7">Certif OPQUAST</Task></Jour>
+		<Jour number="5"><Task time="7">INS PRO </Task></Jour>
+	</Semaine>
+	<Semaine number="52">
+		<Jour number="1" ferie="true">
+			<Task time="7"> </Task>
+		</Jour>
+		<Jour number="2" ferie="true">
+			<Task time="7"> </Task>
+		</Jour>
+		<Jour number="3" ferie="true">
+			<Task time="7"> </Task>
+		</Jour>
+		<Jour number="4" ferie="true">
+			<Task time="7"> </Task>
+		</Jour>
+		<Jour number="5" ferie="true">
+			<Task time="7"></Task>
+		</Jour>
+	</Semaine>
+	<Semaine number="1">
+		<Jour number="1" ferie="true">
+			<Task time="7"> </Task>
+		</Jour>
+		<Jour number="2">
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="3">
+			<Task time="1">SPRINT#04 </Task>
+			<Task time="6">CA20 </Task>
+		</Jour>
+		<Jour number="4">
+			<Task time="7">CA20</Task>
+		</Jour>
+		<Jour number="5">
+			<Task time="7">INS PRO </Task>
 		</Jour>
 	</Semaine>
 </Planning>
