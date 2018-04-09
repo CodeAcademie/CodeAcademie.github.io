@@ -54,15 +54,17 @@ generateHTML = (xhr, CODES) => {
             let y = 0;
             tasks.forEach((task) => {
                 let li = document.createElement("li");
-                li.innerHTML = task.innerHTML + '<br/>';
+                li.innerHTML = task.innerHTML;
                 const INDEX = CODES.findIndex(code => code.innerHTML === task.innerHTML);
                 if(INDEX !== -1) {
                     const DESC = (CODES[INDEX].parentElement.getElementsByTagName("Description"));
                     const OBJECTIF = (CODES[INDEX].parentElement.getElementsByTagName("Objectif"));
+                    if(OBJECTIF){
+                        li.innerHTML += ' : <b>' + OBJECTIF[0].innerHTML + '</b>';
+                    }
+                    li.innerHTML +='<br/>';
                     if (DESC[0]) {
                         li.innerHTML += DESC[0].innerHTML;
-                    } else if(OBJECTIF){
-                        li.innerHTML += OBJECTIF[0].innerHTML;
                     }
                 }
                 ul.appendChild(li);

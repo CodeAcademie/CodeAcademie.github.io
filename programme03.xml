@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Programme SYSTEM "assets/programmePedago.dtd">
+<?xml-stylesheet href="assets/css/style.css" type="text/css" ?>
+<root>
+  <Programme>
+  	<Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Maquetter une application -->
+  		<Objectif>Maquetter une application</Objectif>
+  		<SousObjectif>Mockup, Wireframe, PageFlow, CharteGraphique</SousObjectif>
+  		<PreRequis>Etre inscrit à la Code Académie</PreRequis>
+  		<Materiel>Ordinateur, Internet</Materiel>
+  		<Sequence>
+  			<Objectif>Maquetter une application</Objectif>
+  			<SousObjectif>Savoir faire une  wireframe, une maquette. Respecter la charte graphique d'une entreprise</SousObjectif>
+        <Activite>
+            <Objectif>Une charte graphique? Qu'est ce que ca couvre ?</Objectif>
+            <Type>Atelier</Type>
+            <Code>FIXME</Code>
+            <Temps>1</Temps>
+            <Description>TODO : Culture autour d'une charte graphique. A quoi ca sert et qu'est-ce que ca couvre ? </Description>
+        </Activite>
+        <Activite>
+            <Objectif>Comprendre un cahier des charges</Objectif>
+            <Type>Exercice</Type>
+            <Code>FIXME</Code>
+            <Temps>1</Temps>
+            <Description>TODO : Individuellement, chaque apprenant doit lire une charte graphique, parcourir un ensemble de maquettes et stipuler si la maquette respecte ou non la charte.</Description>
+        </Activite>
+        
+  			<Activite>
+	          <Objectif>Maquetter une application</Objectif>
+            <Type>Exercice</Type>
+	          <Code>CSS13</Code>
+	          <Temps>4</Temps>
+	          <Description>A partir d'un cahier des charges succint, chaque apprenant doit individuellement réaliser un wireframe ainsi qu'une maquette</Description>
+        </Activite>
+  		</Sequence>
+  		<Sequence>
+  			<Objectif>Lire un use case et en formaliser un page flow </Objectif>
+        <SousObjectif>Savoir faire une  wireframe ainsi qu'un page flow</SousObjectif>
+        <Activite>
+            <Objectif>Un use case / Des scenarios / Des personatas ? Pourquoi ? </Objectif>
+            <Code>FIXME</Code>
+            <Type>Brainstorming</Type>
+            <Temps>1</Temps>
+            <Description>Recherche et brain storming autour de l'utilité des ces mises en situation. </Description>
+        </Activite>
+        <Activite>
+            <Objectif>Réaliser un page flow</Objectif>
+            <Code>FIXME</Code>
+            <Type>Exercice</Type>
+            <Temps>1</Temps>
+            <Description>A partir d'un cahier de use cases succints, réaliser un wireframe ainsi que son page flow</Description>
+        </Activite>
+  		</Sequence>
+  		<Sequence>
+        <Objectif> Valider le module Maquetter une application</Objectif>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT01</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT01.1</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+      </Sequence>
+  	</Module>
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Concevoir une base de données --->
+      <Objectif>Concevoir une base de données</Objectif>
+      <SousObjectif>MEA, MDD, Contraintes, Index </SousObjectif>
+      <PreRequis>Etre inscrit à la Code Académie</PreRequis>
+      <Materiel>Ordinateur, Internet</Materiel>
+      <Sequence>
+        <Objectif>Etablir le shéma Entité-Association </Objectif>
+        <SousObjectif>Cahier des charges, UML, Normalisation, Workbench</SousObjectif>
+        <Activite>
+          <Objectif>Les différents types de bases de données </Objectif>
+          <Code>CUL16</Code>
+          <Type>Brainstorming</Type>
+          <Description>
+            Brainstorming et veille sur ce qu'il existe. 
+            Veille sur : SQL vs NoSQL
+            Veille sur : mySQL, mariaDB, Oracle, PostgreSQL, SQLServer, SQLite, etc...
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Atelier : Comment modéliser une base de donnée</Objectif>
+          <Code>BDD02</Code>
+          <Type>Atelier</Type>
+          <Materiel>Workbench, Formateur</Materiel>
+          <Description>
+            FIXME
+            Atelier réalisé collectivement avec le formateur. A partir d'un cahier des charges existant, réaliser avec Workbench:
+              -un UML
+              -un MEA
+              -un dictionnaire de données
+              -un schéma physique.
+            Les apprenants doivent pouvoir définir le bon type de champ.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Modelisation SQL : Les apprenants de la Code Académie</Objectif>
+          <Code>SQL10</Code>
+          <Type>Exercice</Type>
+          <Description>Les apprenants découvrent la modélisation de base ainsi que la normalisation via la création d'une base de donnée représentant les apprenants de la promotion. Un debrief avec les réflexions de chacun sera faite à la fin. Possibilité de le faire en manuscrit ou avec MYSQL workbench. Debrief en groupe en partant d'un example et schéma partager entre les apprenants sur slack. Un rappel devra être réalisé entre SQL et objet</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Analyser un cahier des charges pour en soustraire la BDD souhaitée</Objectif>
+          <Code>SQL20</Code>
+          <Type>Atelier</Type>
+          <Temps>4</Temps>
+          <Description>
+            A partir de plusieurs cahier des charges, les apprenants doivent modéliser la base de données. 
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Etablir le modèle physique de données </Objectif>
+        <Activite>
+          <Objectif>Générer la base de données associée</Objectif>
+          <Code>SQL30</Code>
+          <Type>Exercice</Type>
+          <PreRequis>Avoir réalisé SQL20</PreRequis>
+          <Description>
+            A partir des modélisation de base de données réalisées dans le cadre de SQL20, Créer les script de création de base de données 
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Indexs, Contraintes et fichiers SQL</Objectif>
+        <Activite>
+          <Objectif>Compréhender la structure des fichiers SQL de création DB</Objectif>
+          <Code>SQL40</Code>
+          <Type>Exercice</Type>
+          <Description>
+            A partir des scripts générés en SQL30.
+            Lire décortiquer les fichiers SQL. 
+            Analyser ce que sont les contraintes, les indexs.
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif> Valider le module Concevoir une Base de données</Objectif>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT02</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT02.1</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+      </Sequence>
+    </Module>
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Mettre en place une base de données --->
+      <Objectif>Mettre en place une base de données</Objectif>
+      <SousObjectif>MDD,SQL, Utilisateurs, Alimentation, Backup</SousObjectif>
+      <PreRequis>Etre inscrit à la Code Académie</PreRequis>
+      <Materiel>Ordinateur, Internet</Materiel>
+      <Sequence>
+        <Objectif>Réaliser des requêtes struturées SQL</Objectif>
+        <Activite>
+          <Objectif>Initiation au SQL</Objectif>
+          <Code>SQL00</Code>
+          <Temps>4</Temps>
+          <Description>Sur http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all 
+            Réalisez les requêtes suivantes : 
+            1) La liste des ContactName de la table Customer
+            2) La liste des ProductName qui ont la CaterogyID 1 dans la table Product
+            3)  Dans la table Product, au lieu d'avoir les ID  (pour categoryID et SupplierID), qu'on voie les noms des catégories et des fournisseurs , tout celà en une seule requête (edited)
+            4) Créez une table utilisateur semblable à celle qu enous pouvons trouver au sein d'un réseau social. Réflechissez aux champs nécessaires et à la structure.
+            5) Quels champs seront répetitifs? Est-il possible d'en générer des tables en 1,n . Et/Ou que suis-je en train de vous demander  de faire ?
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Script de création de table et insertion de données</Objectif>
+          <Code>SQL11</Code>
+          <Type>Exercice</Type>
+          <Description>Les apprenants améliorent le modéle créer en SQL10 ou repartent d'une correction puis crée le script de création de table à partir de workbench. Par la suite ils font un script de création manuel à partir du modéle donner dans example.png de SQL10</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Requête de sélection/insertion/insertion MYSQL</Objectif>
+          <Code>SQL12</Code>
+          <Description>A partir d'une base de donnée fournie dans le repo github, les apprenants crée et exécute un ensemble de requêtes.</Description>
+        </Activite>
+        <Activite>
+    <Objectif>Entrainement Requête SQL</Objectif>
+    <Code>SQL13</Code>
+    <Type>Exercice</Type>
+    <Temps>4</Temps>
+    <Description># Exercice d'entraînement aux requêtes MYSQL.
+
+A partir de la [BDD d'entraînement proposée par w3school](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) (aussi connue comme la BDD Northwind sample database), vous devez créer un ensemble de requêtes MYSQL qui répondront aux besoins énumérés dans ce readme.  
+
+Les requêtes ainsi créées devront être consignées dans un document et un screen (correctement rogné) des derniers résultats obtenus devra accompagner chaque requête. Le format de ce document sera réutilisé pour la certif, alors soignez la présentation, c'est du temps de gagner.
+
+## Les besoins
+
+**1) Affichez tous les employés**  
+**2) Affichez uniquement les ProductID et les ProductName de la table product**  
+**4) Affichez les Orders du client "Around the Horn"**  
+**5) Affichez les détails des commandes du client "B's Beverages"**  
+**6) Ajoutez vos infos dans la table des employés**  
+**7) Ajoutez un champ pour un nouveau collègue fictif dans la table des employés, mais attention, celui-ci refuse de mettre sa photo**  
+**8) Il y a une faute de frappe dans le numéro de téléphone du Shipper "Federal shipping", le bon est le : (503) 555-9935. Mettez ses données à jour**  
+**9) Nous venons de perdre le client "Du monde entier" supprimez manuellement toutes les infos le concernant dans notre BDD (les commandes, les détails de commandes et ses infos de clients)**  
+**10) Donnez le prix moyen de leurs produits**  
+**11) Faîtes une requête qui affiche dans une nouvelle colonne (attention, cela ne veut pas dire en insérer une nouvelle) le total dépensé dans chaque commande dans la table OrderDetails.**  
+**12) Affichez le produit "vache à lait" c.a.d. le produit qui a le chiffre d'affaires le plus important**  
+
+## Bonus
+
+Si les deux dernières questions ne vous ont pas achevées... Modélisez la base de données sur laquelle vous venez de travailler ! (Avec MYSQL Workbench).
+
+Vous avez déjà fait une modélisation, mais cette fois-ci vous faîtes en plus : 
+
+- Le dictionnaire de données (exemple : Nom du client => CustomerName; tout ça consigné dans un tableau. Dans votre cas, il s'agit plus de passer du nom des champs au nom réel)
+- Le schéma entité/association (le nom des tables + colonnes et les cardinalités) 
+- Le schéma physique (les types de données en prime, ce que vous créer sur workbench). 
+
+C'est certes un bonus, mais ceux qui étaient pas à l'aise avec l'exercice de modélisation qu'on a fait précédemment, je vous recommande de le faire. 
+
+N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous répondrons à vos questions si vous en avez, mais nous n'allons pas vous courrir après si vous ne nous demandez rien...</Description>  
+  </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Les droits d'accès en base de données</Objectif>
+        <Activite>
+          <Objectif>Compréhender la gestion des comptes utilisateur</Objectif>
+          <Code>SQL50</Code>
+          <Type>Atelier</Type>
+          <PreRequis>Savoir modéliser une base de données</PreRequis>
+          <Description>
+            FIXME : Ensemble, les apprenants de la code académie doivent préciser pourquoi il est nécessaire de configurer des comptes utilisateurs spécifiques pour chaque client. 
+            Suite à celà, ils devront modifier les droits d'accès sur une base de données conçue préalablement. 
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Administration d'une base de données - Données de test et Archivage</Objectif>
+        <Activite>
+          <Objectif></Objectif>
+          <Code>FIXME</Code>
+          <Type>Atelier</Type>
+          <Description>
+            Activité à réaliser en pair programming. 
+            Prenez une base de donnée réalisée précédemment.
+            Réaliser un script d'archivage de votre base de données.
+            Réaliser un script d'alimentation de données de test de la base de données. Il est prévu d'insérer 1 million d'enregistrements automatiquement pour réaliser des tests de volumétrie.
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif> Valider le module Mettre en place une Base de données</Objectif>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT03</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT03.1</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+      </Sequence>
+    </Module>
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Développer une interface utilisateur --->
+      <Objectif>Développer une interface utilisateur</Objectif>
+      <SousObjectif>Algo, POO, Tests, Erreurs</SousObjectif>
+      <PreRequis>Etre inscrit à la Code Académie</PreRequis>
+      <Materiel>Ordinateur, Internet</Materiel>
+      <Sequence>
+          <Objectif>Développer une interface utilisateur en HTML5 </Objectif>
+          <Activite>
+            <Objectif>Initiation au HTML / CSS</Objectif>
+            <Code>HTML00</Code>
+            <Temps>4</Temps>
+            <Type>Exercice</Type>
+            <Description>OpenClassroom. W3School. AlsaCreation. Projet http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
+          </Activite>
+          <Activite>
+            <Objectif>Debrief sur le HTML</Objectif>
+            <Code>HTML01</Code>
+            <Type>Exercice</Type>
+            <Temps>2</Temps>
+            <Description>Premier mise en commun du travail entre les apprenants. Ensemble, sans intervention du formation, les apprenants doivent débriefer sur leur réalisation du HTML99.</Description>
+        </Activite>
+         <Activite>
+          <Objectif>Projet : No Images</Objectif>
+          <SousObjectif>Travail en Equipe, Concertation, Definition d'un besoin</SousObjectif>
+          <Temps>8</Temps>
+          <Code>HTML02</Code>
+          <Type>Exercice</Type>
+          <Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Challenge HTML</Objectif>
+          <Type>Evaluation</Type>
+          <Code>HTML99</Code>
+          <Description>Chaque Mercredi, les apprenants recoivent un challenge ainsi qu'un coéquipier. Le challenge n'est pas à réaliser pendant la formation mais en dehors des cours. Et a rendre le mardi d'après!
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+          <Objectif>Styliser une interface utilisateur en CSS3 </Objectif>
+          <Activite>
+            <Objectif>Divs à Gogo </Objectif>
+            <Code>CSS00</Code>
+            <Description>
+              # Initiation au CSS
+              Amusons nous avec les DIV's !
+              Vous avez bien étudier le HTML et le CSS, il est temps de faire votre première maquette ! Dans le développement web, une maquette est l'image qu'un client vous donne et que vous devez reproduire en intégration.
+
+              Pour cet exercice il vous faudra donc transcrire en HTML et en CSS l'image ci-dessous.
+
+              Pour ce faire vous devrez utiliser Bootstrap. Ce n'est pas grave si les couleurs et les images ne sont pas identiques à celles de la maquette, ni si vous ne mettez pas les textes en forme de la même façon, ce qui compte pour cet exercice c'est surtout de bien pratiquer le principe des grilles de bootstrap. Pour les images, vous pouvez utiliser des icônes provenant de The Noun Project ou encore des images venant du site Placehold.it.  Vous pouvez également utiliser Pixabay, ou encore Subtle Patterns pour styliser selon votre goût, comme pour l'exercice de la semaine précédente.
+
+              Pour vous aider, voici quelques tips :
+
+              * Utilisez le principe des grilles de Bootstrap, expliqué ici.
+              * La zone header du haut n'a pas de classe bootstrap et fait 100% de la largeur
+              * La zone des tuiles en dessous est composée de trois colonnes ( 3 X 4 = 12 )
+              * la première colonne est composée de 3 blocs, le premier prenant toute la largeur (12 colonnes) et les 2 autres la moitié ( donc 2 X 6 )
+              * On ne vous détaille pas la logique pour la 2ème et la 3ème colonne, le principe est le même.
+
+              Bon courage et bon code ! :)
+
+
+              ![DIVs](./img/exoDivs.jpg)
+
+            </Description>
+          </Activite>
+          <Activite>
+            <Objectif>Intégrer une maquette simple dans un temps très restreint</Objectif>
+            <SousObjectif>Prise de conscience de ses capacités, Gestion du temps, Priorisation</SousObjectif>
+            <Code>CSS12</Code>
+            <Description>Cet exercice est à faire dans les conditions d'un entretien d'embauche pour le poste d'intégrateur web. Une maquette est donnée et chaque apprenant a 3h30 pour l'intégrer (le plus possible). </Description>
+          </Activite>
+          <Activite>
+            <Objectif>Position et typos</Objectif>
+            <Code>HTML04</Code>
+            <Description>
+              Pratique et approfondissement des bases en CSS. Positions, marges, paddings etc...
+            </Description>
+          </Activite>
+          <Activite>
+            <Objectif>Approfondir le CSS</Objectif>
+            <Code>CSS15</Code>
+            <Description>FIXME : Intégrer des maquettes</Description>
+          </Activite>
+          <Activite> <!--A Bouttier : Media Queries -->
+            <Objectif>Les Media Queries</Objectif>
+            <Code>CUL10</Code>
+            <Description>FIXME : Le responsive et les media queries</Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+          <Objectif>Styliser une interface utilisateur en SASS </Objectif>
+          <Activite>
+            <Objectif>Découvrir SASS et la compilation</Objectif>
+            <Code>CSS20</Code>
+            <Type>Exercice</Type>
+            <Description>Dans un premier temps, les apprenants devront en un peu moins d'une demi-journée, préparer leur environnement de travail en SASS. 
+              Il est attendu à ce que l'installation soit réalisée par le biais de npm et non ruby.Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Ecrire un algorithme</Objectif>
+      </Sequence>
+      <Sequence>
+        <Objectif>Programmer en Javascript</Objectif>
+        <Activite>
+          <Objectif>Initiation au JavaScipt</Objectif>
+          <Type>CodingDojo</Type>
+          <Temps>7</Temps>
+          <Code>JS00</Code>
+          <Description>Réparti sur deux jours consécutifs, réalisation d'un FizzBuzz en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Programmer en PHP</Objectif>
+      </Sequence>
+      <Sequence>
+        <Objectif>Programmer en Ruby</Objectif>
+      </Sequence>
+      <Sequence>
+        <Objectif>Développer en orienté objet</Objectif>
+      </Sequence>
+      <Sequence>
+        <Objectif>Ecrire des tests unitaires</Objectif>
+      </Sequence>
+      <Sequence>
+        <Objectif>Documenter les composants</Objectif>
+      </Sequence>
+       <Sequence>
+        <Objectif> Valider le module Développer une interface utilisateur</Objectif>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT04</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+        <Activite>
+          <Objectif> Valider l'ECF</Objectif>
+          <Code>CERT04.1</Code>
+          <Type>Evaluation</Type>
+          <Temps>7</Temps>
+          <Description>FIXME. Copier le reac</Description>
+        </Activite>
+      </Sequence>
+    </Module>
+  </Programme>
+</root>

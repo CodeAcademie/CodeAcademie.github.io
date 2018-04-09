@@ -22,31 +22,21 @@
 						- Du nombre de langues orales parlées
 					</Description>
         </Activite>
-	<Activite>
-		<Objectif>Comment trouver du travail à la fin de la formation</Objectif>
-		<Code>INS PRO</Code>
-		<Description>
-			- Réalisation d'un CV / Portfolio professionnel
-			- Découverte du milieu professionnel rennais
-			- Méthode et Technique d'entretiens professionnel
-			- Venue d'intervenants exterieurs		
-		</Description>
-	</Activite>
-        <Activite>
-          <Objectif>Comment trouver du travail à la fin de la formation</Objectif>
-          <Code>INSPRO</Code>
-          <Description>
-            - Réalisation d'un CV / Portfolio professionnel
-            - Découverte du milieu professionnel rennais
-            - Méthode et Technique d'entretiens professionnel
-            - Venue d'intervenants exterieurs
-          </Description>
-        </Activite>
+	
+        
         <!-- fin Activite  Ice Breaker : Tri; Découverte d'autrue -->
         <Activite done="true">
           <Objectif>Définition d'une charte commune</Objectif>
           <Code>SOC03</Code>
-          <Description>Thèmes abordés : Horaires de formation, Chaises sur les tables, Café...</Description>
+          <Description>Ensemble les apprenants abordent les thématiques suivantes : 
+            * Horaires de formation
+            * Entretien des salles communes
+            * Gestion des retards
+            * Chaises sur les tables
+            * Fermeture des volets
+            * Rangement des ordinateurs
+            * Boissons interdites dans la salle de formation
+          </Description>
         </Activite>
         <!-- fin Activité  Définir charte commune -->
         <Activite done="true">
@@ -88,6 +78,78 @@
         </Activite>
       </Sequence>
       <!-- fin sequence bonne vie du groupe -->
+    </Module>
+    <Module language="PRAIRIE" group="Prairie">
+      <!-- MODULE Specifique Prairie : Compréhender les enjeux techniques -->
+      <Objectif>Compréhender et accepter les thématiques abordés lors de la formation</Objectif>
+      <PreRequis>Etre inscrit à la formation</PreRequis>
+      <Materiel>Video Projecteur, 1 PC/Apprenant </Materiel>
+      <Sequence>
+        <Objectif> Identifier les autres aprenants de la formation</Objectif>
+        <Activite done="true">
+          <Objectif>Petit Déjeuner de bienvenue</Objectif>
+          <Code>SOC01</Code>
+          <Temps> 1/2 h</Temps>
+          <SousObjectif>Mise en confiance et découverte d'autrui</SousObjectif>
+        </Activite>
+        <Activite skipped="true">
+          <Objectif>Ice Breaker : 3 Vérités et 1 Mensonge</Objectif>
+          <Code>SOC02</Code>
+          <SousObjectif>Découverte d'autrui</SousObjectif>
+          <Description>Les apprenants doivent à tour de rôle, citer 3 vérités et un mensonge les concernants. Les autres apprenants doivent deviner lequel est faux.</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Ice Breaker : Présente ton voisin</Objectif>
+          <Code>SOC03</Code>
+          <SousObjectif>Découverte d'autrui</SousObjectif>
+          <Description>Chaque apprenant papote pendant 15 minutes avec son voisin. Puis le présente aux autres </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Etre apte à suivre la formation</Objectif>
+        <Activite done="true">
+          <Objectif>Complétion du dossier de l'apprenant</Objectif>
+          <Code>FACE00</Code>
+          <Temps>1h</Temps>
+          <SousObjectif>Tous les apprenants ont un dossier Pole Emploi beton</SousObjectif>
+          <Description>
+            Chaque apprenant doit avoir communiqué à la responsable administrative et financière de FACE l'ensemble des documents nécessaires pour le bon déroulé de la formation : 
+             * Avis de situation Pôle Emploi
+             * Photocopie de pièce d'identité
+             * Photocopie de la carte vitale
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence>
+        <Objectif>Découvrir et Configurer le poste de travail de l'apprenant</Objectif>
+        <Activite skipped="true">
+          <Objectif>Installation de Linux</Objectif>
+          <Code>LIN01</Code>
+          <Temps> 1/2 journée</Temps>
+          <Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
+        </Activite>
+        <Activite skipped="true">
+          <Objectif>Découverte du terminal : Terminus du MIT</Objectif>
+          <Code>LIN02</Code>
+          <Description>cd, .., ls, mkdir, ps, rm</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Découverte du terminal</Objectif>
+          <Code>LIN02b</Code>
+          <Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
+        </Activite>
+        <Activite skipped="true">
+          <Objectif>Découverte de l'editeur VIM</Objectif>
+          <Code>LIN03</Code>
+          <Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Découverte de GIT et GITHub</Objectif>
+          <Code>GIT00</Code>
+          <Description>Création d'un compte github. 
+            Découverte de git init/add/commit/pull/push/clone</Description>
+        </Activite>
+      </Sequence>
     </Module>
     <!-- fin module gestion de la promotion -->
     <Module group="Tronc Commun" language="Culture Gé">
@@ -170,8 +232,11 @@
           <Code>CUL12</Code>
         </Activite>
         <Activite><!-- M.CORMIER : Algo -->
-          <Objectif>Presentation M.CORMIER : Le jeu de la fourchette</Objectif>
+          <Objectif>Présentation d'un bloc de code</Objectif>
+          <SousObjectif>Savor verbaliser un bloc de code fonctionnel</SousObjectif>
           <Code>CUL13</Code>
+          <Description>Un apprenant présente le code qu'il a réalisé. En lisant son bloc d'algo.
+          </Description>
         </Activite>
         <Activite> <!-- E.DUCLOS : SEO -->
           <Objectif>Presentation A.DOUARD: Le référencement SEO</Objectif>
@@ -190,7 +255,7 @@
           <Code>GB01</Code>
           <Description>Obtenir les compétences nécessaires en anglais.</Description>
         </Activite>
-        <Activite><!-- A Beauverger : Les BDD  -->
+        <Activite>
           <Objectif>Les chartes graphiques </Objectif>
           <Code>DESIGN01</Code>
           <Description>Ce qu'il faut faire et ne pas faire avec un designer. </Description>
@@ -213,6 +278,26 @@
 						Mise à plat sur papier de l'algo
 						Mise en forme en code
 					</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Pratique de l'algorithmie : Les boucles</Objectif>
+          <SousObjectif>Compréhension du if. Découverte du for et du while</SousObjectif>
+          <Code>ALGO02</Code>
+          <Materiel>Papier/crayon</Materiel>
+          <Temps>2h</Temps>
+          <Description>
+           Par le biais de divers exercices , les apprenants doivent écrire un algo simple sur papier
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Pratique de l'algorithmie : Les boucles</Objectif>
+          <SousObjectif>Savoir choisir quelle boucle entre le for et le while</SousObjectif>
+          <Code>ALGO03</Code>
+          <Materiel>Papier/crayon</Materiel>
+          <Temps>2h</Temps>
+          <Description>
+           Par le biais de divers exercices , les apprenants doivent écrire un algo sur papier et choisir les bonnes boucles : for/while/if
+          </Description>
         </Activite>
         <Activite>
           <Objectif>Exercice : Coding Game</Objectif>
@@ -253,6 +338,12 @@
           <Code>HTML00</Code>
           <Temps>1/2j</Temps>
           <Description>OpenClassroom. W3School. AlsaCreation. Projet http://prod.simplon.co/divers/challenges/briefing-challenge-2.zip</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Debrief sur le HTML</Objectif>
+          <Code>HTML01</Code>
+          <Temps>2h</Temps>
+          <Description>Premier mise en commun du travail entre les apprenants. Ensemble, sans intervention du formation, les apprenants doivent débriefer sur leur réalisation du HTML99.</Description>
         </Activite>
         <Activite>
           <Objectif>Projet : No Images</Objectif>
@@ -562,9 +653,13 @@
 					</Description>
         </Activite>
         <Activite>
-          <Objectif>Debug sous Wordpress</Objectif>
+          <Objectif>Comment développer sous Wordpress</Objectif>
           <Code>WP02</Code>
-          <Description>SF Admin bar tools et Show Current Template. </Description>
+          <Description>
+            Découverte des plugins de débug:
+             * SF Admin bar tools
+             * Show Current Template. 
+           </Description>
         </Activite>
         <Activite>
           <Objectif>Plugins sous Wordpress</Objectif>
@@ -1104,72 +1199,7 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
         </Activite>
       </Sequence>
     </Module>
-    <Module language="PRAIRIE" group="Prairie">
-      <!-- MODULE Specifique Prairie : Compréhender les enjeux techniques -->
-      <Objectif>Compréhender et accepter les thématiques abordés lors de la formation</Objectif>
-      <PreRequis>Etre inscrit à la formation</PreRequis>
-      <Materiel>Video Projecteur, 1 PC/Apprenant </Materiel>
-      <Sequence>
-        <Objectif> Identifier les autres aprenants de la formation</Objectif>
-        <Activite done="true">
-          <Objectif>Petit Déjeuner de bienvenue</Objectif>
-          <Code>SOC01</Code>
-          <Temps> 1/2 h</Temps>
-          <SousObjectif>Mise en confiance et découverte d'autrui</SousObjectif>
-        </Activite>
-        <Activite skipped="true">
-          <Objectif>Ice Breaker : 3 Vérités et 1 Mensonge</Objectif>
-          <Code>SOC02</Code>
-          <SousObjectif>Découverte d'autrui</SousObjectif>
-          <Description>Les apprenants doivent à tour de rôle, citer 3 vérités et un mensonge les concernants. Les autres apprenants doivent deviner lequel est faux.</Description>
-        </Activite>
-        <Activite done="true">
-          <Objectif>Ice Breaker : Présente ton voisin</Objectif>
-          <Code>SOC03</Code>
-          <SousObjectif>Découverte d'autrui</SousObjectif>
-          <Description>Chaque apprenant papote pendant 15 minutes avec son voisin. Puis le présente aux autres </Description>
-        </Activite>
-      </Sequence>
-      <Sequence>
-        <Objectif>Etre apte à suivre la formation</Objectif>
-        <Activite done="true">
-          <Objectif>Intervention de Malika</Objectif>
-          <Code>FACE00</Code>
-          <Temps>1h</Temps>
-          <SousObjectif>Tous les apprenants ont un dossier Pole Emploi beton</SousObjectif>
-        </Activite>
-      </Sequence>
-      <Sequence>
-        <Objectif>Découvrir et Configurer le poste de travail de l'apprenant</Objectif>
-        <Activite skipped="true">
-          <Objectif>Installation de Linux</Objectif>
-          <Code>LIN01</Code>
-          <Temps> 1/2 journée</Temps>
-          <Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
-        </Activite>
-        <Activite skipped="true">
-          <Objectif>Découverte du terminal : Terminus du MIT</Objectif>
-          <Code>LIN02</Code>
-          <Description>cd, .., ls, mkdir, ps, rm</Description>
-        </Activite>
-        <Activite done="true">
-          <Objectif>Découverte du terminal</Objectif>
-          <Code>LIN02b</Code>
-          <Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
-        </Activite>
-        <Activite skipped="true">
-          <Objectif>Découverte de l'editeur VIM</Objectif>
-          <Code>LIN03</Code>
-          <Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
-        </Activite>
-        <Activite done="true">
-          <Objectif>Découverte de GIT et GITHub</Objectif>
-          <Code>GIT00</Code>
-          <Description>Création d'un compte github. 
-						Découverte de git init/add/commit/pull/push/clone</Description>
-        </Activite>
-      </Sequence>
-    </Module>
+    
     <!-- fin module Avoir les hard skills de base d'un développeur web rennais-->
     <Module group="Certification" language="Transverse">
       <Objectif>Répondre aux besoins de la certification</Objectif>
@@ -1398,6 +1428,13 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
       <Sequence> <!-- Sequence ; Peaufiner son e-reputation -->
         <Objectif>Peaufiner son e-reputation</Objectif>
         <Activite>
+          <Objectif>Réalisation d'un portfolio</Objectif>
+          <Code>INSPRO10</Code>
+          <Description>
+            Réalisation d'un CV / Portfolio professionnel hébergé sur une gitpage.
+          </Description>
+        </Activite>
+        <Activite>
           <Code>INSPRO40</Code>
           <Objectif>Réaliser son CV sur DoYouBuzz</Objectif>
         </Activite>
@@ -1417,6 +1454,7 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
       </Sequence>
       <Sequence>  <!-- Sequence ; Preparer un entretien d'embauche -->
         <Objectif>Préparer un entretien d'embauche</Objectif>
+
         <Activite>
           <Code>INSPRO20</Code>
           <Objectif>Atelier </Objectif>

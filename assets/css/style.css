@@ -45,7 +45,7 @@ Activite{
 	font-size: 12px;
 }
 Description{
-	display : block;
+	display : none;
 	font-style: italic;
 	white-space: pre-line;
 	background-color : #c0c0c0;
@@ -55,7 +55,7 @@ Description{
 }
 
 
-Sequence:hover Activite{
+Sequence Activite{
 	display:block;
 }
 
@@ -139,7 +139,7 @@ Task[time="8"]{
 }
 
 Activite[done="true"]{
-	text-decoration: line-through;
+	/*text-decoration: line-through;*/
 }
 Activite[skipped="true"]{
 	text-decoration: line-through;

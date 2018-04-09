@@ -83,7 +83,7 @@
 			<Task time="7">CA40 </Task>
 		</Jour>
 		<Jour number="3">
-			<Task time="7">CA40 </Task>
+			<Task time="7">SimulationEntretien </Task>
 		</Jour>
 		<Jour number="4">
 			<Task time="7">CA20 </Task>
@@ -106,7 +106,7 @@
 			<Task time="7">INS PRO</Task>
 		</Jour>
 		<Jour number="5">
-			<Task time="7">INS PRO</Task>
+			<Task time="7">SimulationEntretien</Task>
 		</Jour>
 	</Semaine>
 	<Semaine number="4">

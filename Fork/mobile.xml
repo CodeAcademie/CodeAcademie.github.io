@@ -176,7 +176,7 @@
 		</Jour>
 	</Semaine>
 	<Semaine number="51">
-		<Jour number="1"><Task time="3">Visite CapGemini</Task><Task time="4">CA20</Task></Jour>
+		<Jour number="1"><Task time="4">CA20</Task><Task time="3">Visite CapGemini</Task></Jour>
 		<Jour number="2"><Task time="7">CA20</Task></Jour>
 		<Jour number="3"><Task time="7">INS PRO</Task></Jour>
 		<Jour number="4"><Task time="7">Certif OPQUAST</Task></Jour>
