@@ -8,7 +8,7 @@
   		<SousObjectif>Mockup, Wireframe, PageFlow, CharteGraphique</SousObjectif>
   		<PreRequis>Etre inscrit à la Code Académie</PreRequis>
   		<Materiel>Ordinateur, Internet</Materiel>
-  		<Sequence>
+  		<Sequence> <!-- Maquetter une application -->
   			<Objectif>Maquetter une application</Objectif>
   			<SousObjectif>Savoir faire une  wireframe, une maquette. Respecter la charte graphique d'une entreprise</SousObjectif>
         <Activite>
@@ -34,7 +34,7 @@
 	          <Description>A partir d'un cahier des charges succint, chaque apprenant doit individuellement réaliser un wireframe ainsi qu'une maquette</Description>
         </Activite>
   		</Sequence>
-  		<Sequence>
+  		<Sequence> <!-- Lire un use case et en formaliser un page flow  -->
   			<Objectif>Lire un use case et en formaliser un page flow </Objectif>
         <SousObjectif>Savoir faire une  wireframe ainsi qu'un page flow</SousObjectif>
         <Activite>
@@ -52,7 +52,7 @@
             <Description>A partir d'un cahier de use cases succints, réaliser un wireframe ainsi que son page flow</Description>
         </Activite>
   		</Sequence>
-  		<Sequence>
+  		<Sequence> <!-- Valider le module Maquetter une application -->
         <Objectif> Valider le module Maquetter une application</Objectif>
         <Activite>
           <Objectif> Valider l'ECF</Objectif>
@@ -70,12 +70,12 @@
         </Activite>
       </Sequence>
   	</Module>
-    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Concevoir une base de données --->
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Concevoir une base de données -->
       <Objectif>Concevoir une base de données</Objectif>
       <SousObjectif>MEA, MDD, Contraintes, Index </SousObjectif>
       <PreRequis>Etre inscrit à la Code Académie</PreRequis>
       <Materiel>Ordinateur, Internet</Materiel>
-      <Sequence>
+      <Sequence> <!-- Etablir le shéma Entité-Association -->
         <Objectif>Etablir le shéma Entité-Association </Objectif>
         <SousObjectif>Cahier des charges, UML, Normalisation, Workbench</SousObjectif>
         <Activite>
@@ -89,7 +89,7 @@
           </Description>
         </Activite>
         <Activite>
-          <Objectif>Atelier : Comment modéliser une base de donnée</Objectif>
+          <Objectif>Comment modéliser une base de donnée</Objectif>
           <Code>BDD02</Code>
           <Type>Atelier</Type>
           <Materiel>Workbench, Formateur</Materiel>
@@ -119,7 +119,7 @@
           </Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Etablir le modèle physique de données -->
         <Objectif>Etablir le modèle physique de données </Objectif>
         <Activite>
           <Objectif>Générer la base de données associée</Objectif>
@@ -131,7 +131,7 @@
           </Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Indexs, Contraintes et fichiers SQL -->
         <Objectif>Indexs, Contraintes et fichiers SQL</Objectif>
         <Activite>
           <Objectif>Compréhender la structure des fichiers SQL de création DB</Objectif>
@@ -144,7 +144,7 @@
           </Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!--  Valider le module Concevoir une Base de données -->
         <Objectif> Valider le module Concevoir une Base de données</Objectif>
         <Activite>
           <Objectif> Valider l'ECF</Objectif>
@@ -162,12 +162,12 @@
         </Activite>
       </Sequence>
     </Module>
-    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Mettre en place une base de données --->
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Mettre en place une base de données -->
       <Objectif>Mettre en place une base de données</Objectif>
       <SousObjectif>MDD,SQL, Utilisateurs, Alimentation, Backup</SousObjectif>
       <PreRequis>Etre inscrit à la Code Académie</PreRequis>
       <Materiel>Ordinateur, Internet</Materiel>
-      <Sequence>
+      <Sequence> <!-- Réaliser des requêtes struturées SQL -->
         <Objectif>Réaliser des requêtes struturées SQL</Objectif>
         <Activite>
           <Objectif>Initiation au SQL</Objectif>
@@ -194,46 +194,18 @@
           <Description>A partir d'une base de donnée fournie dans le repo github, les apprenants crée et exécute un ensemble de requêtes.</Description>
         </Activite>
         <Activite>
-    <Objectif>Entrainement Requête SQL</Objectif>
-    <Code>SQL13</Code>
-    <Type>Exercice</Type>
-    <Temps>4</Temps>
-    <Description># Exercice d'entraînement aux requêtes MYSQL.
+          <Objectif>Entrainement Requête SQL</Objectif>
+          <Code>SQL13</Code>
+          <Type>Exercice</Type>
+          <Temps>4</Temps>
+          <Description>
+            # Exercice d'entraînement aux requêtes MYSQL.
 
-A partir de la [BDD d'entraînement proposée par w3school](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) (aussi connue comme la BDD Northwind sample database), vous devez créer un ensemble de requêtes MYSQL qui répondront aux besoins énumérés dans ce readme.  
-
-Les requêtes ainsi créées devront être consignées dans un document et un screen (correctement rogné) des derniers résultats obtenus devra accompagner chaque requête. Le format de ce document sera réutilisé pour la certif, alors soignez la présentation, c'est du temps de gagner.
-
-## Les besoins
-
-**1) Affichez tous les employés**  
-**2) Affichez uniquement les ProductID et les ProductName de la table product**  
-**4) Affichez les Orders du client "Around the Horn"**  
-**5) Affichez les détails des commandes du client "B's Beverages"**  
-**6) Ajoutez vos infos dans la table des employés**  
-**7) Ajoutez un champ pour un nouveau collègue fictif dans la table des employés, mais attention, celui-ci refuse de mettre sa photo**  
-**8) Il y a une faute de frappe dans le numéro de téléphone du Shipper "Federal shipping", le bon est le : (503) 555-9935. Mettez ses données à jour**  
-**9) Nous venons de perdre le client "Du monde entier" supprimez manuellement toutes les infos le concernant dans notre BDD (les commandes, les détails de commandes et ses infos de clients)**  
-**10) Donnez le prix moyen de leurs produits**  
-**11) Faîtes une requête qui affiche dans une nouvelle colonne (attention, cela ne veut pas dire en insérer une nouvelle) le total dépensé dans chaque commande dans la table OrderDetails.**  
-**12) Affichez le produit "vache à lait" c.a.d. le produit qui a le chiffre d'affaires le plus important**  
-
-## Bonus
-
-Si les deux dernières questions ne vous ont pas achevées... Modélisez la base de données sur laquelle vous venez de travailler ! (Avec MYSQL Workbench).
-
-Vous avez déjà fait une modélisation, mais cette fois-ci vous faîtes en plus : 
-
-- Le dictionnaire de données (exemple : Nom du client => CustomerName; tout ça consigné dans un tableau. Dans votre cas, il s'agit plus de passer du nom des champs au nom réel)
-- Le schéma entité/association (le nom des tables + colonnes et les cardinalités) 
-- Le schéma physique (les types de données en prime, ce que vous créer sur workbench). 
-
-C'est certes un bonus, mais ceux qui étaient pas à l'aise avec l'exercice de modélisation qu'on a fait précédemment, je vous recommande de le faire. 
-
-N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous répondrons à vos questions si vous en avez, mais nous n'allons pas vous courrir après si vous ne nous demandez rien...</Description>  
-  </Activite>
+            A partir de la  BDD Northwind , vous devez créer un ensemble de requêtes MYSQL qui répondront aux besoins énumérés dans le readme.  
+          </Description>  
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Les droits d'accès en base de données -->
         <Objectif>Les droits d'accès en base de données</Objectif>
         <Activite>
           <Objectif>Compréhender la gestion des comptes utilisateur</Objectif>
@@ -246,7 +218,7 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
           </Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Données de test et Archivage -->
         <Objectif>Administration d'une base de données - Données de test et Archivage</Objectif>
         <Activite>
           <Objectif></Objectif>
@@ -260,7 +232,7 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
           </Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Valider le module Mettre en place une Base de données -->
         <Objectif> Valider le module Mettre en place une Base de données</Objectif>
         <Activite>
           <Objectif> Valider l'ECF</Objectif>
@@ -278,12 +250,12 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
         </Activite>
       </Sequence>
     </Module>
-    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Développer une interface utilisateur --->
+    <Module group='DeveloppeurLogiciel' language='CCP1'> <!-- Développer une interface utilisateur -->
       <Objectif>Développer une interface utilisateur</Objectif>
       <SousObjectif>Algo, POO, Tests, Erreurs</SousObjectif>
       <PreRequis>Etre inscrit à la Code Académie</PreRequis>
       <Materiel>Ordinateur, Internet</Materiel>
-      <Sequence>
+      <Sequence> <!-- Développer une interface utilisateur en HTML5 -->
           <Objectif>Développer une interface utilisateur en HTML5 </Objectif>
           <Activite>
             <Objectif>Initiation au HTML / CSS</Objectif>
@@ -298,50 +270,30 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
             <Type>Exercice</Type>
             <Temps>2</Temps>
             <Description>Premier mise en commun du travail entre les apprenants. Ensemble, sans intervention du formation, les apprenants doivent débriefer sur leur réalisation du HTML99.</Description>
-        </Activite>
-         <Activite>
-          <Objectif>Projet : No Images</Objectif>
-          <SousObjectif>Travail en Equipe, Concertation, Definition d'un besoin</SousObjectif>
-          <Temps>8</Temps>
-          <Code>HTML02</Code>
-          <Type>Exercice</Type>
-          <Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
-        </Activite>
-        <Activite>
-          <Objectif>Challenge HTML</Objectif>
-          <Type>Evaluation</Type>
-          <Code>HTML99</Code>
-          <Description>Chaque Mercredi, les apprenants recoivent un challenge ainsi qu'un coéquipier. Le challenge n'est pas à réaliser pendant la formation mais en dehors des cours. Et a rendre le mardi d'après!
-          </Description>
-        </Activite>
+          </Activite>
+          <Activite>
+            <Objectif>Projet : No Images</Objectif>
+            <SousObjectif>Travail en Equipe, Concertation, Definition d'un besoin</SousObjectif>
+            <Temps>8</Temps>
+            <Code>HTML02</Code>
+            <Type>Exercice</Type>
+            <Description>Par groupes définis. Développez un site web HTML + CSS sur une thématique libre. Nous vous rajoutons une simple contrainte. N'utilisez aucune image externe.</Description>
+          </Activite>
+          <Activite>
+            <Objectif>Challenge HTML</Objectif>
+            <Type>Evaluation</Type>
+            <Code>HTML99</Code>
+            <Description>Chaque Mercredi, les apprenants recoivent un challenge ainsi qu'un coéquipier. Le challenge n'est pas à réaliser pendant la formation mais en dehors des cours. Et a rendre le mardi d'après!
+            </Description>
+          </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Styliser une interface utilisateur en CSS3 -->
           <Objectif>Styliser une interface utilisateur en CSS3 </Objectif>
           <Activite>
             <Objectif>Divs à Gogo </Objectif>
             <Code>CSS00</Code>
             <Description>
-              # Initiation au CSS
-              Amusons nous avec les DIV's !
-              Vous avez bien étudier le HTML et le CSS, il est temps de faire votre première maquette ! Dans le développement web, une maquette est l'image qu'un client vous donne et que vous devez reproduire en intégration.
-
-              Pour cet exercice il vous faudra donc transcrire en HTML et en CSS l'image ci-dessous.
-
-              Pour ce faire vous devrez utiliser Bootstrap. Ce n'est pas grave si les couleurs et les images ne sont pas identiques à celles de la maquette, ni si vous ne mettez pas les textes en forme de la même façon, ce qui compte pour cet exercice c'est surtout de bien pratiquer le principe des grilles de bootstrap. Pour les images, vous pouvez utiliser des icônes provenant de The Noun Project ou encore des images venant du site Placehold.it.  Vous pouvez également utiliser Pixabay, ou encore Subtle Patterns pour styliser selon votre goût, comme pour l'exercice de la semaine précédente.
-
-              Pour vous aider, voici quelques tips :
-
-              * Utilisez le principe des grilles de Bootstrap, expliqué ici.
-              * La zone header du haut n'a pas de classe bootstrap et fait 100% de la largeur
-              * La zone des tuiles en dessous est composée de trois colonnes ( 3 X 4 = 12 )
-              * la première colonne est composée de 3 blocs, le premier prenant toute la largeur (12 colonnes) et les 2 autres la moitié ( donc 2 X 6 )
-              * On ne vous détaille pas la logique pour la 2ème et la 3ème colonne, le principe est le même.
-
-              Bon courage et bon code ! :)
-
-
-              ![DIVs](./img/exoDivs.jpg)
-
+              A partir d'une maquette, les apprenants doivent intégrer le site. Avec une petite découverte de Bootstrap en prime. 
             </Description>
           </Activite>
           <Activite>
@@ -366,22 +318,105 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
             <Objectif>Les Media Queries</Objectif>
             <Code>CUL10</Code>
             <Description>FIXME : Le responsive et les media queries</Description>
-        </Activite>
+          </Activite>
       </Sequence>
-      <Sequence>
-          <Objectif>Styliser une interface utilisateur en SASS </Objectif>
+      <Sequence> <!-- Professionnaliser son intégration web  -->
+          <Objectif>Professionnaliser son intégration web</Objectif>
           <Activite>
             <Objectif>Découvrir SASS et la compilation</Objectif>
             <Code>CSS20</Code>
             <Type>Exercice</Type>
             <Description>Dans un premier temps, les apprenants devront en un peu moins d'une demi-journée, préparer leur environnement de travail en SASS. 
               Il est attendu à ce que l'installation soit réalisée par le biais de npm et non ruby.Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>
+          </Activite>
+          <Activite>
+            <Objectif>S'exercer en intégration web</Objectif>
+            <Code>INTEG</Code>
+            <Description>FIXME : Les apprenants choisissent 2 sites web et les intègrent à leurs manière</Description>
+          </Activite>
+          <Activite>
+            <Objectif>Boilerplate</Objectif>
+            <Code>NONDEFINED</Code>
+            <Description>
+              FIXME : Découvrir les boilerplate. Voir l'ensemble des fichiers présents au sein du projet. 
+            </Description>
+          </Activite>
+         <Activite>
+          <Objectif>OPQUAST</Objectif>
+          <Code>OPQUAST</Code>
+          <Temps>12</Temps>
+          <Description>Exercices sur la plateforme d'OPQUAST</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Se faire certifier OPQUAST</Objectif>
+          <Code>CERTOP</Code>
+          <Temps>4</Temps>
+          <Description>Session d'examen sur la plateforme d'OPQUAST</Description>
         </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Ecrire un algorithme -->
         <Objectif>Ecrire un algorithme</Objectif>
+          <Activite>
+            <Objectif>Application de Bowling</Objectif>
+            <Code>ALGO00</Code>
+            <Type>CodingDojo</Type>
+            <Description>Réparti sur deux jours consécutifs, réalisation d'un Bowling en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
+          </Activite>
+          <Activite>
+            <Objectif>Compréhender la logique algorithmique sans ordinateur</Objectif>
+            <SousObjectif>Différencier Algorithmie et Programmation </SousObjectif>
+            <Code>ALGO01</Code>
+            <Type>Atelier</Type>
+            <Materiel>Crèpes de l'ENS, Paper Board</Materiel>
+            <Description>Exercice des crèpes de l'ENS Bretagne
+              Mise à plat sur papier de l'algo
+              Mise en forme en code
+            </Description>
+          </Activite>
+          <Activite>
+            <Objectif>Les boucles</Objectif>
+            <SousObjectif>Compréhension du if. Découverte du for et du while</SousObjectif>
+            <Code>ALGO02</Code>
+            <Type>Atelier</Type>
+            <Materiel>Papier/crayon</Materiel>
+            <Temps>2h</Temps>
+            <Description>
+             Par le biais de divers exercices , les apprenants doivent écrire un algo simple sur papier
+            </Description>
+          </Activite>
+          <Activite>
+            <Objectif>Les boucles</Objectif>
+            <SousObjectif>Savoir choisir quelle boucle entre le for et le while</SousObjectif>
+            <Code>ALGO03</Code>
+            <Type>Atelier</Type>
+            <Materiel>Papier/crayon</Materiel>
+            <Temps>2h</Temps>
+            <Description>
+             Par le biais de divers exercices , les apprenants doivent écrire un algo sur papier et choisir les bonnes boucles : for/while/if
+            </Description>
+          </Activite>
+          <Activite>
+            <Objectif> Coding Game : Thor</Objectif>
+            <Code>COD01</Code>
+            <Type>Exercice</Type>
+            <Description>Connectez-vous sur la plateforme Coding Game. Et réalisez l'exercice de Thor.</Description>
+          </Activite>
+          <Activite>
+            <Objectif>Les Expressions régulières</Objectif>
+            <Type>Exercice</Type>
+            <Code>CUL11</Code>
+            <Description>FIXME</Description>
+          </Activite>
+         <Activite>
+          <Objectif>Lecture de code</Objectif>
+          <SousObjectif>Savoir lire et verbaliser un bloc de code fonctionnel</SousObjectif>
+          <Code>CUL13</Code>
+          <Description>
+            Un apprenant présente le code qu'il a réalisé. En lisant son bloc d'algo.
+          </Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Programmer en Javascript -->
         <Objectif>Programmer en Javascript</Objectif>
         <Activite>
           <Objectif>Initiation au JavaScipt</Objectif>
@@ -390,23 +425,256 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
           <Code>JS00</Code>
           <Description>Réparti sur deux jours consécutifs, réalisation d'un FizzBuzz en coding dojo. Attention, en fonction du nombre de participants, il peut s'avérer plus efficace de scinder les apprenants en deux groupes. src : https://github.com/bu7ch-learn1ng/fizzbuzz-js</Description>
         </Activite>
+        <Activite>
+          <Objectif>Initiation au JavaScipt</Objectif>
+          <Code>JS01</Code>
+          <Type>CodingDojo</Type>
+          <Temps>7</Temps>
+          <Description>Coding Dojo : Converting Latin to roman numbers</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Découverte de tierces bibliothèques</Objectif>
+          <Code>JS20</Code>
+          <Type>Atelier</Type>
+          <Description>Par groupes de 4, partez à la découverte d'une bibliothèque JS : 
+                      grunt
+                      gulp
+                      backbone
+                      babylon
+                      d3js
+                      tweenmax
+                      phaser
+                      ember
+                      chartjs / chartistjs
+                   Vous avez un total de 2 heures pour lire de la documentation et vous renseigner sur le sujet. Voire lancer un premier prototype. 
+                   Il vous est demandé à la fin de faire une courte présentation de 5-10 minutes sur la bibliothèque concernée.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Pratique du JS</Objectif>
+          <Code>JS99</Code>
+          <Type>Evaluation</Type>
+          <Description>Chaque semaine, un challenge !</Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- jQuery -->
+        <Objectif>Pratiquer professionnellement du Javascript avec jQuery</Objectif>
+        <Activite>
+          <Objectif>Pratique du JQuery</Objectif>
+          <SousObjectif>Test Unitaire, Lecture de code</SousObjectif>
+          <Code>JS10</Code>
+          <Type>Exercice</Type>
+          <Description>
+            # Javascript Recall
+
+            Inside you will find a collection of exercises to improve your Javascript.
+            You have two important files:
+              * questions.spec.js (containing the tests and explains what is expected)
+              * questions.js (where you have to code)
+
+            To start, open `SpecRunner.html` in your browser.
+          </Description>  
+        </Activite>
+        <Activite>
+          <Objectif>Initiation au JQuery</Objectif>
+          <Type>Exercice</Type>
+          <Code>JS11</Code>
+          <Description>Manipulation de DOM, d'evenements... </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Pratique du JQuery</Objectif>
+          <Type>Exercice</Type>
+          <Code>JS12</Code>
+          <Description>Application pomodoro</Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- AngularJS -->
+        <Objectif>Pratiquer professionnellement du Javascript avec AngularJS</Objectif>
+        <Activite>
+          <Objectif>Découverte d'ANGULAR</Objectif>
+          <Code>Angular</Code>
+          <Type>Exercice</Type>
+          <Description>
+            Avec ce coding dojo nous souhaitons réaliser une application de répertoire sur Angular4 (L’API est réalisée avec la techno de votre choix).
+            Similaire à une application de répertoire que l’on retrouve sur téléphone avec un système de CRUD classique.
+            Tout devra se trouver sur la même page (single page APP), mais vous pouvez utiliser des routes pour naviguer.
+            L’application doit nous permettre de :
+            Afficher la liste des contacts (Prénom Nom)
+            Ajouter un nouveau contact à la liste (la liste s’actualiseras automatiquement après l’ajout)
+            Supprimer un contact de la liste
+            Pouvoir obtenir les détails du contact au clic (pas de dropdown, le detail s’affiche dans un nouveau component)
+            Pouvoir modifier ce dernier si on le souhaite
+
+            L’objet contact doit se présenter comme cela :
+            Prénom
+            Nom
+            Numéro de Téléphone
+            Email
+
+
+          </Description>
+        </Activite>
+         <Activite>
+          <Objectif>Découverte d'ANGULAR</Objectif>
+          <Code>Coding DOJO Angular</Code>
+          <Type>CodingDojo</Type>
+          <Description>
+            Avec ce coding dojo nous souhaitons réaliser une application de répertoire sur Angular4 (L’API est réalisée avec la techno de votre choix).
+            Similaire à une application de répertoire que l’on retrouve sur téléphone avec un système de CRUD classique.
+            Tout devra se trouver sur la même page (single page APP), mais vous pouvez utiliser des routes pour naviguer.
+            L’application doit nous permettre de :
+            Afficher la liste des contacts (Prénom Nom)
+            Ajouter un nouveau contact à la liste (la liste s’actualiseras automatiquement après l’ajout)
+            Supprimer un contact de la liste
+            Pouvoir obtenir les détails du contact au clic (pas de dropdown, le detail s’affiche dans un nouveau component)
+            Pouvoir modifier ce dernier si on le souhaite
+
+            L’objet contact doit se présenter comme cela :
+            Prénom
+            Nom
+            Numéro de Téléphone
+            Email
+
+
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Programmer en PHP -->
         <Objectif>Programmer en PHP</Objectif>
+        <Activite >
+          <Objectif>Initiation au PHP</Objectif>
+          <Code>PHP00</Code>
+          <Description>Vous aurez accès à l'API de PHP sur PHP.net  : http://php.net/manual/fr/ 
+            Faites vos exercices sur : http://sandbox.onlinephpfunctions.com/ 
+            0) Comprendre le code affiché par défaut sur cette page par le biais de la doc ci-dessus
+            1) Afficher  tous les éléments d'un tableau
+            2) Counter le nombre d'éléments dans un table. De deux façons.
+            3) Chercher un élément dans un table.
+            4) Ordonner un tableau en utilisant une methode existante
+            5) Ordonner un table en utilisant un tri que vous aurez vous-même développé
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Création d'un formulaire en PHP</Objectif>
+          <SousObjectif>Formulaire/DTD/XML/PHP</SousObjectif>
+          <Code>PHP01</Code>
+          <Type>Atelier</Type>
+          <Temps>8</Temps>
+          <Description>
+          A partir d'un DTD, définir une première structure XML et s'assurer que le XML respecte le DTD.
+          Suite à celà, générer un formulaire PHP. 
+          Ce dernier doit pouvoir générer une structure XML correspondante.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Approfondissement des boucles en PHP</Objectif>
+          <Code>PHP02</Code>
+          <Description>
+            Manipuler une structure JSON. Et utiliser des méthodes pour parcourir des tableaux.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Découverte de la relation BDD-PHP</Objectif>
+          <SousObjectif>SQL/PHP/UML</SousObjectif>
+          <Code>PHP11</Code>
+          <Description>
+            Vous vous souvenez de PHP01?
+            Après la lecture d'un DTD, vous avez réalisé un formulaire PHP permettant de créer une activité et de l'exporter en XML.
+            Mais maintenant, l'affaire se corse. Non seulement Erwann a besoin de l'exporter en XML, mais il aimerait également pouvoir stocker le tout au sein d'une base de données.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Les expressions régulières en PHP</Objectif>
+          <SousObjectif>PHP/RexExp</SousObjectif>
+          <Code>PHP12</Code>
+          <Description>
+            FIXME
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Challenges de PHP</Objectif>
+          <SousObjectif>PHP/Algo</SousObjectif>
+          <Code>PHP99</Code>
+          <Type>Evaluation</Type>
+          <Description>
+            FIXME
+          </Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Programmer en Ruby -->
         <Objectif>Programmer en Ruby</Objectif>
+         <Activite>
+          <Objectif>Initiation au Ruby</Objectif>
+          <Code>RUB00</Code>
+          <Description>Installer le package ruby
+            Utilisez la commande irb ou ruby
+            1) Calculer 23456³
+            2) Créer une fonction entrant en paramètre une chaine de texte, et qui vous la retourne ainsi que le même texte inversé :
+                Ex : maFctQuiCloneEtInverse("Eh ca va la vache") doit me retourner =&gt; "Eh ca va la vache ehcav al av ac hE"
+            3) Créer un tableau [0 =&gt; "Pomme", 1=&gt;"Banane", 2=&gt;"Poire", 3=&gt;"Kiwi", 4=&gt;"Wapiti", 5=&gt;"Clémentine",6=&gt;"Fraise", 7=&gt;"Peche"]
+            4) Trouver l'intrus :slightly_smiling_face:
+            5) Afficher  tous les éléments d'un tableau
+            6) Compter le nombre d'éléments dans un tableau. De deux façons.
+            7) Chercher un élément dans un table.
+            8) Ordonner un tableau en utilisant une methode existante
+            9) Ordonner un table en utilisant un tri que vous aurez vous-même développé
+          </Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Développer en orienté objet -->
         <Objectif>Développer en orienté objet</Objectif>
+        <Activite>
+          <Objectif>Initiation à l'orienté object</Objectif>
+          <Code>CUL20</Code>
+          <Type>Atelier</Type>
+          <Description>Faites de recherche sur l'orienté objet. Cours / Vidéo etc...
+            Après deux heures de recherche et concertation. Mise en commun de la compréhension en groupe.</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Initiation au concept d'orienté objet</Objectif>
+          <Code>POO01</Code>
+          <Description>FIXME</Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Ecrire des tests unitaires -->
         <Objectif>Ecrire des tests unitaires</Objectif>
+        <Activite>
+          <Objectif>Initiation TDD</Objectif>
+          <Code>TDD01</Code>
+          <Description>
+            Les tests servent à garantir le bon fonctionnement de votre application. Mais aussi à garantir le fait que vous ne fassiez pas de [régressions](https://fr.wikipedia.org/wiki/Test_de_r%C3%A9gression).
+
+            En effet, l'application que vous développez est vouée à évoluer. Une fois la première version livrée à votre client, il est probable et souhaité qu'il revienne vers vous pour une amélioration de certaines fonctionnalités. Mais comment vous assurer que les nouvelles fonctionnalités ne viennent pas perturber l'existant?
+
+            Pour se faire, il existe les tests. Plusieurs types de tests existent, les tests fonctionnels et les tests unitaires.
+
+            Réalisez une veille sur les outils à mettre en place sur vos applications. Et sur comment le faire.
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>S'exercer sur du TDD</Objectif>
+          <Code>TDD02</Code>
+          <Description>Déterminez si la phrase est un pangramme. Un pangramme (Grec : παν γράμμα, pan gramma, "every letter" ) est une phrase contenant tous les charactères de l'alphabet (au moins une fois). Le pangramme le plus conny en anglais est "The quick brown fox jumps over the lazy dog."</Description>
+        </Activite>
       </Sequence>
-      <Sequence>
+      <Sequence> <!-- Documenter les composants -->
         <Objectif>Documenter les composants</Objectif>
+        <Activite>
+          <Code>FIXME</Code>
+          <Objectif>Les erreurs et les exceptions. Quelle différence ?</Objectif>
+          <Description>
+            FIXME : Atelier sur les
+          </Description>
+        </Activite>
+        <Activite>
+          <Code>FIXME</Code>
+          <Objectif>Les commentaires, les logs</Objectif>
+          <Description>
+            FIXME : Atelier sur les
+          </Description>
+        </Activite>
       </Sequence>
-       <Sequence>
+      <Sequence> <!-- Valider Développer une interface utilisateur -->
         <Objectif> Valider le module Développer une interface utilisateur</Objectif>
         <Activite>
           <Objectif> Valider l'ECF</Objectif>
@@ -422,7 +690,341 @@ N'oubliez pas que c'est un exercice d'entrainement et non un challenge. Nous ré
           <Temps>7</Temps>
           <Description>FIXME. Copier le reac</Description>
         </Activite>
+          <Activite>
+          <Objectif>Mettre en place une base de données</Objectif>
+          <Code>CERT05</Code>
+          <Description>
+            Valider les compétences demandées dans le react. Pour le CERT01 il s'agit de Mettre en place une base de données. Selon le react, il vous est demandé : 
+            - La base de données est confrome au schéma physique
+            - Les règles de nommage sont conformes aux normes qualité de l'entreprise
+            - L'intégrité des données est assurée
+            - La base de données est opérationnelle avec les droits d'accès prévus.
+            - La base de données de test peut être restaurée en cas d'incident. 
+          </Description>
+        </Activite>
       </Sequence>
     </Module>
+    <Module group='DeveloppeurLogiciel' language='CCP2'> <!-- Développer une application web -->
+      <Objectif>Développer une application web</Objectif>
+      <SousObjectif></SousObjectif>
+      <PreRequis>Etre inscrit à la Code Académie</PreRequis>
+      <Materiel>Ordinateur, Internet</Materiel>
+      <Sequence> <!-- Développer des pages web en lien avec une base de données -->
+        <Objectif>Développer des pages web en lien avec une base de données</Objectif>
+      </Sequence>
+      <Sequence> <!-- Mettre en œuvre une solution de gestion de contenu ou e-commerce -->
+        <Objectif>Mettre en œuvre une solution de gestion de contenu ou e-commerce</Objectif>
+        <SousObjectif>Wordpress</SousObjectif>
+        <Activite done="true">
+          <Objectif>Découverte de Wordpress</Objectif>
+          <Code>WP00</Code>
+          <Type>Atelier</Type>
+          <Description>Installer Wordpress sur un serveur apache.</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Réaliser son premier thème wordpress</Objectif>
+          <Code>WP01</Code>
+          <Type>Exercice</Type>
+          <Description>
+            Suivre le tutoriel : http://www.fran6art.com/wordpress/creez-votre-theme-wordpress-de-a-a-z/
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Comment développer sous Wordpress</Objectif>
+          <Code>WP02</Code>
+          <Type>Atelier</Type>
+          <Description>
+            Découverte des plugins de débug:
+             * SF Admin bar tools
+             * Show Current Template. 
+           </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Plugins sous Wordpress</Objectif>
+          <Code>WP03</Code>
+          <Type>Exercice</Type>
+          <Description>Réalisez une veille sur les plugins wordpress à connaître. 
+            ACF
+            JetPack
+            Disqus
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Projet professionnel sous Wordpress</Objectif>
+          <Code>WP99</Code>
+          <Type>Evaluation</Type>
+          <Description>
+            Pour chaque projet pro:
+              * Définition des groupes
+              * Création d'un dépot sur bitbucket
+              * Analyse du besoin
+              * Elaboration d'une expression de besoin
+              * Concertation régulière avec le client
+              * Elaboration des lots d'évolution  
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Développer une application simple de mobilité numérique -->
+        <Objectif>Développer une application simple de mobilité numérique</Objectif>
+        <Activite>
+          <Objectif>Intégrer une base de données SQLite</Objectif>
+          <Code>RN10</Code>
+          <Description>FIXME : Reprendre l'application de Reminder. Au sein de cette application, il serait préférable de pouvoir : 
+            - Stocker les informations au sein d'une base de données locales
+            - Rajouter des images et des URL au sein d'un post it
+            - Tester unitairement l'application
+            - Améliorer le design pour que l'application supporte plus de 10 postits 
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Utiliser l’anglais dans son activité professionnelle en informatique -->
+        <Objectif>Utiliser l’anglais dans son activité professionnelle en informatique</Objectif>
+        <Activite>
+          <Objectif>Cours d'anglais avec le Greta</Objectif>
+          <Code>GB01</Code>
+          <Description>FIXME : Obtenir les compétences nécessaires en anglais.</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Valider la sequence. </Objectif>
+          <Code>CERT06</Code>
+          <Type>Evaluation</Type>
+          <Description>FIXME : Copier le REAC.</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Valider la sequence. </Objectif>
+          <Code>CERT06.1</Code>
+          <Type>Evaluation</Type>
+          <Description>FIXME : Copier le REAC.</Description>
+        </Activite>
+      </Sequence>
+    </Module>
+    <Module group='Informaticien' language='FACE'> <!-- Compétences transverses d’un développeur Web -->
+      <Objectif>Compétences transverses d’un développeur Web</Objectif>
+      <Sequence> <!-- Organiser son activité en développement informatique -->
+        <Objectif>Organiser son activité en développement informatique</Objectif>
+        <Activite> <!--SCRUM -->
+          <Objectif>Initiation aux méthodologies SCRUM</Objectif>
+          <Code>SCRUM01</Code>
+          <Type>Atelier</Type>
+          <Temps>1/2 j</Temps>
+          <Description>http://www.lego4scrum.com/</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Découverte de GIT et GITHub</Objectif>
+          <Code>GIT00</Code>
+          <Description>Création d'un compte github. 
+            Découverte de git init/add/commit/pull/push/clone</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Définir le besoin</Objectif>
+          <Code>CA00</Code>
+          <Temps>21h</Temps>
+          <Description>
+            Présentation du projet au Formateur / Promo.
+            1) Définition du scope :
+              Qui
+              Quoi
+              Comment
+              Pourquoi
+            2) Ecrire la liste des fonctionnalités attendues. 
+            3) Ecrire le cahier des charges
+            3) Ecrire l'expression de besoin
+            4) Définir des lots d'évolutions
+            5) Sprint #01  : 
+              5.1) Spec fonctionnelle
+              5.2) Spec technique
+              5.3) Developpement
+            6) Sprint #02 : ...
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Analyse du besoin</Objectif>
+          <Code>CA10</Code>
+          <Temps>7h</Temps>
+          <Description>
+            Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
+            Par groupes
+            1) Réaliser une veille des technologies à utiliser.
+            2) En fonction de votre language de prédilection, definissez le framework à mettre en place. 
+            3) Après une lecture attentive du cahier des charges, cherchez les bibliothèes que vous aimeriez utiliser.
+            3) Réserver 1h30 en fin de journée pour :
+              - Présenter votre projet et vos choix technologiques au reste de la table
+              - Débattre sur les choix réalisés. 
+            4) S'il vous reste du temps, commencer à préparer l'environnement de travail. 
+          </Description>
+        </Activite>
+         <Activite>
+          <Objectif>Planification de la charge</Objectif>
+          <Code>CA20</Code>
+          <Temps>7h</Temps>
+          <Description>
+            Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
+            Individuellement :
+            1) Méthode agile + Estimation des durées
+            2)  En estimant à un lot d'évolution par mois. Vous aurez un jour par semaine + deux WE par mois pour la réalisation des taches. 
+              3) Sprint #01  : 
+                3.1) Spec fonctionnelle
+                3.2) Spec technique
+                3.3) Developpement
+              4) Sprint #02 : ...
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Actualiser et partager ses compétences en développement informatique -->
+        <Objectif>Actualiser et partager ses compétences en développement informatique</Objectif>
+        <Activite> <!--Veille -->
+          <Objectif>Initiation à la veille technologique</Objectif>
+          <SousObjectif>Changement des habitudes pour intégrer la veille dans son quotidien</SousObjectif>
+          <Code>CUL01</Code>
+          <Type>Brainstorming</Type>
+          <Description>
+            Ensemble les apprenants et le formateurs listent un ensemble d'outils et de sites pour réaliser une veille efficace. Quels sont les clés d'une bonne veille ? 
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Préparation à l'oral de la certification</Objectif>
+          <Code>CA40</Code>
+          <Temps>14</Temps>
+          <Description>
+            Face à la promotion présentez votre projet comme si vous étiez face au jury final.
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Configurer son poste de travail -->
+        <Objectif>Configurer son poste de travail</Objectif>
+        <Activite skipped="true">
+          <Objectif>Installation de Linux</Objectif>
+          <Code>LIN01</Code>
+          <Temps> 1/2 journée</Temps>
+          <Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
+        </Activite>
+        <Activite skipped="true">
+          <Objectif>Découverte du terminal : Terminus du MIT</Objectif>
+          <Code>LIN02</Code>
+          <Description>cd, .., ls, mkdir, ps, rm</Description>
+        </Activite>
+        <Activite done="true">
+          <Objectif>Découverte du terminal</Objectif>
+          <Code>LIN02b</Code>
+          <Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
+        </Activite>
+        <Activite skipped="true">
+          <Objectif>Découverte de l'editeur VIM</Objectif>
+          <Code>LIN03</Code>
+          <Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
+        </Activite>
+        <Activite> <!-- Gestion des droits Linux -->
+          <Objectif>Les droits d'accès sous linux </Objectif>
+          <Code>CUL12</Code>
+          <Type>Atelier</Type>
+          <Description>FIXME</Description>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Connaître son métier de demain : Développeur web -->
+        <Objectif>Connaître son métier de demain : Développeur web</Objectif>
+        <Activite >
+          <Objectif>Qu'est-ce qu'un développeur web junior</Objectif>
+          <Code>DEV00</Code>
+          <Temps>1</Temps>
+          <Type>Brainstorming</Type>
+          <SousObjectif>Comprendre les attendus de la formation</SousObjectif>
+          <Description>Savoir résoudre des problématiques. Analyse et mise en place d'un besoin. Informatitien. Geek a tout faire. </Description>
+        </Activite>
+        <Activite>
+          <Code>INSPRO50</Code>
+          <Temps>1</Temps>
+          <Type>Brainstorming</Type>
+          <Objectif>Quels métiers du numérique connaissez-vous</Objectif>
+          <Description>Web Designer, Référenceur, Big Data, Admin BDD, Designer, Integrateur, Maintenance, Testing, Developpeur Front/Back/Fullstack, Architecte, Chef de projet...</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Découvrir la spécialisation</Objectif>
+          <Code>FORK</Code>
+          <Type>Atelier</Type>
+          <Description>Découvrir ce qui attend l'apprenant lors de la spécialisation</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Les langages de développement</Objectif>
+          <Code>CUL00</Code>
+          <Type>Brainstorming</Type>
+          <Temps>1</Temps>
+          <Description>Quels sont les langages Web ? Et c'est quoi leurs spécificités? HTML, CSS, JS, PHP, Ruby, ASP, Java, Applet, CoffeeScript, SQL, Flash, Go, Dart,Python..</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Quelles languages de programmation</Objectif>
+          <Code>DEV02</Code>
+          <Type>Brainstorming</Type>
+          <Temps>1</Temps>
+          <SousObjectif>Avoir le B.A.BA des languages de programmation</SousObjectif>
+          <Description>Java, JS, PHP, HTML, CSS, .NET, GO, DART </Description>
+        </Activite>
+        <Activite><!--Remuneration -->
+          <Objectif> Débat autour des différentes méthodes de rémunération de sites internet</Objectif>
+          <Code>CUL03</Code>
+          <Description>FIXME</Description>
+        </Activite>
+        <Activite> <!-- E.DUCLOS : SEO -->
+          <Objectif>Le référencement SEO</Objectif>
+          <Code>CUL14</Code>
+          <Type></Type>
+          <Description>FIXME</Description>
+        </Activite>
+        <Activite>
+          <Objectif>Quelles structures de données connaissez vous?</Objectif>
+          <Code>DEV01</Code>
+          <Type>Brainstorming</Type>
+          <Temps>1</Temps>
+          <SousObjectif>Avoir le B.A.BA des data</SousObjectif>
+          <Description>XML, JSON, YAML, CSV, TXT (md, asciidoc), ... </Description>
+        </Activite>
+      </Sequence>
+    </Module>
+    <Module group='DemandeurEmploi' language='FACE'> <!-- TRE et entretiens -->
+      <Objectif>Compétenses transverses du secteur de l’emploi</Objectif>
+      <Sequence> <!-- Développer son image sur le web -->
+        <Objectif>Développer son image sur le web</Objectif>
+        <Activite>
+          <Objectif>Réalisation d'un portfolio</Objectif>
+          <Code>INSPRO10</Code>
+          <Description>
+            Réalisation d'un CV / Portfolio professionnel hébergé sur une gitpage.
+          </Description>
+        </Activite>
+        <Activite>
+          <Code>INSPRO40</Code>
+          <Objectif>Réaliser son CV sur DoYouBuzz</Objectif>
+        </Activite>
+      </Sequence>
+      <Sequence> <!-- Les entreprises sur le bassin rennais -->
+        <Activite>
+          <Objectif> Les entreprises de la région</Objectif>
+          <Code>CUL02</Code>
+          <Type>Brainstorming</Type>
+          <Temps>1</Temps>
+          <Description>
+            Ensemble, les apprenants listent les entreprises qu'ils connaissent sur le bassin rennais. Et doivent répondre à un ensemble de questions les concernants : 
+             Quelle taille ont-elles? Ont-ils des recrutements en ce moment? Et quels profils sont recherchés? ...
+          </Description>
+        </Activite>
+        <Activite>
+          <Objectif>Forum de la femme du numérique</Objectif>
+          <Code>FORUM</Code>
+          <Temps>4</Temps>
+          <Description>
+            Sortie en groupe au forum de la femme du numérique afin de découvrir le milieu Rennais
+          </Description>
+        </Activite>
+      </Sequence>
+      <Sequence><!-- Le savoir etre en entreprise -->
+        <Objectif>Le savoir être en entreprise </Objectif>
+      </Sequence>
+      <Sequence><!-- Préparation à un entretien -->
+        <Objectif>Préparation à un entretien </Objectif>
+        <Activite>
+          <Code>INSPRO20</Code>
+          <Objectif>Atelier </Objectif>
+           <Description>Lire et échanger sur une liste de questions que peuvent avoir un recruteur RH et recruteur technique</Description>
+        </Activite>
+      </Sequence>
   </Programme>
 </root>
