@@ -18,11 +18,12 @@ Module{
 	line-height: 40px;
 	text-align: center;
 	border : 1px solid black;
-	margin : 2em auto;
+	margin-bottom : 2em;
+	padding:1em;
 	color: #58595b;
 	font-weight: bold;
 	font-family: Bitter,Cambria,Georgia,serif;
-	width:80%;
+	width:100%;
 	background-color:white;
 }
 Module:before {
@@ -43,6 +44,10 @@ Activite{
 	display: none;
 	margin-left : 2em;
 	font-size: 12px;
+}
+Type::after{
+	content:" : ";
+	padding-right:1em;
 }
 Description{
 	display : none;
@@ -65,6 +70,10 @@ Materiel, SousObjectif, PreRequis {
 Temps {
 	display:block;
 	float : right;
+}
+Temps::after{
+	content:" h";
+	margin-right:1em;
 }
 Code {
 	display:block;
