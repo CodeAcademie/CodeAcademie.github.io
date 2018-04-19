@@ -50,7 +50,7 @@ Type::after{
 	padding-right:1em;
 }
 Description{
-	display : none;
+	display : block;
 	font-style: italic;
 	white-space: pre-line;
 	background-color : #c0c0c0;
