@@ -23,7 +23,7 @@
         <Activite>
             <Type>Exercice</Type>
             <Objectif>Cette maquette respecte-t-elle la charte graphique ?</Objectif>
-            <Code>CGR02</Code>
+            <Code>CGR10</Code>
             <Temps>1</Temps>
             <Description>TODO : Individuellement, chaque apprenant doit lire une charte graphique, parcourir un ensemble de maquettes et stipuler si la maquette respecte ou non la charte.</Description>
         </Activite>
@@ -32,7 +32,7 @@
             <Type>Exercice</Type>
             <Objectif>Maquetter une application</Objectif>
 	          <Code>CSS13</Code>
-	          <Temps>4</Temps>
+	          <Temps>6</Temps>
 	          <Description>A partir d'un cahier des charges succint, chaque apprenant doit individuellement réaliser un wireframe ainsi qu'une maquette</Description>
         </Activite>
   		</Sequence>
@@ -50,9 +50,9 @@
         <Activite>
             <Type>Exercice</Type>
             <Objectif>Réaliser un page flow</Objectif>
-            <Code>USR02</Code>
+            <Code>USR10</Code>
             <Temps>2</Temps>
-            <Description>A partir d'un cahier de use cases succints, réaliser un wireframe ainsi que son page flow</Description>
+            <Description>TODO : A partir d'un cahier de use cases succints, réaliser un wireframe ainsi que son page flow</Description>
         </Activite>
   		</Sequence>
   		<Sequence> <!-- Valider le module Maquetter une application -->
@@ -92,10 +92,12 @@
       <Sequence> <!-- Etablir le shéma Entité-Association -->
         <Objectif>Etablir le shéma Entité-Association </Objectif>
         <SousObjectif>Cahier des charges, UML, Normalisation, Workbench</SousObjectif>
+        <Code>BDD</Code>
         <Activite>
           <Type>Brainstorming</Type>
           <Objectif>Les différents types de bases de données </Objectif>
-          <Code>CUL16</Code>
+          <Code>BDD00</Code>
+          <Temps>1</Temps>
           <Description>
             Brainstorming et veille sur ce qu'il existe. 
             Veille sur : SQL vs NoSQL
@@ -106,6 +108,7 @@
           <Type>Atelier</Type>
           <Objectif>Comment modéliser une base de données</Objectif>
           <Code>BDD02</Code>
+           <Temps>4</Temps>
           <Materiel>Workbench, Formateur</Materiel>
           <Description>
             Atelier réalisé collectivement avec le formateur. A partir d'un cahier des charges existant, réaliser avec Workbench:
@@ -120,13 +123,14 @@
           <Type>Exercice</Type>
           <Objectif>Modelisation SQL : Les apprenants de la Code Académie</Objectif>
           <Code>SQL10</Code>
+          <Temps>2</Temps>
           <Description>Les apprenants découvrent la modélisation de base ainsi que la normalisation via la création d'une base de donnée représentant les apprenants de la promotion. Un debrief avec les réflexions de chacun sera faite à la fin. Possibilité de le faire en manuscrit ou avec MYSQL workbench. Debrief en groupe en partant d'un example et schéma partager entre les apprenants sur slack. Un rappel devra être réalisé entre SQL et objet</Description>
         </Activite>
         <Activite>
           <Type>Atelier</Type>
           <Objectif>Analyser un cahier des charges pour en soustraire la BDD souhaitée</Objectif>
           <Code>SQL20</Code>
-          <Temps>4</Temps>
+          <Temps>6</Temps>
           <Description>
             A partir de plusieurs cahier des charges, les apprenants doivent modéliser la base de données. 
           </Description>
@@ -138,6 +142,7 @@
           <Type>Exercice</Type>
           <Objectif>Générer la base de données associée</Objectif>
           <Code>SQL30</Code>
+          <Temps>8</Temps>
           <PreRequis>Avoir réalisé SQL20</PreRequis>
           <Description>
             A partir des modélisation de base de données réalisées dans le cadre de SQL20, Créer les script de création de base de données 
@@ -145,11 +150,12 @@
         </Activite>
       </Sequence>
       <Sequence> <!-- Indexs, Contraintes et fichiers SQL -->
-        <Objectif>Indexs, Contraintes et fichiers SQL</Objectif>
+        <Objectif>Indexes, Contraintes et fichiers SQL</Objectif>
         <Activite>
           <Type>Exercice</Type>
           <Objectif>Compréhender la structure des fichiers SQL de création DB</Objectif>
           <Code>SQL40</Code>
+          <Temps>2</Temps>
           <Description>
             A partir des scripts générés en SQL30.
             Lire décortiquer les fichiers SQL. 
@@ -186,7 +192,7 @@
           <Type>Atelier</Type>
           <Objectif>Initiation au SQL</Objectif>
           <Code>SQL00</Code>
-          <Temps>4</Temps>
+          <Temps>3</Temps>
           <Description>Sur http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all 
             Réalisez les requêtes suivantes : 
             1) La liste des ContactName de la table Customer
@@ -200,12 +206,14 @@
           <Type>Exercice</Type>
           <Objectif>Script de création de table et insertion de données</Objectif>
           <Code>SQL11</Code>
+          <Temps>3</Temps>
           <Description>Les apprenants améliorent le modéle créer en SQL10 ou repartent d'une correction puis crée le script de création de table à partir de workbench. Par la suite ils font un script de création manuel à partir du modéle donner dans example.png de SQL10</Description>
         </Activite>
         <Activite>
           <Type>Exercice</Type>
           <Objectif>Requête de sélection/insertion/insertion MYSQL</Objectif>
           <Code>SQL12</Code>
+          <Temps>4</Temps>
           <Description>A partir d'une base de donnée fournie dans le repo github, les apprenants crée et exécute un ensemble de requêtes.</Description>
         </Activite>
         <Activite>
@@ -237,12 +245,21 @@
         <Objectif>Administration d'une base de données - Données de test et Archivage</Objectif>
         <Activite>
           <Type>Atelier</Type>
-          <Objectif></Objectif>
-          <Code>FIXME</Code>
+          <Objectif>Créer un script d'archivage de base de données</Objectif>
+          <Code>SQL60</Code>
           <Description>
-            Activité à réaliser en pair programming. 
+            TODO : Activité à réaliser en pair programming. 
             Prenez une base de donnée réalisée précédemment.
             Réaliser un script d'archivage de votre base de données.
+          </Description>
+        </Activite>
+        <Activite>
+          <Type>Atelier</Type>
+          <Objectif>Créer un script d'alimentation de base de données</Objectif>
+           <Code>SQL61</Code>
+          <Description>
+            TODO : Activité à réaliser en pair programming. 
+            Prenez une base de donnée réalisée précédemment.
             Réaliser un script d'alimentation de données de test de la base de données. Il est prévu d'insérer 1 million d'enregistrements automatiquement pour réaliser des tests de volumétrie.
           </Description>
         </Activite>
@@ -298,7 +315,9 @@
             <Type>Evaluation</Type>
             <Objectif>Challenge HTML</Objectif>
             <Code>HTML99</Code>
+            <Temps>8</Temps>
             <Description>Chaque Mercredi, les apprenants recoivent un challenge ainsi qu'un coéquipier. Le challenge n'est pas à réaliser pendant la formation mais en dehors des cours. Et a rendre le mardi d'après!
+            Lorsque les projets sont retournés, un entretien a lieu afin d'aborder les difficultés rencontrées.
             </Description>
           </Activite>
       </Sequence>
@@ -308,6 +327,7 @@
             <Type>Exercice</Type>
             <Objectif>Divs à Gogo </Objectif>
             <Code>CSS00</Code>
+            <Temps>4</Temps>
             <Description>
               A partir d'une maquette, les apprenants doivent intégrer le site. Avec une petite découverte de Bootstrap en prime. 
             </Description>
@@ -317,12 +337,14 @@
             <Objectif>Intégrer une maquette simple dans un temps très restreint</Objectif>
             <SousObjectif>Prise de conscience de ses capacités, Gestion du temps, Priorisation</SousObjectif>
             <Code>CSS12</Code>
-            <Description>Cet exercice est à faire dans les conditions d'un entretien d'embauche pour le poste d'intégrateur web. Une maquette est donnée et chaque apprenant a 3h30 pour l'intégrer (le plus possible). </Description>
+            <Temps>3.5</Temps>
+            <Description>FIXME : Cet exercice est à faire dans les conditions d'un entretien d'embauche pour le poste d'intégrateur web. Une maquette est donnée et chaque apprenant a 3h30 pour l'intégrer (le plus possible). </Description>
           </Activite>
           <Activite>
             <Type>Exercice</Type>
             <Objectif>Position et typos</Objectif>
             <Code>HTML04</Code>
+            <Temps>4</Temps>
             <Description>
               Pratique et approfondissement des bases en CSS. Positions, marges, paddings etc...
             </Description>
@@ -346,6 +368,7 @@
             <Type>Exercice</Type>
             <Objectif>Découvrir SASS et la compilation</Objectif>
             <Code>CSS20</Code>
+            <Temps>9</Temps>
             <Description>Dans un premier temps, les apprenants devront en un peu moins d'une demi-journée, préparer leur environnement de travail en SASS. 
               Il est attendu à ce que l'installation soit réalisée par le biais de npm et non ruby.Par la suite, ils ont une demi-journée pour intégrer une maquette simple.</Description>
           </Activite>
@@ -353,6 +376,7 @@
              <Type>Exercice</Type>
             <Objectif>S'exercer en intégration web</Objectif>
             <Code>INTEG</Code>
+            <Temps>36</Temps>
             <Description>FIXME : Les apprenants choisissent 2 sites web et les intègrent à leurs manière</Description>
           </Activite>
           <Activite>
@@ -389,13 +413,15 @@
           <Activite>
             <Type>Atelier</Type>
             <Objectif>Compréhender la logique algorithmique sans ordinateur</Objectif>
-            <SousObjectif>Différencier Algorithmie et Programmation </SousObjectif>
+            <SousObjectif>On trouve la solution au problème, puis on l’exprime étape par étape, de manière rigoureuse, en calculant le nombre d’étapes nécessaires.</SousObjectif>
             <Code>ALGO01</Code>
+            <Temps>2</Temps>
             <Materiel>Crèpes de l'ENS, Paper Board</Materiel>
             <Description>Exercice des crèpes de l'ENS Bretagne
               Mise à plat sur papier de l'algo
               Mise en forme en code
             </Description>
+            <Link>https://pixees.fr/le-crepier-psycho-rigide-comme-algorithme/</Link>
           </Activite>
           <Activite>
             <Type>Atelier</Type>
@@ -405,7 +431,8 @@
             <Materiel>Papier/crayon</Materiel>
             <Temps>2h</Temps>
             <Description>
-             Par le biais de divers exercices , les apprenants doivent écrire un algo simple sur papier
+             Par le biais de divers exercices , les apprenants doivent écrire un algo simple sur papier.
+
             </Description>
           </Activite>
           <Activite>
@@ -424,12 +451,24 @@
             <Objectif> Coding Game : Thor</Objectif>
             <Code>COD01</Code>
             <Description>Connectez-vous sur la plateforme Coding Game. Et réalisez l'exercice de Thor.</Description>
+            <Link>https://www.codingame.com/</Link>
           </Activite>
           <Activite>
             <Type>Exercice</Type>
             <Objectif>Les Expressions régulières</Objectif>
             <Code>CUL11</Code>
-            <Description>FIXME</Description>
+            <Description>
+              Les expressions régulières sont essentielles aujourd'hui mais qu'est-ce. Que ce soit par le biais d'une présentation réalisée par un apprenant, ou un brainstorming, définir ensemble ce qu'est une expression régulière. 
+
+              Les expressions régulières fonctionnent dans la plupart des languages. 
+
+              Suite à celà réaliser les exercices suivants : 
+
+              * Filtrer le fichier ~/.bashrc et retourner les lignes commençant par alias
+              * Filtrer le fichier ~/.bashrc et retourner les lignes finissant par yes
+              * Valider qu'une adresse mail est in/valide
+              * Valider qu'un numéro de téléphone est in/valide
+            </Description>
           </Activite>
          <Activite>
           <Objectif>Lecture de code</Objectif>
@@ -841,9 +880,18 @@
         <Activite> <!--SCRUM -->
           <Type>Atelier</Type>
           <Objectif>Initiation aux méthodologies SCRUM</Objectif>
+          <SousObjectif>Interet d'un scrum master et découverte du travail sour pression</SousObjectif>
           <Code>SCRUM01</Code>
-          <Temps>1/2 j</Temps>
-          <Description>http://www.lego4scrum.com/</Description>
+          <Temps>3.5</Temps>
+          <Materiel>Legos, 2 formateurs, 1 video projecteur</Materiel>
+          <Description>
+            Deux formateurs doivent intervenir. Un d'entre eux servant en tant que client, l'autre en tant qu'organisateur et/ou planificateur.
+
+            Le client demande aux groupes de lui réaliser une ville. Et impose des contraintes/
+          </Description>
+          <Link>http://www.lego4scrum.com/</Link>
+          <Link>www.trello.com</Link>
+          <Link>waffle.io</Link>
         </Activite>
         <Activite>
           <Type>Atelier</Type>
@@ -851,12 +899,13 @@
           <Code>GIT00</Code>
           <Description>Création d'un compte github. 
             Découverte de git init/add/commit/pull/push/clone</Description>
+            <Link>https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf</Link>
         </Activite>
         <Activite>
           <Type>Atelier</Type>
           <Objectif>Définir le besoin</Objectif>
           <Code>CA00</Code>
-          <Temps>21h</Temps>
+          <Temps>21</Temps>
           <Description>
             Présentation du projet au Formateur / Promo.
             1) Définition du scope :
@@ -879,7 +928,7 @@
           <Type>Atelier</Type>
           <Objectif>Analyse du besoin</Objectif>
           <Code>CA10</Code>
-          <Temps>7h</Temps>
+          <Temps>7</Temps>
           <Description>
             Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
             Par groupes
@@ -896,7 +945,7 @@
           <Type>Atelier</Type>
           <Objectif>Planification de la charge</Objectif>
           <Code>CA20</Code>
-          <Temps>7h</Temps>
+          <Temps>7</Temps>
           <Description>
             Regrouper les apprenants en fonction de la technologie qu'ils s'apprêtent à utiliser pour la réalisation de leur projet.
             Individuellement :
@@ -937,7 +986,7 @@
           <Type>Atelier</Type>
           <Objectif>Installation de Linux</Objectif>
           <Code>LIN01</Code>
-          <Temps> 1/2 journée</Temps>
+          <Temps> 3.5 </Temps>
           <Description>Pour alléger le réseau, il est préférable de préparer des clés de boot en amont. Les apprenants découvrent par eux même comment insaller l'OS sur leur système. Et commencent à partager leurs connaissances.</Description>
         </Activite>
         <Activite >
@@ -951,6 +1000,7 @@
           <Objectif>Découverte du terminal</Objectif>
           <Code>LIN02b</Code>
           <Description>cd, .., ls, mkdir, ps, rm, chmod, chown, chgrp, man, xkill, ...</Description>
+          <Link>http://juliend.github.io/linux-cheatsheet/</Link>
         </Activite>
         <Activite  >
           <Type>Atelier</Type>
@@ -958,47 +1008,57 @@
           <Code>LIN03</Code>
           <Description>Après avoir un peu pratiqué les tutoriels, les apprenants doivent utiliser vim pour leur premier projet.</Description>
         </Activite>
+        <Activite>
+          <Type>Atelier</Type>
+          <Objectif>Découverte du terminal</Objectif>
+          <Code>LIN04</Code>
+          <Description>
+            Ce dépot permet de télécharger un script sh qui permet d'approfondir ses connaissances dans le shell.
+          </Description>
+          <Link>https://github.com/Boyquotes/bash_bots</Link>
+        </Activite>
         <Activite> <!-- Gestion des droits Linux -->
           <Type>Atelier</Type>
           <Objectif>Les droits d'accès sous linux </Objectif>
           <Code>CUL12</Code>
           <Description>FIXME</Description>
         </Activite>
+        <Activite> <!-- Les raccourcis claviers -->
+          <Type>Atelier</Type>
+          <Objectif>Les raccourcis claviers </Objectif>
+          <Code>CUL22</Code>
+          <Description>FIXME</Description>
+        </Activite>
       </Sequence>
       <Sequence> <!-- Connaître son métier de demain : Développeur web -->
         <Objectif>Connaître son métier de demain : Développeur web</Objectif>
+        <Code>MET</Code>
         <Activite >
           <Type>Brainstorming</Type>
           <Objectif>Qu'est-ce qu'un développeur web junior</Objectif>
-          <Code>DEV00</Code>
+          <Code>MET00</Code>
           <Temps>1</Temps>
           <SousObjectif>Comprendre les attendus de la formation</SousObjectif>
           <Description>Savoir résoudre des problématiques. Analyse et mise en place d'un besoin. Informatitien. Geek a tout faire. </Description>
         </Activite>
         <Activite>
           <Type>Brainstorming</Type>
-          <Code>INSPRO50</Code>
+          <Code>MET01</Code>
           <Temps>1</Temps>
           <Objectif>Quels métiers du numérique connaissez-vous</Objectif>
           <Description>Web Designer, Référenceur, Big Data, Admin BDD, Designer, Integrateur, Maintenance, Testing, Developpeur Front/Back/Fullstack, Architecte, Chef de projet...</Description>
         </Activite>
         <Activite>
-          <Type>Atelier</Type>
-          <Objectif>Découvrir la spécialisation</Objectif>
-          <Code>FORK</Code>
-          <Description>Découvrir ce qui attend l'apprenant lors de la spécialisation</Description>
-        </Activite>
-        <Activite>
           <Type>Brainstorming</Type>
           <Objectif>Les langages de développement</Objectif>
-          <Code>CUL00</Code>
+          <Code>MET02</Code>
           <Temps>1</Temps>
           <Description>Quels sont les langages Web ? Et c'est quoi leurs spécificités? HTML, CSS, JS, PHP, Ruby, ASP, Java, Applet, CoffeeScript, SQL, Flash, Go, Dart,Python..</Description>
         </Activite>
         <Activite>
           <Type>Brainstorming</Type>
           <Objectif>Quelles languages de programmation</Objectif>
-          <Code>DEV02</Code>
+          <Code>MET03</Code>
           <Temps>1</Temps>
           <SousObjectif>Avoir le B.A.BA des languages de programmation</SousObjectif>
           <Description>Java, JS, PHP, HTML, CSS, .NET, GO, DART </Description>
@@ -1006,8 +1066,22 @@
         <Activite><!--Remuneration -->
           <Type>Brainstorming</Type>
           <Objectif> Débat autour des différentes méthodes de rémunération de sites internet</Objectif>
-          <Code>CUL03</Code>
+          <Code>MET04</Code>
           <Description>FIXME</Description>
+        </Activite>
+        <Activite>
+          <Type>Brainstorming</Type>
+          <Objectif>Quelles structures de données connaissez vous?</Objectif>
+          <Code>MET05</Code>
+          <Temps>1</Temps>
+          <SousObjectif>Avoir le B.A.BA des data</SousObjectif>
+          <Description>XML, JSON, YAML, CSV, TXT (md, asciidoc), ... </Description>
+        </Activite>
+        <Activite>
+          <Type>Atelier</Type>
+          <Objectif>Découvrir la spécialisation</Objectif>
+          <Code>MET10</Code>
+          <Description>Découvrir ce qui attend l'apprenant lors de la spécialisation</Description>
         </Activite>
         <Activite> <!-- E.DUCLOS : SEO -->
           <Type>Cours</Type>
@@ -1015,39 +1089,34 @@
           <Code>CUL14</Code>
           <Description>FIXME</Description>
         </Activite>
-        <Activite>
-          <Type>Brainstorming</Type>
-          <Objectif>Quelles structures de données connaissez vous?</Objectif>
-          <Code>DEV01</Code>
-          <Temps>1</Temps>
-          <SousObjectif>Avoir le B.A.BA des data</SousObjectif>
-          <Description>XML, JSON, YAML, CSV, TXT (md, asciidoc), ... </Description>
-        </Activite>
       </Sequence>
     </Module>
     <Module group='DemandeurEmploi' language='FACE'> <!-- TRE et entretiens -->
       <Objectif>Compétenses transverses du secteur de l’emploi</Objectif>
       <Sequence> <!-- Développer son image sur le web -->
         <Objectif>Développer son image sur le web</Objectif>
+        <Code>IMG</Code>
         <Activite>
           <Type>Atelier</Type>
           <Objectif>Réalisation d'un portfolio</Objectif>
-          <Code>INSPRO10</Code>
+          <Code>IMG10</Code>
           <Description>
             Réalisation d'un CV / Portfolio professionnel hébergé sur une gitpage.
           </Description>
         </Activite>
         <Activite>
           <Type>Atelier</Type>
-          <Code>INSPRO40</Code>
+          <Code>IMG20</Code>
           <Objectif>Réaliser son CV sur DoYouBuzz</Objectif>
         </Activite>
       </Sequence>
       <Sequence> <!-- Les entreprises sur le bassin rennais -->
+        <Objectif>Les entreprises sur le bassin rennais</Objectif>
+        <Code>REN</Code>
         <Activite>
           <Type>Brainstorming</Type>
           <Objectif> Les entreprises de la région</Objectif>
-          <Code>CUL02</Code>
+          <Code>REN10</Code>
           <Temps>1</Temps>
           <Description>
             Ensemble, les apprenants listent les entreprises qu'ils connaissent sur le bassin rennais. Et doivent répondre à un ensemble de questions les concernants : 
@@ -1057,7 +1126,7 @@
         <Activite>
           <Type>Visite</Type>
           <Objectif>Forum de la femme du numérique</Objectif>
-          <Code>FORUM</Code>
+          <Code>REN50</Code>
           <Temps>4</Temps>
           <Description>
             Sortie en groupe au forum de la femme du numérique afin de découvrir le milieu Rennais
@@ -1066,18 +1135,28 @@
       </Sequence>
       <Sequence><!-- Le savoir etre en entreprise -->
         <Objectif>Le savoir être en entreprise </Objectif>
+        <Code>ETR</Code>
+        <Activite>
+          <Type>Exercice</Type>
+          <Code>ETR10</Code>
+          <Objectif>Atelier de lecture</Objectif>
+          <SousObjectif>Comprendre qu'il est important de tout lire dans un exercice</SousObjectif>
+          <Description></Description>
+          <Link></Link>
+        </Activite>
       </Sequence>
       <Sequence><!-- Préparation à un entretien -->
         <Objectif>Préparation à un entretien </Objectif>
+        <Code>ENT</Code>
         <Activite>
           <Type>Atelier</Type>
-          <Code>INSPRO20</Code>
+          <Code>ENT10</Code>
           <Objectif>Les questions d'un recruteur RH </Objectif>
            <Description>Lire et échanger sur une liste de questions que peuvent avoir un recruteur RH</Description>
         </Activite>
         <Activite>
           <Type>Atelier</Type>
-          <Code>INSPRO60</Code>
+          <Code>ENT20</Code>
           <Objectif>Les questions d'un recruteur IT </Objectif>
            <Description>Lire et échanger sur une liste de questions que peuvent avoir un recruteur technique</Description>
         </Activite>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programme Pedagogique</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	<link rel="stylesheet" href="assets/css/w3.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="icon" href="assets/favicon.ico" />
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+	<script type="text/javascript">
+		function openLink(category) {
+		    var req = new XMLHttpRequest();
+		    var queryStr = category;
+			req.open('GET', queryStr, false); 
+			req.overrideMimeType('text/xml');
+			req.send(null);
+			//console.log(req.responseXML);
+			if(req.status == 200){
+				var oSerializer = new XMLSerializer();
+				var sXML = oSerializer.serializeToString(req.responseXML);
+				//console.log(sXML);
+			  window.document.getElementById('result').innerHTML = sXML;
+			}
+
+			var objects = window.document.getElementsByTagName("Task");
+			for(var o in objects){
+				if(!isNaN(o)){
+					var node = objects[o];
+
+					if(objects[o].childNodes.length>0){
+										var code = objects[o].childNodes[0].nodeValue;
+					
+										
+										 $( "Task" ).click(function() {
+										 	displayBox(category, this.childNodes[0].nodeValue)
+										});}
+					
+				}
+			}
+			
+		}
+
+		function displayBox(category, code){
+		    var req = new XMLHttpRequest();
+		    var queryStr = 'programme.xml';
+			req.open('GET', queryStr, false); 
+			req.send(null);
+			var xml = req.responseXML;
+			var sXML;
+			if(req.status == 200){
+
+				if (window.DOMParser)
+				{
+					parser = new DOMParser();
+					xmlDoc = parser.parseFromString(xml, "text/xml");
+				}
+				else // Internet Explorer
+				{
+					xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+					xmlDoc.async = false;
+					xmlDoc.loadXML(xml);
+				}
+
+				var objects = xml.getElementsByTagName("Code");
+				//console.log(objects);
+				for (var o in objects){
+					/*console.log(o);*/
+					if(!isNaN(o) && objects[o].childNodes.length>0){
+						if(objects[o].childNodes[0].nodeValue === code){
+							var obj = objects[o].parentNode.getElementsByTagName("Objectif");
+							var desc = objects[o].parentNode.getElementsByTagName("Description");
+							window.document.getElementById('snap-h').innerHTML = code + "<br/>"+obj[0].childNodes[0].nodeValue;
+
+							if(desc[0].childNodes.length >0)
+							window.document.getElementById('snap-d').innerHTML = desc[0].childNodes[0].nodeValue;
+							else 
+								window.document.getElementById('snap-d').innerHTML = "";
+						}
+					}
+				}
+			  	
+			}
+		}
+		function myFunction(id, obj) {
+			$('.w3-dropdown-content').removeClass("w3-show");
+			$('.w3-btn').removeClass("selectedBtn");
+			obj.className +=" selectedBtn";
+		    var x = document.getElementById(id);
+		    if (x.className.indexOf("w3-show") == -1)
+		        x.className += " w3-show";
+		    else
+		        x.className = x.className.replace(" w3-show", "");
+		    
+		}
+	</script>
+
+</head>
+<body>
+<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left">
+
+<div class="w3-dropdown-click">
+  <button onclick="myFunction('TC' , this)" class="w3-btn">Tronc Commun</button>
+  <button onclick="myFunction('Fork' , this)" class="w3-btn">Fork</button>
+</div>
+<div class="w3-dropdown-click">
+  <div id="TC" class="w3-dropdown-content w3-card">
+    <a href="#" onclick='openLink("Tronc/prairie.xml")'>Prairie</a>
+     <a href="#" onclick='openLink("Tronc/01.xml")'>06 / 17</a>
+     <a href="#" onclick='openLink("Tronc/02.xml")'>07 / 17</a>
+     <a href="#" onclick='openLink("Tronc/03.xml")'>08 / 17</a>
+     <a href="#" onclick='openLink("Tronc/04.xml")'>09 / 17</a>
+  </div>
+   <div id="Fork" class="w3-dropdown-content w3-card">
+     <a href="#" onclick='openLink("Fork/back.xml")'>Back</a>
+     <a href="#" onclick='openLink("Fork/front.xml")'>Front</a>
+    <a href="#" onclick='openLink("Fork/integ.xml")'>Integ</a>
+     <a href="#" onclick='openLink("Fork/mobile.xml")'>Mobile</a>
+     <a href="#" onclick='openLink("Fork/wp.xml")'>Wordpress</a>
+  </div>
+</div>
+
+	<div id="snap">
+		<span id="snap-h">&nbsp;</span>
+		<hr />
+		<span id="snap-d">&nbsp;</span>
+	</div>
+</nav>
+<div id="result"></div>
+
+</body>
+
+
+</html> 

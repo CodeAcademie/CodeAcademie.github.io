@@ -7,7 +7,7 @@
 <!ATTLIST Module group CDATA "">
 <!ELEMENT Sequence (Objectif, Activite*)>
 <!ATTLIST Sequence evaluation CDATA "">
-<!ELEMENT Activite (Objectif, Code, Temps?, SousObjectif?, Description?)>
+<!ELEMENT Activite (Objectif, Code,Type, Temps?, SousObjectif?, Description?, Link?, Tag?)>
 <!ATTLIST Activite done (true|false) "false">
 <!ELEMENT Objectif (#PCDATA)>
 <!ELEMENT Description (#PCDATA)>
@@ -16,7 +16,9 @@
 <!ELEMENT SousObjectif (#PCDATA) >
 <!ELEMENT Temps (#PCDATA) >
 <!ELEMENT Code (#PCDATA) >
-
+<!ELEMENT Type (#PCDATA) >
+<!ELEMENT Link (#PCDATA) >
+<!ELEMENT Tag (#PCDATA) >
 <!ELEMENT Planning (Semaine*) >
 <!ELEMENT Semaine (Jour*)>
 <!ELEMENT Jour (Task*)>

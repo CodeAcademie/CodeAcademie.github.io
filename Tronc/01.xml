@@ -1,4 +1,4 @@
-<?xml version = "1.0" encoding="UTF-8" ?>
+<?xml versdion = "1.0" encoding="UTF-8" ?>
 <!DOCTYPE Planning  SYSTEM 'programmePedago.dtd'>
 <?xml-stylesheet href="styleProgrammePedago.css" type="text/css" ?>
 <Planning >

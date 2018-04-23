@@ -49,13 +49,14 @@ Type::after{
 	content:" : ";
 	padding-right:1em;
 }
-Description{
+Description, Link{
 	display : block;
 	font-style: italic;
 	white-space: pre-line;
 	background-color : #c0c0c0;
 	margin-left: 2em;
 	margin-right:4em;
+	padding:1em;
 
 }
 
