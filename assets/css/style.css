@@ -1,6 +1,29 @@
 * {
 	box-sizing: border-box;
 }
+.flex{
+	display:flex;
+}
+.flex h4{
+	flex-basis:15%;
+}
+.full_day {
+	display: flex;
+	flex-basis: 85%;
+	flex-direction: column;
+}
+.time_day {
+	display: flex;flex-basis: 15%;
+}
+.half_tab{
+	display:flex;
+	flex-direction:row;
+}
+.ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 70%;
+}
 
 Programme:before, FrontEnd:before, BackEnd:before{
 	color:white;

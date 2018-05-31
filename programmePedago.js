@@ -44,17 +44,34 @@ generateHTML = (xhr, CODES) => {
         days.forEach(async (day) => {
             let dayNbr = day.attributes[0].nodeValue - 0;
 
-            let d = document.createElement("h2");
-            d.innerHTML = assignDayName(dayNbr);
+            // Jour
+            let d = document.createElement("div");
+            let title = d.appendChild(document.createElement("h4"));
+            title.innerHTML = assignDayName(dayNbr);
             document.body.appendChild(d);
+            d.classList.add("flex")
 
+            //
             let tasks = Array.from(day.getElementsByTagName("Task"));
-            let ul = document.createElement("ul");
-            let list = document.body.appendChild(ul);
-            let y = 0;
-            tasks.forEach((task) => {
+
+            let half_day_tab;
+            let half_a_day = 0;
+            let full_day = document.createElement("div");
+            d.appendChild(full_day);
+            full_day.classList.add('full_day');
+
+            tasks.forEach((task,index) => {
+
+                if(index === 0){
+                    half_day_tab = createHalfDay(!isAfternoon(tasks, index), full_day);
+                }else if(isAfternoon(tasks, index) && half_a_day < 1){
+
+                    half_a_day = 1;
+                    half_day_tab = createHalfDay(!isAfternoon(tasks, index), full_day);
+                }
                 let li = document.createElement("li");
                 li.innerHTML = task.innerHTML;
+
                 const INDEX = CODES.findIndex(code => code.innerHTML === task.innerHTML);
                 if(INDEX !== -1) {
                     const DESC = (CODES[INDEX].parentElement.getElementsByTagName("Description"));
@@ -67,7 +84,7 @@ generateHTML = (xhr, CODES) => {
                         li.innerHTML += DESC[0].innerHTML;
                     }
                 }
-                ul.appendChild(li);
+                half_day_tab.appendChild(li);
             })
             ;
         })
@@ -75,7 +92,27 @@ generateHTML = (xhr, CODES) => {
     })
     ;
 };
-makeRequest("GET", "programme.xml", (err, xhr) => {
+createHalfDay = (isMorning, container) => {
+    let half = container.appendChild(document.createElement("div"));
+    half.classList.add('half_tab');
+    let half_title = half.appendChild(document.createElement("h5"));
+    half_title.classList.add("time_day");
+    half_title.innerHTML = (isMorning ? 'Matin' : 'Après-midi');
+    let ul = half.appendChild(document.createElement("ul"));
+    ul.classList.add("ul")
+    return ul;
+};
+isAfternoon = (array, index) => {
+    let number = 0;
+    for(let i = 0; i <= index; i++){
+        number = number + +array[index].attributes[0].nodeValue;
+        console.log(number)
+        if(i === index){
+            return number > 3.5;
+        }
+    }
+};
+makeRequest("GET", "./programme.xml", (err, xhr) => {
     const CODES = Array.from(xhr.responseXML.documentElement.getElementsByTagName("Code"));
     makeRequest("GET", "./Tronc/prairie.xml", (err, xhr) => {
         generateHTML(xhr, CODES);

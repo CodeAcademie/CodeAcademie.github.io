@@ -131,6 +131,7 @@
         <Activite skipped="true">
           <Objectif>Découverte du terminal : Terminus du MIT</Objectif>
           <Code>LIN02</Code>
+          <Temps>4h</Temps>
           <Description>cd, .., ls, mkdir, ps, rm</Description>
         </Activite>
         <Activite done="true">
